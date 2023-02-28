@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18.x]
+        node-version: [16.x]
 
     steps:
     - name: Checkout   
@@ -34,5 +34,5 @@ jobs:
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: PROD # The branch the action should deploy to.
-        FOLDER: build # The folder the action should deploy.
+        FOLDER: dist # The folder the action should deploy.
         CLEAN: true # Automatically remove deleted files from the deploy branch
