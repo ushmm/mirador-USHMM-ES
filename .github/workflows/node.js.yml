@@ -1,28 +1,38 @@
-# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
-
 name: Node.js CI
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  push: 
+    branches: [ main ]
 
-jobs:
-  build:
+
+jobs: 
+  build_main: 
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16.x, 18.x, 19.x]
+        node-version: [18.x]
 
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout   
+      uses: actions/checkout@v2
+      with: 
+        persist-credentials: false
+    
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
+    
     - run: npm install
-    - run: npm test
-    - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v3
+    
+    - run: npm run build
+      env:
+        CI: true
+   
+    - name: Deploy to prod branch
+      uses: ushmm/github-pages-deploy-action@3.7.1
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: PROD # The branch the action should deploy to.
+        FOLDER: build # The folder the action should deploy.
+        CLEAN: true # Automatically remove deleted files from the deploy branch
