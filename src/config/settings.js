@@ -177,6 +177,7 @@ export default {
         },
       },
       MuiTooltip: { // Overridden from https://github.com/mui-org/material-ui/blob/master/packages/material-ui/src/Tooltip/Tooltip.js#L40-L70
+        fontSize: '1.2rem',
         tooltipPlacementLeft: {
           ['@media (min-width:600px)']: {
             margin: 0,
