@@ -129,7 +129,7 @@ export class WorkspaceAdd extends Component {
             color="primary"
             onClick={() => (this.setAddResourcesVisibility(true))}
           >
-            <AddIcon />
+            <AddIcon fontSize="large" />
             {t('addResource')}
           </Fab>
 
