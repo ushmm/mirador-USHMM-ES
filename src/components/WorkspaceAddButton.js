@@ -35,8 +35,8 @@ export class WorkspaceAddButton extends Component {
         >
           {
             isWorkspaceAddVisible
-              ? <CloseIcon />
-              : <AddIcon />
+              ? <CloseIcon fontSize="large" />
+              : <AddIcon fontSize="large" />
           }
           { useExtendedFab && t('startHere') }
         </Fab>
