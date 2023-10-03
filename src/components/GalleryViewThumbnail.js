@@ -152,7 +152,7 @@ export class GalleryViewThumbnail extends Component {
                 <Chip
                   avatar={(
                     <Avatar className={classes.avatar} classes={{ circle: classes.avatarIcon }}>
-                      <AnnotationIcon className={classes.annotationIcon} />
+                      <AnnotationIcon className={classes.annotationIcon} fontSize="large" />
                     </Avatar>
                   )}
                   label={annotationsCount}

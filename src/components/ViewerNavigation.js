@@ -50,7 +50,7 @@ export class ViewerNavigation extends Component {
           disabled={!hasPreviousCanvas}
           onClick={() => { hasPreviousCanvas && setPreviousCanvas(); }}
         >
-          <NavigationIcon style={previousIconStyle} />
+          <NavigationIcon style={previousIconStyle} fontSize="large" />
         </MiradorMenuButton>
         <MiradorMenuButton
           aria-label={t('nextCanvas')}
@@ -58,7 +58,7 @@ export class ViewerNavigation extends Component {
           disabled={!hasNextCanvas}
           onClick={() => { hasNextCanvas && setNextCanvas(); }}
         >
-          <NavigationIcon style={nextIconStyle} />
+          <NavigationIcon style={nextIconStyle} fontSize="large" />
         </MiradorMenuButton>
       </div>
     );

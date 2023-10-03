@@ -54,7 +54,7 @@ export class WindowAuthenticationBar extends Component {
       return (
         <Paper square elevation={4} color="secondary" classes={{ root: classes.paper }}>
           <div className={classes.topBar}>
-            { icon || <LockIcon className={classes.icon} /> }
+            {icon || <LockIcon className={classes.icon} fontSize="large" /> }
             <Typography className={classes.label} component="h3" variant="body1" color="inherit">
               { ruleSet ? <SanitizedHtml htmlString={label} ruleSet={ruleSet} /> : label }
             </Typography>
@@ -68,7 +68,7 @@ export class WindowAuthenticationBar extends Component {
     return (
       <Paper square elevation={4} color="secondary" classes={{ root: classes.paper }}>
         <Button fullWidth className={classes.topBar} onClick={() => this.setOpen(true)} component="div" color="inherit">
-          { icon || <LockIcon className={classes.icon} /> }
+          {icon || <LockIcon className={classes.icon} fontSize="large" /> }
           <Typography className={classes.label} component="h3" variant="body1" color="inherit">
             { ruleSet ? <SanitizedHtml htmlString={label} ruleSet={ruleSet} /> : label }
           </Typography>

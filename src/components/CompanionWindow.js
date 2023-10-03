@@ -130,7 +130,7 @@ export class CompanionWindow extends Component {
                       aria-label={t('openInCompanionWindow')}
                       onClick={() => { updateCompanionWindow({ position: 'right' }); }}
                     >
-                      <OpenInNewIcon style={this.openInNewStyle()} />
+                      <OpenInNewIcon style={this.openInNewStyle()} fontSize="large" />
                     </MiradorMenuButton>
                   )
                 : (

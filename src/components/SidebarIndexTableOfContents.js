@@ -153,8 +153,8 @@ export class SidebarIndexTableOfContents extends Component {
     return (
       <TreeView
         className={classes.root}
-        defaultCollapseIcon={<ExpandMoreIcon color="action" />}
-        defaultExpandIcon={<ChevronRightIcon color="action" />}
+        defaultCollapseIcon={<ExpandMoreIcon color="action" fontSize="large" />}
+        defaultExpandIcon={<ChevronRightIcon color="action" fontSize="large" />}
         defaultEndIcon={null}
         onNodeSelect={this.handleNodeSelect}
         onNodeToggle={this.handleNodeToggle}

@@ -58,7 +58,7 @@ export class WindowViewSettings extends Component {
         <FormControlLabel
           value={value}
           classes={{ label: windowViewType === value ? classes.selectedLabel : classes.label }}
-          control={<Icon color={windowViewType === value ? 'secondary' : undefined} />}
+          control={<Icon color={windowViewType === value ? 'secondary' : undefined} fontSize="large" />}
           label={t(value)}
           labelPlacement="bottom"
         />

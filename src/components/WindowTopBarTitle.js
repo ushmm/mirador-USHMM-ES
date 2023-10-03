@@ -40,7 +40,7 @@ export class WindowTopBarTitle extends Component {
     } else if (error) {
       title = (
         <>
-          <ErrorIcon color="error" />
+          <ErrorIcon color="error" fontSize="large" />
           <TitleTypography color="textSecondary" className={classes.title}>
             {error}
           </TitleTypography>

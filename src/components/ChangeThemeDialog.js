@@ -65,7 +65,7 @@ export class ChangeThemeDialog extends Component {
                   value={value}
                 >
                   <ListItemIcon>
-                    <PaletteIcon className={classes[value]} />
+                    <PaletteIcon className={classes[value]} fontSize="large" />
                   </ListItemIcon>
                   <ListItemText>{t(value)}</ListItemText>
                 </MenuItem>

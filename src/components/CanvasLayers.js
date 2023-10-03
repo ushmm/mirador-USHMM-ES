@@ -158,7 +158,7 @@ export class CanvasLayers extends Component {
         </div>
         <div style={{ alignItems: 'center', display: 'flex' }}>
           <Tooltip title={t('layer_opacity')}>
-            <OpacityIcon className={classes.opacityIcon} color={layer.visibility ? 'inherit' : 'disabled'} fontSize="small" />
+            <OpacityIcon className={classes.opacityIcon} color={layer.visibility ? 'inherit' : 'disabled'} fontSize="medium" />
           </Tooltip>
           <Input
             classes={{ input: classes.opacityInput }}

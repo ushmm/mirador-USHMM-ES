@@ -24,7 +24,7 @@ export class ManifestListItemError extends Component {
           <Grid container item xs={12} sm={6}>
             <Grid item xs={4} sm={3}>
               <Grid container justifyContent="center">
-                <ErrorIcon className={classes.errorIcon} />
+                <ErrorIcon className={classes.errorIcon} fontSize="large" />
               </Grid>
             </Grid>
             <Grid item xs={8} sm={9}>

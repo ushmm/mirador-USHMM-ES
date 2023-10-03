@@ -63,7 +63,7 @@ export class SearchPanelNavigation extends Component {
           disabled={!this.hasPreviousResult(currentHitIndex)}
           onClick={() => this.previousSearchResult(currentHitIndex)}
         >
-          <ChevronLeftIcon style={iconStyle} />
+          <ChevronLeftIcon style={iconStyle} fontSize="large" />
         </MiradorMenuButton>
         <span style={{ unicodeBidi: 'plaintext' }}>
           {t('pagination', { current: currentHitIndex + 1, total: lengthText })}
@@ -73,7 +73,7 @@ export class SearchPanelNavigation extends Component {
           disabled={!this.hasNextResult(currentHitIndex)}
           onClick={() => this.nextSearchResult(currentHitIndex)}
         >
-          <ChevronRightIcon style={iconStyle} />
+          <ChevronRightIcon style={iconStyle} fontSize="large" />
         </MiradorMenuButton>
       </Typography>
     );
