@@ -36,10 +36,10 @@ export default {
     palette: {
       type: 'light',
       primary: {
-        main: '#1967d2', // Controls the color of the Add button and current window indicator
+        main: '#337ab7', // Controls the color of the Add button and current window indicator
       },
       secondary: {
-        main: '#1967d2', // Controls the color of Selects and FormControls
+        main: '#337ab7', // Controls the color of Selects and FormControls
       },
       shades: { // Shades that can be used to offset color areas of the Workspace / Window
         dark: '#eeeeee',
@@ -47,7 +47,7 @@ export default {
         light: '#f5f5f5',
       },
       error: {
-        main: '#b00020',
+        main: '#9d261d',
       },
       notification: { // Color used in MUI Badge dots
         main: '#ffa224'
@@ -73,66 +73,67 @@ export default {
       }
     },
     typography: {
+      // defaults were set for 16px root; we have 10px.
       body1: {
-        fontSize: "1rem",
+        fontSize: "1.6rem",
         letterSpacing: "0em",
         lineHeight: "1.6em",
       },
       body2: {
-        fontSize: "0.878rem",
+        fontSize: "1.4",
         letterSpacing: "0.015em",
         lineHeight: "1.6em",
       },
       button: {
-        fontSize: "0.878rem",
+        fontSize: "1.4",
         letterSpacing: "0.09em",
         lineHeight: "2.25rem",
         textTransform: "uppercase",
       },
       caption: {
-        fontSize: "0.772rem",
+        fontSize: "1.2rem",
         letterSpacing: "0.033em",
         lineHeight: "1.6rem",
       },
       body1Next: {
-        fontSize: "1rem",
+        fontSize: "1.6rem",
         letterSpacing: "0em",
         lineHeight: "1.6em",
       },
       body2Next: {
-        fontSize: "0.878rem",
+        fontSize: "1.4rem",
         letterSpacing: "0.015em",
         lineHeight: "1.6em",
       },
       buttonNext: {
-        fontSize: "0.878rem",
+        fontSize: "1.4rem",
         letterSpacing: "0.09em",
         lineHeight: "2.25rem",
       },
       captionNext: {
-        fontSize: "0.772rem",
+        fontSize: "1.2rem",
         letterSpacing: "0.33em",
         lineHeight: "1.6rem",
       },
       overline: {
-        fontSize: "0.678rem",
+        fontSize: "1rem",
         fontWeight: 500,
         letterSpacing: "0.166em",
         lineHeight: "2em",
         textTransform: "uppercase",
       },
       h1: {
-        fontSize: "2.822rem",
+        fontSize: "4.5rem",
         letterSpacing: "-0.015em",
         lineHeight: "1.2em",
       },
       h2: {
-        fontSize: "1.575rem",
+        fontSize: "2.5rem",
         letterSpacing: "0em",
         lineHeight: "1.33em",
       },
       h3: {
-        fontSize: "1.383rem",
+        fontSize: "2.2rem",
         fontWeight: 300,
         letterSpacing: "0em",
         lineHeight: "1.33em",
@@ -143,24 +144,24 @@ export default {
         lineHeight: "1.45em",
       },
       h5: {
-        fontSize: "1.138rem",
+        fontSize: "1.9rem",
         letterSpacing: "0.005em",
         lineHeight: "1.55em",
       },
       h6: {
-        fontSize: "1.067rem",
+        fontSize: "1.7rem",
         fontWeight: 400,
         letterSpacing: "0.01em",
         lineHeight: "1.6em",
       },
       subtitle1: {
-        fontSize: "0.937rem",
+        fontSize: "1.5rem",
         letterSpacing: "0.015em",
         lineHeight: "1.6em",
         fontWeight: 300,
       },
       subtitle2: {
-        fontSize: "0.878rem",
+        fontSize: "1.4rem",
         fontWeight: 500,
         letterSpacing: "0.02em",
         lineHeight: "1.75em",
