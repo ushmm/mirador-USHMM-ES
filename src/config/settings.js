@@ -210,6 +210,7 @@ export default {
     props: {
       MuiButtonBase: {
         disableTouchRipple: true,
+        fontSize: '2.4rem',
       },
       MuiLink: {
         underline: 'always'
