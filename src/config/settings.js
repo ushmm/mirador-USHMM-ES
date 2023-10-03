@@ -80,12 +80,12 @@ export default {
         lineHeight: "1.6em",
       },
       body2: {
-        fontSize: "1.4",
+        fontSize: "1.4rem",
         letterSpacing: "0.015em",
         lineHeight: "1.6em",
       },
       button: {
-        fontSize: "1.4",
+        fontSize: "1.4rem",
         letterSpacing: "0.09em",
         lineHeight: "2.25rem",
         textTransform: "uppercase",
