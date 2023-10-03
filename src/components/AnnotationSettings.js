@@ -24,7 +24,7 @@ export class AnnotationSettings extends Component {
         disabled={displayAllDisabled}
         size="small"
       >
-        { displayAll ? <VisibilityIcon /> : <VisibilityOffIcon /> }
+        { displayAll ? <VisibilityIcon fontSize="large" /> : <VisibilityOffIcon fontSize="large" /> }
       </MiradorMenuButton>
     );
   }

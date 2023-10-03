@@ -29,7 +29,7 @@ export class LanguageSettings extends Component {
             >
               <ListItemIcon>
                 {
-                  language.current && <CheckIcon />
+                  language.current && <CheckIcon fontSize="large" />
                 }
               </ListItemIcon>
               <ListItemText primaryTypographyProps={{ variant: 'body1' }}>

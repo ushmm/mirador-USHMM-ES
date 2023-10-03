@@ -107,7 +107,7 @@ export class SearchResults extends Component {
         { focused && (
           <ScrollTo containerRef={containerRef} offsetTop={96} scrollTo>
             <Button onClick={this.toggleFocus} className={classes.navigation} size="small">
-              <BackIcon />
+              <BackIcon fontSize="large" />
               {t('backToResults')}
             </Button>
           </ScrollTo>

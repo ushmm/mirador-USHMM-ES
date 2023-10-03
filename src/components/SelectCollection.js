@@ -42,7 +42,7 @@ export class SelectCollection extends Component {
             color="primary"
             variant="contained"
             onClick={this.openCollectionDialog}
-            startIcon={<ListSharpIcon />}
+            startIcon={<ListSharpIcon fontSize="large" />}
           >
             {t('showCollection')}
           </Button>

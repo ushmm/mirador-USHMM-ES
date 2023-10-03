@@ -96,7 +96,7 @@ export class WorkspaceExport extends Component {
           <Accordion elevation={0}>
             <AccordionSummary
               classes={{ root: classes.accordionTitle }}
-              expandIcon={<ExpandMoreIcon />}
+              expandIcon={<ExpandMoreIcon fontSize="large" />}
             >
               <Typography variant="h4">{t('viewWorkspaceConfiguration')}</Typography>
             </AccordionSummary>

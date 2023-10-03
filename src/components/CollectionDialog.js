@@ -190,7 +190,7 @@ export class CollectionDialog extends Component {
         <ScrollIndicatedDialogContent className={classes.dialogContent}>
           { collection && (
             <Button
-              startIcon={<ArrowBackIcon />}
+              startIcon={<ArrowBackIcon fontSize="large" />}
               onClick={() => this.goToPreviousCollection()}
             >
               {CollectionDialog.getUseableLabel(collection)}

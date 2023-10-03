@@ -24,7 +24,7 @@ export class FullScreenButton extends Component {
             aria-label={handle.active ? t('exitFullScreen') : t('workspaceFullScreen')}
             onClick={handle.active ? handle.exit : handle.enter}
           >
-            {handle.active ? <FullscreenExitIcon /> : <FullscreenIcon />}
+            {handle.active ? <FullscreenExitIcon fontSize="large" /> : <FullscreenIcon fontSize="large" />}
           </MiradorMenuButton>
         ))}
       </FullScreenContext.Consumer>

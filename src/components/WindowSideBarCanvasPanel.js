@@ -133,8 +133,8 @@ export class WindowSideBarCanvasPanel extends Component {
               {showToc && (
                 <Tooltip title={t('tableOfContentsList')} value="tableOfContents"><Tab className={classes.variantTab} value="tableOfContents" aria-label={t('tableOfContentsList')} aria-controls={`tab-panel-${id}`} icon={<TocIcon style={{ transform: 'scale(-1, 1)' }} />} /></Tooltip>
               )}
-              <Tooltip title={t('itemList')} value="item"><Tab className={classes.variantTab} value="item" aria-label={t('itemList')} aria-controls={`tab-panel-${id}`} icon={<ItemListIcon />} /></Tooltip>
-              <Tooltip title={t('thumbnailList')} value="thumbnail"><Tab className={classes.variantTab} value="thumbnail" aria-label={t('thumbnailList')} aria-controls={`tab-panel-${id}`} icon={<ThumbnailListIcon />} /></Tooltip>
+              <Tooltip title={t('itemList')} value="item"><Tab className={classes.variantTab} value="item" aria-label={t('itemList')} aria-controls={`tab-panel-${id}`} icon={<ItemListIcon fontSize="large" />} /></Tooltip>
+              <Tooltip title={t('thumbnailList')} value="thumbnail"><Tab className={classes.variantTab} value="thumbnail" aria-label={t('thumbnailList')} aria-controls={`tab-panel-${id}`} icon={<ThumbnailListIcon fontSize="large" />} /></Tooltip>
             </Tabs>
           </>
         )}
@@ -144,7 +144,7 @@ export class WindowSideBarCanvasPanel extends Component {
             <Button
               fullWidth
               onClick={showMultipart}
-              endIcon={<ArrowForwardIcon />}
+              endIcon={<ArrowForwardIcon fontSize="large" />}
             >
               <Typography className={classes.collectionNavigationButton}>
                 {WindowSideBarCanvasPanel.getUseableLabel(collection)}

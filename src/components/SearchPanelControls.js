@@ -147,7 +147,7 @@ export class SearchPanelControls extends Component {
                   endAdornment: (
                     <div className={classes.endAdornment}>
                       <MiradorMenuButton aria-label={t('searchSubmitAria')} type="submit">
-                        <SearchIcon />
+                        <SearchIcon fontSize="large" />
                       </MiradorMenuButton>
                       {Boolean(searchIsFetching) && (
                         <CircularProgress className={classes.searchProgress} size={50} />

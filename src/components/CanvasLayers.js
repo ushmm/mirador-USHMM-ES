@@ -146,11 +146,11 @@ export class CanvasLayers extends Component {
             {CanvasLayers.getUseableLabel(resource, index)}
             <div>
               <MiradorMenuButton aria-label={t(layer.visibility ? 'layer_hide' : 'layer_show')} edge="start" size="small" onClick={() => { this.setLayerVisibility(resource.id, !layer.visibility); }}>
-                { layer.visibility ? <VisibilityIcon /> : <VisibilityOffIcon /> }
+                { layer.visibility ? <VisibilityIcon fontSize="large" /> : <VisibilityOffIcon fontSize="large" /> }
               </MiradorMenuButton>
               { layer.index !== 0 && (
                 <MiradorMenuButton aria-label={t('layer_moveToTop')} size="small" onClick={() => { this.moveToTop(resource.id); }}>
-                  <MoveToTopIcon />
+                  <MoveToTopIcon fontSize="large" />
                 </MiradorMenuButton>
               )}
             </div>
@@ -209,7 +209,7 @@ export class CanvasLayers extends Component {
           >
             <div {...provided.dragHandleProps} className={classes.dragHandle}>
               <Tooltip title={t('layer_move')}>
-                <DragHandleIcon />
+                <DragHandleIcon fontSize="large" />
               </Tooltip>
             </div>
             {this.renderLayer(resource, index)}

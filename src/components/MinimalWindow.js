@@ -50,7 +50,7 @@ export class MinimalWindow extends Component {
                 aria-label={t('toggleWindowSideBar')}
                 disabled
               >
-                <MenuIcon />
+                <MenuIcon fontSize="large" />
               </MiradorMenuButton>
             )}
             <Typography variant="h2" noWrap color="inherit" className={classes.title}>
@@ -65,7 +65,7 @@ export class MinimalWindow extends Component {
                   tabIndex: ariaLabel ? '0' : '-1',
                 }}
               >
-                <CloseIcon />
+                <CloseIcon fontSize="large" />
               </MiradorMenuButton>
             )}
           </Toolbar>

@@ -142,7 +142,7 @@ export class CompanionWindow extends Component {
                           className={classes.positionButton}
                           onClick={() => { updateCompanionWindow({ position: position === 'bottom' ? 'right' : 'bottom' }); }}
                         >
-                          <MoveIcon />
+                          <MoveIcon fontSize="large" />
                         </MiradorMenuButton>
                       )
                     }
@@ -151,7 +151,7 @@ export class CompanionWindow extends Component {
                       className={classes.closeButton}
                       onClick={onCloseClick}
                     >
-                      <CloseIcon />
+                      <CloseIcon fontSize="large" />
                     </MiradorMenuButton>
                   </>
                 )

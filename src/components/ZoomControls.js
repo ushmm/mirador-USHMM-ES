@@ -58,13 +58,13 @@ export class ZoomControls extends Component {
     return (
       <div className={classes.zoom_controls}>
         <MiradorMenuButton aria-label={t('zoomIn')} onClick={this.handleZoomInClick}>
-          <AddCircleIcon />
+          <AddCircleIcon fontSize="large" />
         </MiradorMenuButton>
         <MiradorMenuButton aria-label={t('zoomOut')} onClick={this.handleZoomOutClick}>
-          <RemoveCircleIcon />
+          <RemoveCircleIcon fontSize="large" />
         </MiradorMenuButton>
         <MiradorMenuButton aria-label={t('zoomReset')} onClick={() => zoomToWorld(false)}>
-          <RestoreZoomIcon />
+          <RestoreZoomIcon fontSize="large" />
         </MiradorMenuButton>
         {displayDivider && <span className={classes.divider} />}
       </div>

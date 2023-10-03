@@ -90,7 +90,7 @@ export class WindowSideBarButtons extends Component {
             onKeyUp={this.handleKeyUp}
             classes={{ root: classes.tab, selected: classes.tabSelected }}
             t={t}
-            icon={(<InfoIcon />)}
+            icon={(<InfoIcon fontSize="large" />)}
           />
         )}
         { panels.attribution && (
@@ -99,7 +99,7 @@ export class WindowSideBarButtons extends Component {
             onKeyUp={this.handleKeyUp}
             classes={{ root: classes.tab, selected: classes.tabSelected }}
             t={t}
-            icon={(<AttributionIcon />)}
+            icon={(<AttributionIcon fontSize="large" />)}
           />
         )}
         { panels.canvas && (
@@ -108,7 +108,7 @@ export class WindowSideBarButtons extends Component {
             onKeyUp={this.handleKeyUp}
             classes={{ root: classes.tab, selected: classes.tabSelected }}
             t={t}
-            icon={(<CanvasIndexIcon />)}
+            icon={(<CanvasIndexIcon fontSize="large" />)}
           />
         )}
         {panels.annotations && (hasAnnotations || hasAnyAnnotations) && (
@@ -119,7 +119,7 @@ export class WindowSideBarButtons extends Component {
             t={t}
             icon={(
               <Badge overlap="rectangular" classes={{ badge: classes.badge }} invisible={!hasAnnotations} variant="dot">
-                <AnnotationIcon />
+                <AnnotationIcon fontSize="large" />
               </Badge>
             )}
           />
@@ -132,7 +132,7 @@ export class WindowSideBarButtons extends Component {
             t={t}
             icon={(
               <Badge overlap="rectangular" classes={{ badge: classes.badge }} invisible={!hasSearchResults} variant="dot">
-                <SearchIcon />
+                <SearchIcon fontSize="large" />
               </Badge>
             )}
           />
@@ -145,7 +145,7 @@ export class WindowSideBarButtons extends Component {
             t={t}
             icon={(
               <Badge overlap="rectangular" classes={{ badge: classes.badge }} invisible={!hasCurrentLayers} variant="dot">
-                <LayersIcon />
+                <LayersIcon fontSize="large" />
               </Badge>
             )}
           />

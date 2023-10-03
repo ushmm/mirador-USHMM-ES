@@ -81,7 +81,7 @@ export class WorkspaceOptionsMenu extends Component {
             aria-owns={exportWorkspace.open ? 'workspace-export' : undefined}
           >
             <ListItemIcon>
-              <SaveAltIcon />
+              <SaveAltIcon fontSize="large" />
             </ListItemIcon>
             <Typography variant="body1">{t('downloadExportWorkspace')}</Typography>
           </MenuItem>
@@ -92,7 +92,7 @@ export class WorkspaceOptionsMenu extends Component {
             aria-owns={exportWorkspace.open ? 'workspace-import' : undefined}
           >
             <ListItemIcon>
-              <ImportIcon />
+              <ImportIcon fontSize="large" />
             </ListItemIcon>
             <Typography variant="body1">{t('importWorkspace')}</Typography>
           </MenuItem>

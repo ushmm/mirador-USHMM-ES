@@ -57,7 +57,7 @@ export class CollectionInfo extends Component {
         <Button
           color="primary"
           onClick={this.openCollectionDialog}
-          startIcon={<ViewListIcon />}
+          startIcon={<ViewListIcon fontSize="large" />}
         >
           {t('showCollection')}
         </Button>

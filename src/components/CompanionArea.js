@@ -22,12 +22,12 @@ export class CompanionArea extends Component {
   collapseIcon() {
     const { companionAreaOpen, direction } = this.props;
     if (direction === 'rtl') {
-      if (companionAreaOpen) return <ArrowRightIcon />;
-      return <ArrowLeftIcon />;
+      if (companionAreaOpen) return <ArrowRightIcon fontSize="large" />;
+      return <ArrowLeftIcon fontSize="large" />;
     }
 
-    if (companionAreaOpen) return <ArrowLeftIcon />;
-    return <ArrowRightIcon />;
+    if (companionAreaOpen) return <ArrowLeftIcon fontSize="large" />;
+    return <ArrowRightIcon fontSize="large" />;
   }
 
   /** @private */

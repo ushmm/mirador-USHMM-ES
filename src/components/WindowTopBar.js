@@ -50,7 +50,7 @@ export class WindowTopBar extends Component {
                 onClick={toggleWindowSideBar}
                 className={ns('window-menu-btn')}
               >
-                <MenuIcon />
+                <MenuIcon fontSize="large" />
               </MiradorMenuButton>
             )}
             <WindowTopBarTitle
@@ -67,7 +67,7 @@ export class WindowTopBar extends Component {
                 className={classNames(ns('window-maximize'), ns('window-menu-btn'))}
                 onClick={(maximized ? minimizeWindow : maximizeWindow)}
               >
-                {(maximized ? <WindowMinIcon /> : <WindowMaxIcon />)}
+                {(maximized ? <WindowMinIcon fontSize="large" /> : <WindowMaxIcon fontSize="large" />)}
               </MiradorMenuButton>
             )}
             {allowFullscreen && (
@@ -79,7 +79,7 @@ export class WindowTopBar extends Component {
                 className={classNames(ns('window-close'), ns('window-menu-btn'))}
                 onClick={removeWindow}
               >
-                <CloseIcon />
+                <CloseIcon fontSize="large" />
               </MiradorMenuButton>
             )}
           </Toolbar>

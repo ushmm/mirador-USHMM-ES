@@ -107,7 +107,7 @@ WindowTopBarPluginMenu.defaultProps = {
   anchorEl: null,
   classes: {},
   container: null,
-  menuIcon: <MoreVertIcon />,
+  menuIcon: <MoreVertIcon fontSize="large" />,
   open: false,
   PluginComponents: [],
 };

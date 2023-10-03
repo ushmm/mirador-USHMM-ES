@@ -31,7 +31,7 @@ export class ErrorContent extends Component {
         {showJsError && (
           <Accordion square className={classes.alert}>
             <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
+              expandIcon={<ExpandMoreIcon fontSize="large" />}
             >
               <Typography>{t('jsError', { message: error.message, name: error.name })}</Typography>
             </AccordionSummary>

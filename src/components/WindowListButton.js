@@ -51,7 +51,7 @@ export class WindowListButton extends Component {
           BadgeProps={{ badgeContent: windowCount, classes: { badge: classes.badge } }}
           onClick={e => this.handleOpen(e)}
         >
-          <BookmarksIcon />
+          <BookmarksIcon fontSize="large" />
         </MiradorMenuButton>
 
         {Boolean(windowListAnchor) && (

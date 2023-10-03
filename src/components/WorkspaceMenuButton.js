@@ -59,7 +59,7 @@ export class WorkspaceMenuButton extends Component {
           id="menuBtn"
           onClick={this.handleMenuClick}
         >
-          <SettingsIcon />
+          <SettingsIcon fontSize="large" />
         </MiradorMenuButton>
         <WorkspaceMenu
           anchorEl={anchorEl}

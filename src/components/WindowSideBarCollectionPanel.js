@@ -104,7 +104,7 @@ export class WindowSideBarCollectionPanel extends Component {
                   }
                 >
                   <ListItemIcon>
-                    <ArrowUpwardIcon />
+                    <ArrowUpwardIcon fontSize="large" />
                   </ListItemIcon>
                   <ListItemText primaryTypographyProps={{ variant: 'body1' }}>
                     {WindowSideBarCollectionPanel.getUseableLabel(parentCollection)}

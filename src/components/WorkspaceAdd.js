@@ -157,7 +157,7 @@ export class WorkspaceAdd extends Component {
                     className={classes.menuButton}
                     color="inherit"
                   >
-                    <ExpandMoreIcon />
+                    <ExpandMoreIcon fontSize="large" />
                   </MiradorMenuButton>
                   <Typography variant="h2" noWrap color="inherit" className={classes.typographyBody}>
                     {t('addResource')}

@@ -60,7 +60,7 @@ export class WindowTopMenuButton extends Component {
           className={classNames(className, open ? classes.ctrlBtnSelected : null)}
           onClick={this.handleMenuClick}
         >
-          <WindowOptionsIcon />
+          <WindowOptionsIcon fontSize="large" />
         </MiradorMenuButton>
         <WindowTopMenu
           windowId={windowId}

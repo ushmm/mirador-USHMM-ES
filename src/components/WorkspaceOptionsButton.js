@@ -58,7 +58,7 @@ export class WorkspaceOptionsButton extends Component {
           }
           onClick={this.handleMenuClick}
         >
-          <MoreHorizontalIcon />
+          <MoreHorizontalIcon fontSize="large" />
         </MiradorMenuButton>
 
         <WorkspaceOptionsMenu
