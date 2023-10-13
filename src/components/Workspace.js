@@ -78,7 +78,7 @@ export class Workspace extends Component {
             component="div"
             align="center"
           >
-            {t('welcome')}
+            {t('Please select a file to view')}
           </Typography>
         </Grid>
       </Grid>
