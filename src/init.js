@@ -1,3 +1,4 @@
+import downloadDialogPlugin from 'mirador-downloaddialog/es';
 import MiradorViewer from './lib/MiradorViewer';
 
 /**
@@ -7,6 +8,7 @@ function viewer(config, pluginsOrStruct) {
   let struct;
 
   if (Array.isArray(pluginsOrStruct)) {
+    pluginsOrStruct.push(...downloadDialogPlugin);
     struct = { plugins: pluginsOrStruct };
   } else {
     struct = pluginsOrStruct;
