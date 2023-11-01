@@ -13,6 +13,7 @@ import MiradorMenuButton from '../containers/MiradorMenuButton';
 import FullScreenButton from '../containers/FullScreenButton';
 import WindowMaxIcon from './icons/WindowMaxIcon';
 import WindowMinIcon from './icons/WindowMinIcon';
+import WindowDownloadIcon from './icons/WindowDownloadIcon';
 import ns from '../config/css-ns';
 
 /**
@@ -70,6 +71,17 @@ export class WindowTopBar extends Component {
                 {(maximized ? <WindowMinIcon fontSize="large" /> : <WindowMaxIcon fontSize="large" />)}
               </MiradorMenuButton>
             )}
+            <MiradorMenuButton
+              aria-label="Download image"
+              className={classNames(ns('window-download'), ns('window-menu-btn'))}
+              onClick={(() => {
+                if (window.PubSub) {
+                  window.PubSub.publish('MiradorDownload', windowId);
+                }
+              })}
+            >
+              <WindowDownloadIcon fontSize="large" />
+            </MiradorMenuButton>
             {allowFullscreen && (
               <FullScreenButton className={ns('window-menu-btn')} />
             )}
