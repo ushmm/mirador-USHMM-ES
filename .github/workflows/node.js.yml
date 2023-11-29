@@ -29,10 +29,10 @@ jobs:
       env:
         CI: true
    
-    - name: Deploy to prod branch
+    - name: Deploy to master branch
       uses: ushmm/github-pages-deploy-action@3.7.1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: PROD # The branch the action should deploy to.
+        BRANCH: master # The branch the action should deploy to.
         FOLDER: dist # The folder the action should deploy.
         CLEAN: true # Automatically remove deleted files from the deploy branch
