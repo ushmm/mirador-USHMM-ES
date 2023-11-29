@@ -12,8 +12,8 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 import { Component } from 'react';
 import { Rnd } from 'react-rnd';
-import Window from '../containers/Window';
-import ns from '../config/css-ns';
+import Window from '../containers/Window.js';
+import ns from '../config/css-ns.js';
 
 /**
  * Represents a work area that contains any number of windows

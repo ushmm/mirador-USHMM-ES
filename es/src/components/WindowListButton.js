@@ -13,8 +13,8 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 import { Component } from 'react';
 import BookmarksIcon from '@material-ui/icons/BookmarksSharp';
 import classNames from 'classnames';
-import WindowList from '../containers/WindowList';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
+import WindowList from '../containers/WindowList.js';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
 
 /**
  * WindowListButton ~

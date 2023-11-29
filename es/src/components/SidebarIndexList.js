@@ -14,9 +14,9 @@ import { Component } from 'react';
 import MenuList from '@material-ui/core/MenuList';
 import MenuItem from '@material-ui/core/MenuItem';
 import { ScrollTo } from './ScrollTo.js';
-import MiradorCanvas from '../lib/MiradorCanvas';
-import SidebarIndexItem from '../containers/SidebarIndexItem';
-import SidebarIndexThumbnail from '../containers/SidebarIndexThumbnail';
+import MiradorCanvas from '../lib/MiradorCanvas.js';
+import SidebarIndexItem from '../containers/SidebarIndexItem.js';
+import SidebarIndexThumbnail from '../containers/SidebarIndexThumbnail.js';
 
 /** */
 import { jsx as _jsx } from "react/jsx-runtime";

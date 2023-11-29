@@ -7,8 +7,8 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 import { createSelector } from 'reselect';
 import createCachedSelector from 're-reselect';
 import { PropertyValue, Utils, Resource } from 'manifesto.js';
-import getThumbnail from '../../lib/ThumbnailFactory';
-import asArray from '../../lib/asArray';
+import getThumbnail from '../../lib/ThumbnailFactory.js';
+import asArray from '../../lib/asArray.js';
 import { getCompanionWindow } from './companionWindows.js';
 import { getManifest } from './getters.js';
 import { getConfig } from './config.js';

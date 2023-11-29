@@ -3,10 +3,10 @@ import { compose } from 'redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core';
 import withWidth from '@material-ui/core/withWidth';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
-import { getWindowIds, getWorkspace } from '../state/selectors';
-import { WorkspaceAddButton } from '../components/WorkspaceAddButton';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
+import { getWindowIds, getWorkspace } from '../state/selectors.js';
+import { WorkspaceAddButton } from '../components/WorkspaceAddButton.js';
 
 /**
  * mapStateToProps - to hook up connect

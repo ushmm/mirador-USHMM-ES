@@ -1,5 +1,5 @@
 import { createSelector } from 'reselect';
-import MiradorCanvas from '../../lib/MiradorCanvas';
+import MiradorCanvas from '../../lib/MiradorCanvas.js';
 import { getCanvas, getVisibleCanvasIds } from './canvases.js';
 import { miradorSlice } from './utils.js';
 

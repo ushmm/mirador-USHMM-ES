@@ -14,7 +14,7 @@ import { grey } from '@material-ui/core/colors';
 import { v4 as uuid } from 'uuid';
 import { NativeTypes } from 'react-dnd-html5-backend';
 import { useDrop } from 'react-dnd';
-import { readImageMetadata } from '../lib/readImageMetadata';
+import { readImageMetadata } from '../lib/readImageMetadata.js';
 
 /** */
 import { jsx as _jsx } from "react/jsx-runtime";

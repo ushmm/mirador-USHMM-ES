@@ -13,7 +13,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 import { Component } from 'react';
 import Typography from '@material-ui/core/Typography';
 import classNames from 'classnames';
-import ns from '../config/css-ns';
+import ns from '../config/css-ns.js';
 
 /**
  *

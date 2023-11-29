@@ -15,9 +15,9 @@ import Paper from '@material-ui/core/Paper';
 import AutoSizer from 'react-virtualized-auto-sizer';
 import { VariableSizeList as List } from 'react-window';
 import classNames from 'classnames';
-import CanvasWorld from '../lib/CanvasWorld';
-import ThumbnailCanvasGrouping from '../containers/ThumbnailCanvasGrouping';
-import ns from '../config/css-ns';
+import CanvasWorld from '../lib/CanvasWorld.js';
+import ThumbnailCanvasGrouping from '../containers/ThumbnailCanvasGrouping.js';
+import ns from '../config/css-ns.js';
 
 /**
  */

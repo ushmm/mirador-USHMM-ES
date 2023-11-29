@@ -15,7 +15,7 @@ import Dialog from '@material-ui/core/Dialog';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import { DialogActions, TextField, Typography } from '@material-ui/core';
 import Button from '@material-ui/core/Button';
-import ScrollIndicatedDialogContent from '../containers/ScrollIndicatedDialogContent';
+import ScrollIndicatedDialogContent from '../containers/ScrollIndicatedDialogContent.js';
 
 /**
  */

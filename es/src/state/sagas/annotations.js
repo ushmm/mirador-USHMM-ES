@@ -7,10 +7,10 @@ function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symb
 function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
 import { all, put, select, takeEvery } from 'redux-saga/effects';
-import { requestCanvasAnnotations, receiveAnnotation, requestAnnotation } from '../actions';
-import { getAnnotations, getCanvas } from '../selectors';
-import ActionTypes from '../actions/action-types';
-import MiradorCanvas from '../../lib/MiradorCanvas';
+import { requestCanvasAnnotations, receiveAnnotation, requestAnnotation } from '../actions.js';
+import { getAnnotations, getCanvas } from '../selectors.js';
+import ActionTypes from '../actions/action-types.js';
+import MiradorCanvas from '../../lib/MiradorCanvas.js';
 
 /** Fetch annotations for a given canvas */
 export function fetchCanvasAnnotations(_ref) {

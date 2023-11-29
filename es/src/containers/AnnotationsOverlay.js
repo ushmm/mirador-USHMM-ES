@@ -1,9 +1,9 @@
 import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
-import { withPlugins } from '../extend/withPlugins';
-import { AnnotationsOverlay } from '../components/AnnotationsOverlay';
-import * as actions from '../state/actions';
+import { withPlugins } from '../extend/withPlugins.js';
+import { AnnotationsOverlay } from '../components/AnnotationsOverlay.js';
+import * as actions from '../state/actions.js';
 import { getWindow, getSearchAnnotationsForWindow, getCompanionWindowsForContent, getTheme, getConfig, getPresentAnnotationsOnSelectedCanvases, getSelectedAnnotationId, getCurrentCanvasWorld } from '../state/selectors';
 
 /**

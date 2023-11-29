@@ -2,10 +2,10 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
-import { getShowZoomControlsConfig, getViewer } from '../state/selectors';
-import { ZoomControls } from '../components/ZoomControls';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
+import { getShowZoomControlsConfig, getViewer } from '../state/selectors.js';
+import { ZoomControls } from '../components/ZoomControls.js';
 
 /**
  * mapStateToProps - to hook up connect

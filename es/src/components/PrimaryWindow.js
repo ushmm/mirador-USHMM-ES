@@ -12,10 +12,10 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 import { Component, lazy, Suspense } from 'react';
 import classNames from 'classnames';
-import WindowSideBar from '../containers/WindowSideBar';
-import CompanionArea from '../containers/CompanionArea';
-import CollectionDialog from '../containers/CollectionDialog';
-import ns from '../config/css-ns';
+import WindowSideBar from '../containers/WindowSideBar.js';
+import CompanionArea from '../containers/CompanionArea.js';
+import CollectionDialog from '../containers/CollectionDialog.js';
+import ns from '../config/css-ns.js';
 import { jsx as _jsx } from "react/jsx-runtime";
 import { jsxs as _jsxs } from "react/jsx-runtime";
 var AudioViewer = /*#__PURE__*/lazy(function () {

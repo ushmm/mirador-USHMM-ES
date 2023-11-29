@@ -13,7 +13,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 import { Component } from 'react';
 import VisibilityIcon from '@material-ui/icons/VisibilitySharp';
 import VisibilityOffIcon from '@material-ui/icons/VisibilityOffSharp';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
 
 /**
  * AnnotationSettings is a component to handle various annotation

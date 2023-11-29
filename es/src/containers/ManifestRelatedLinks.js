@@ -2,9 +2,9 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
+import { withPlugins } from '../extend/withPlugins.js';
 import { getManifestHomepage, getManifestRelated, getManifestRenderings, getManifestSeeAlso, getManifestUrl } from '../state/selectors';
-import { ManifestRelatedLinks } from '../components/ManifestRelatedLinks';
+import { ManifestRelatedLinks } from '../components/ManifestRelatedLinks.js';
 
 /**
  * mapStateToProps - to hook up connect

@@ -2,10 +2,10 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core';
-import { withPlugins } from '../extend/withPlugins';
-import { WorkspaceSelectionDialog } from '../components/WorkspaceSelectionDialog';
-import * as actions from '../state/actions';
-import { getWorkspaceType } from '../state/selectors';
+import { withPlugins } from '../extend/withPlugins.js';
+import { WorkspaceSelectionDialog } from '../components/WorkspaceSelectionDialog.js';
+import * as actions from '../state/actions.js';
+import { getWorkspaceType } from '../state/selectors.js';
 
 /**
  * mapDispatchToProps - used to hook up connect to action creators

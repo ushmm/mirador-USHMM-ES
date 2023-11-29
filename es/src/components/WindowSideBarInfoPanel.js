@@ -11,13 +11,13 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 import { Component } from 'react';
-import CompanionWindow from '../containers/CompanionWindow';
-import CanvasInfo from '../containers/CanvasInfo';
-import LocalePicker from '../containers/LocalePicker';
-import ManifestInfo from '../containers/ManifestInfo';
-import CollectionInfo from '../containers/CollectionInfo';
-import ManifestRelatedLinks from '../containers/ManifestRelatedLinks';
-import ns from '../config/css-ns';
+import CompanionWindow from '../containers/CompanionWindow.js';
+import CanvasInfo from '../containers/CanvasInfo.js';
+import LocalePicker from '../containers/LocalePicker.js';
+import ManifestInfo from '../containers/ManifestInfo.js';
+import CollectionInfo from '../containers/CollectionInfo.js';
+import ManifestRelatedLinks from '../containers/ManifestRelatedLinks.js';
+import ns from '../config/css-ns.js';
 
 /**
  * WindowSideBarInfoPanel

@@ -14,8 +14,8 @@ import { Component } from 'react';
 import { Rnd } from 'react-rnd';
 import ResizeObserver from 'react-resize-observer';
 import classNames from 'classnames';
-import WorkspaceElasticWindow from '../containers/WorkspaceElasticWindow';
-import ns from '../config/css-ns';
+import WorkspaceElasticWindow from '../containers/WorkspaceElasticWindow.js';
+import ns from '../config/css-ns.js';
 
 /**
  * Represents a work area that contains any number of windows

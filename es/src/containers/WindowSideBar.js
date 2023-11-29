@@ -2,9 +2,9 @@ import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { withStyles } from '@material-ui/core';
 import { withTranslation } from 'react-i18next';
-import { withPlugins } from '../extend/withPlugins';
-import { WindowSideBar } from '../components/WindowSideBar';
-import { getThemeDirection, getWindow } from '../state/selectors';
+import { withPlugins } from '../extend/withPlugins.js';
+import { WindowSideBar } from '../components/WindowSideBar.js';
+import { getThemeDirection, getWindow } from '../state/selectors.js';
 
 /**
  * mapStateToProps - to hook up connect

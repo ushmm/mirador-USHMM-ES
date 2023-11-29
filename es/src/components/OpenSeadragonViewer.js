@@ -25,11 +25,11 @@ import debounce from 'lodash/debounce';
 import isEqual from 'lodash/isEqual';
 import OpenSeadragon from 'openseadragon';
 import classNames from 'classnames';
-import ns from '../config/css-ns';
-import AnnotationsOverlay from '../containers/AnnotationsOverlay';
-import CanvasWorld from '../lib/CanvasWorld';
+import ns from '../config/css-ns.js';
+import AnnotationsOverlay from '../containers/AnnotationsOverlay.js';
+import CanvasWorld from '../lib/CanvasWorld.js';
 import { PluginHook } from './PluginHook.js';
-import { OSDReferences } from '../plugins/OSDReferences';
+import { OSDReferences } from '../plugins/OSDReferences.js';
 
 /**
  * Represents a OpenSeadragonViewer in the mirador workspace. Responsible for mounting

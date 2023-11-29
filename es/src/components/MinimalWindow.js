@@ -18,8 +18,8 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import CloseIcon from '@material-ui/icons/CloseSharp';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
-import ns from '../config/css-ns';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
+import ns from '../config/css-ns.js';
 
 /** */
 import { jsx as _jsx } from "react/jsx-runtime";

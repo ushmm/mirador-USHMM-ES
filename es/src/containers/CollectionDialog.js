@@ -2,11 +2,11 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withStyles } from '@material-ui/core';
 import { withTranslation } from 'react-i18next';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
 import { getManifest, getManifestoInstance, getSequenceBehaviors, getWindow } from '../state/selectors';
-import { CollectionDialog } from '../components/CollectionDialog';
-import { withWorkspaceContext } from '../contexts/WorkspaceContext';
+import { CollectionDialog } from '../components/CollectionDialog.js';
+import { withWorkspaceContext } from '../contexts/WorkspaceContext.js';
 
 /**
  * mapDispatchToProps - used to hook up connect to action creators

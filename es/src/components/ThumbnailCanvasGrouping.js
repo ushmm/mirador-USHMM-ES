@@ -15,8 +15,8 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 import { PureComponent } from 'react';
 import classNames from 'classnames';
-import IIIFThumbnail from '../containers/IIIFThumbnail';
-import ns from '../config/css-ns';
+import IIIFThumbnail from '../containers/IIIFThumbnail.js';
+import ns from '../config/css-ns.js';
 
 /** */
 import { jsx as _jsx } from "react/jsx-runtime";

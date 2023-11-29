@@ -4,8 +4,8 @@ function _toPrimitive(input, hint) { if (typeof input !== "object" || input === 
 import { compose } from 'redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import { WorkspaceControlPanel } from '../components/WorkspaceControlPanel';
+import { withPlugins } from '../extend/withPlugins.js';
+import { WorkspaceControlPanel } from '../components/WorkspaceControlPanel.js';
 
 /**
  *

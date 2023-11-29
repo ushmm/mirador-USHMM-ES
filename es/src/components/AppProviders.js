@@ -25,8 +25,8 @@ import { MultiBackend } from 'react-dnd-multi-backend';
 import { HTML5toTouch } from 'rdndmb-html5-to-touch';
 import { create } from 'jss';
 import rtl from 'jss-rtl';
-import createI18nInstance from '../i18n';
-import FullScreenContext from '../contexts/FullScreenContext';
+import createI18nInstance from '../i18n.js';
+import FullScreenContext from '../contexts/FullScreenContext.js';
 
 /**
  * Allow applications to opt-out of (or provide their own) drag and drop context

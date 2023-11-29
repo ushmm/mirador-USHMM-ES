@@ -13,7 +13,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 import { Component } from 'react';
 import classNames from 'classnames';
 import Drawer from '@material-ui/core/Drawer';
-import WindowSideBarButtons from '../containers/WindowSideBarButtons';
+import WindowSideBarButtons from '../containers/WindowSideBarButtons.js';
 
 /**
  * WindowSideBar

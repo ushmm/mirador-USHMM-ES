@@ -35,8 +35,8 @@ import VisibilityOffIcon from '@material-ui/icons/VisibilityOffSharp';
 import OpacityIcon from '@material-ui/icons/OpacitySharp';
 import Typography from '@material-ui/core/Typography';
 import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
-import IIIFThumbnail from '../containers/IIIFThumbnail';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
+import IIIFThumbnail from '../containers/IIIFThumbnail.js';
 
 /** */
 import { jsx as _jsx } from "react/jsx-runtime";

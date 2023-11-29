@@ -2,10 +2,10 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withStyles } from '@material-ui/core';
 import { withTranslation } from 'react-i18next';
-import { withPlugins } from '../extend/withPlugins';
+import { withPlugins } from '../extend/withPlugins.js';
 import { getCompanionWindowIdsForPosition, getCompanionAreaVisibility, getThemeDirection, getWindow } from '../state/selectors';
-import * as actions from '../state/actions';
-import { CompanionArea } from '../components/CompanionArea';
+import * as actions from '../state/actions.js';
+import { CompanionArea } from '../components/CompanionArea.js';
 
 /** */
 var mapStateToProps = function mapStateToProps(state, _ref) {

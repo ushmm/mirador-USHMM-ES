@@ -18,8 +18,8 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 import { Component } from 'react';
 import DOMPurify from 'dompurify';
-import ns from '../config/css-ns';
-import htmlRules from '../lib/htmlRules';
+import ns from '../config/css-ns.js';
+import htmlRules from '../lib/htmlRules.js';
 
 /**
 */

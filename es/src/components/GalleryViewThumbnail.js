@@ -17,8 +17,8 @@ import AnnotationIcon from '@material-ui/icons/CommentSharp';
 import SearchIcon from '@material-ui/icons/SearchSharp';
 import classNames from 'classnames';
 import { InView } from 'react-intersection-observer';
-import MiradorCanvas from '../lib/MiradorCanvas';
-import IIIFThumbnail from '../containers/IIIFThumbnail';
+import MiradorCanvas from '../lib/MiradorCanvas.js';
+import IIIFThumbnail from '../containers/IIIFThumbnail.js';
 
 /**
  * Represents a WindowViewer in the mirador workspace. Responsible for mounting

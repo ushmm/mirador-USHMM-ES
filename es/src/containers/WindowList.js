@@ -1,11 +1,11 @@
 import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { withTranslation } from 'react-i18next';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
-import { getFocusedWindowId, getWindowIds, getWindowTitles } from '../state/selectors';
-import { WindowList } from '../components/WindowList';
-import { withWorkspaceContext } from '../contexts/WorkspaceContext';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
+import { getFocusedWindowId, getWindowIds, getWindowTitles } from '../state/selectors.js';
+import { WindowList } from '../components/WindowList.js';
+import { withWorkspaceContext } from '../contexts/WorkspaceContext.js';
 
 /**
  * mapDispatchToProps - used to hook up connect to action creators

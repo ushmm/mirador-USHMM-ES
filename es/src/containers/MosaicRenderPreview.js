@@ -7,9 +7,9 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withStyles } from '@material-ui/core/styles';
 import { withTranslation } from 'react-i18next';
-import { withPlugins } from '../extend/withPlugins';
-import { getManifestTitle } from '../state/selectors';
-import { MosaicRenderPreview } from '../components/MosaicRenderPreview';
+import { withPlugins } from '../extend/withPlugins.js';
+import { getManifestTitle } from '../state/selectors.js';
+import { MosaicRenderPreview } from '../components/MosaicRenderPreview.js';
 
 /** */
 var mapStateToProps = function mapStateToProps(state, _ref) {

@@ -14,9 +14,9 @@ import { createRef, Component } from 'react';
 import Button from '@material-ui/core/Button';
 import Chip from '@material-ui/core/Chip';
 import Typography from '@material-ui/core/Typography';
-import CompanionWindow from '../containers/CompanionWindow';
-import SearchPanelControls from '../containers/SearchPanelControls';
-import SearchResults from '../containers/SearchResults';
+import CompanionWindow from '../containers/CompanionWindow.js';
+import SearchPanelControls from '../containers/SearchPanelControls.js';
+import SearchResults from '../containers/SearchResults.js';
 
 /** */
 import { jsx as _jsx } from "react/jsx-runtime";

@@ -14,7 +14,7 @@ import { Component } from 'react';
 import Typography from '@material-ui/core/Typography';
 import KeyboardArrowDown from '@material-ui/icons/KeyboardArrowDownSharp';
 import KeyboardArrowUp from '@material-ui/icons/KeyboardArrowUpSharp';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
 
 /**
  * CollapsableSection ~

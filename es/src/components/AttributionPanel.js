@@ -18,9 +18,9 @@ import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 import Skeleton from '@material-ui/lab/Skeleton';
 import { Img } from 'react-image';
-import CompanionWindow from '../containers/CompanionWindow';
+import CompanionWindow from '../containers/CompanionWindow.js';
 import { LabelValueMetadata } from './LabelValueMetadata.js';
-import ns from '../config/css-ns';
+import ns from '../config/css-ns.js';
 import { PluginHook } from './PluginHook.js';
 
 /**

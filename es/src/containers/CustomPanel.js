@@ -2,8 +2,8 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import { CustomPanel } from '../components/CustomPanel';
+import { withPlugins } from '../extend/withPlugins.js';
+import { CustomPanel } from '../components/CustomPanel.js';
 
 /**
  * mapStateToProps - to hook up connect

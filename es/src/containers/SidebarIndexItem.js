@@ -2,8 +2,8 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import { SidebarIndexItem } from '../components/SidebarIndexItem';
+import { withPlugins } from '../extend/withPlugins.js';
+import { SidebarIndexItem } from '../components/SidebarIndexItem.js';
 
 /**
  * Styles for withStyles HOC

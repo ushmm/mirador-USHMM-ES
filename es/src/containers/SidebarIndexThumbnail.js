@@ -7,9 +7,9 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import { SidebarIndexThumbnail } from '../components/SidebarIndexThumbnail';
-import { getConfig } from '../state/selectors';
+import { withPlugins } from '../extend/withPlugins.js';
+import { SidebarIndexThumbnail } from '../components/SidebarIndexThumbnail.js';
+import { getConfig } from '../state/selectors.js';
 
 /**
  * mapStateToProps - used to hook up state to props

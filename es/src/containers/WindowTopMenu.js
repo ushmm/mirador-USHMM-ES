@@ -1,11 +1,11 @@
 import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
-import { WindowTopMenu } from '../components/WindowTopMenu';
-import { getConfig } from '../state/selectors';
-import { withWorkspaceContext } from '../contexts/WorkspaceContext';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
+import { WindowTopMenu } from '../components/WindowTopMenu.js';
+import { getConfig } from '../state/selectors.js';
+import { withWorkspaceContext } from '../contexts/WorkspaceContext.js';
 
 /**
  * mapStateToProps - to hook up connect

@@ -2,9 +2,9 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
-import { WindowSideBarCanvasPanel } from '../components/WindowSideBarCanvasPanel';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
+import { WindowSideBarCanvasPanel } from '../components/WindowSideBarCanvasPanel.js';
 import { getCompanionWindow, getDefaultSidebarVariant, getSequenceTreeStructure, getWindow, getManifestoInstance, getSequence, getSequences } from '../state/selectors';
 
 /**

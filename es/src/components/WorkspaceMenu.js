@@ -20,10 +20,10 @@ import { Component } from 'react';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import Typography from '@material-ui/core/Typography';
-import LanguageSettings from '../containers/LanguageSettings';
+import LanguageSettings from '../containers/LanguageSettings.js';
 import { NestedMenu } from './NestedMenu.js';
-import WorkspaceSelectionDialog from '../containers/WorkspaceSelectionDialog';
-import ChangeThemeDialog from '../containers/ChangeThemeDialog';
+import WorkspaceSelectionDialog from '../containers/WorkspaceSelectionDialog.js';
+import ChangeThemeDialog from '../containers/ChangeThemeDialog.js';
 import { PluginHook } from './PluginHook.js';
 
 /**

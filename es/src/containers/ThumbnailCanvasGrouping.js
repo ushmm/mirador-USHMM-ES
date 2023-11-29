@@ -2,10 +2,10 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
-import { getCurrentCanvas } from '../state/selectors';
-import { ThumbnailCanvasGrouping } from '../components/ThumbnailCanvasGrouping';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
+import { getCurrentCanvas } from '../state/selectors.js';
+import { ThumbnailCanvasGrouping } from '../components/ThumbnailCanvasGrouping.js';
 
 /**
  * mapDispatchToProps - used to hook up connect to action creators

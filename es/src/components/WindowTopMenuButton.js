@@ -12,8 +12,8 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 import { Component } from 'react';
 import classNames from 'classnames';
-import WindowTopMenu from '../containers/WindowTopMenu';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
+import WindowTopMenu from '../containers/WindowTopMenu.js';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
 import WindowOptionsIcon from './icons/WindowOptionsIcon.js';
 
 /**

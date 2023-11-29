@@ -16,8 +16,8 @@ function _toPrimitive(input, hint) { if (typeof input !== "object" || input === 
 import { Component } from 'react';
 import Menu from '@material-ui/core//Menu';
 import ListSubheader from '@material-ui/core/ListSubheader';
-import WindowThumbnailSettings from '../containers/WindowThumbnailSettings';
-import WindowViewSettings from '../containers/WindowViewSettings';
+import WindowThumbnailSettings from '../containers/WindowThumbnailSettings.js';
+import WindowViewSettings from '../containers/WindowViewSettings.js';
 import { PluginHook } from './PluginHook.js';
 
 /** Renders plugins */

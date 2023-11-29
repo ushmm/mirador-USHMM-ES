@@ -13,8 +13,8 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 import { Component } from 'react';
 import FullscreenIcon from '@material-ui/icons/FullscreenSharp';
 import FullscreenExitIcon from '@material-ui/icons/FullscreenExitSharp';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
-import FullScreenContext from '../contexts/FullScreenContext';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
+import FullScreenContext from '../contexts/FullScreenContext.js';
 
 /**
  */

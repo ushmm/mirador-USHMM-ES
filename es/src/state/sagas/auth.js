@@ -3,8 +3,8 @@ function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyri
 import { all, call, put, select, takeEvery, delay } from 'redux-saga/effects';
 import { Utils } from 'manifesto.js';
 import flatten from 'lodash/flatten';
-import ActionTypes from '../actions/action-types';
-import MiradorCanvas from '../../lib/MiradorCanvas';
+import ActionTypes from '../actions/action-types.js';
+import MiradorCanvas from '../../lib/MiradorCanvas.js';
 import { addAuthenticationRequest, resolveAuthenticationRequest, requestAccessToken, resetAuthenticationState } from '../actions';
 import { selectInfoResponses, getVisibleCanvases, getWindows, getConfig, getAuth, getAccessTokens } from '../selectors';
 import { fetchInfoResponse } from './iiif.js';

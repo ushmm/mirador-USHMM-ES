@@ -1,4 +1,4 @@
-import MinimalWindow from '../containers/MinimalWindow';
+import MinimalWindow from '../containers/MinimalWindow.js';
 
 /**
  * MosaicRenderPreview is used to for the preview when dragging a mosaic window/tile

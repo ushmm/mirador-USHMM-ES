@@ -14,9 +14,9 @@ import { Component } from 'react';
 import Slide from '@material-ui/core/Slide';
 import ArrowLeftIcon from '@material-ui/icons/ArrowLeftSharp';
 import ArrowRightIcon from '@material-ui/icons/ArrowRightSharp';
-import CompanionWindowFactory from '../containers/CompanionWindowFactory';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
-import ns from '../config/css-ns';
+import CompanionWindowFactory from '../containers/CompanionWindowFactory.js';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
+import ns from '../config/css-ns.js';
 
 /** */
 import { jsx as _jsx } from "react/jsx-runtime";

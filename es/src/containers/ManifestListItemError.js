@@ -2,9 +2,9 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import { fetchManifest, removeResource } from '../state/actions';
-import { ManifestListItemError } from '../components/ManifestListItemError';
+import { withPlugins } from '../extend/withPlugins.js';
+import { fetchManifest, removeResource } from '../state/actions.js';
+import { ManifestListItemError } from '../components/ManifestListItemError.js';
 
 /** */
 var mapDispatchToProps = {

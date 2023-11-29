@@ -13,9 +13,9 @@ function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symb
 function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
 import { all, call, put, select, takeEvery } from 'redux-saga/effects';
-import ActionTypes from '../actions/action-types';
-import MiradorManifest from '../../lib/MiradorManifest';
-import MiradorCanvas from '../../lib/MiradorCanvas';
+import ActionTypes from '../actions/action-types.js';
+import MiradorManifest from '../../lib/MiradorManifest.js';
+import MiradorCanvas from '../../lib/MiradorCanvas.js';
 import { setContentSearchCurrentAnnotation, selectAnnotation, setWorkspaceViewportPosition, updateWindow, setCanvas, fetchSearch, receiveManifest, fetchInfoResponse, showCollectionDialog } from '../actions';
 import { getSearchForWindow, getSearchAnnotationsForCompanionWindow, getCanvasGrouping, getWindow, getManifestoInstance, getCompanionWindowIdsForPosition, getManifestSearchService, getCanvasForAnnotation, getSelectedContentSearchAnnotationIds, getSortedSearchAnnotationsForCompanionWindow, getVisibleCanvasIds, getWorkspace, getElasticLayout, getCanvases, selectInfoResponses, getWindowConfig } from '../selectors';
 import { fetchManifests } from './iiif.js';

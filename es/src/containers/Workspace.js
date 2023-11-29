@@ -2,10 +2,10 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import { Workspace } from '../components/Workspace';
+import { withPlugins } from '../extend/withPlugins.js';
+import { Workspace } from '../components/Workspace.js';
 import { getMaximizedWindowsIds, getWindowIds, getWorkspaceType, getConfig, getWorkspace } from '../state/selectors';
-import * as actions from '../state/actions';
+import * as actions from '../state/actions.js';
 
 /**
  * mapStateToProps - to hook up connect

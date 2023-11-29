@@ -12,7 +12,7 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 import { Component } from 'react';
 import Paper from '@material-ui/core/Paper';
-import GalleryViewThumbnail from '../containers/GalleryViewThumbnail';
+import GalleryViewThumbnail from '../containers/GalleryViewThumbnail.js';
 
 /**
  * Renders a GalleryView overview of the manifest.

@@ -11,7 +11,7 @@ function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToAr
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
 import update from 'lodash/update';
 import { connect } from 'react-redux';
-import CompanionWindowRegistry from '../lib/CompanionWindowRegistry';
+import CompanionWindowRegistry from '../lib/CompanionWindowRegistry.js';
 
 /**
  * Returns a mapping from targets to plugins and modes

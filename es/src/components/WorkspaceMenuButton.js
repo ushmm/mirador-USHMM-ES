@@ -13,8 +13,8 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 import { Component } from 'react';
 import SettingsIcon from '@material-ui/icons/SettingsSharp';
 import classNames from 'classnames';
-import WorkspaceMenu from '../containers/WorkspaceMenu';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
+import WorkspaceMenu from '../containers/WorkspaceMenu.js';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
 
 /**
  */

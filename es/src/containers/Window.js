@@ -2,9 +2,9 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withStyles } from '@material-ui/core';
 import { withTranslation } from 'react-i18next';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
-import { Window } from '../components/Window';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
+import { Window } from '../components/Window.js';
 import { getManifestStatus, getManifestTitle, getThumbnailNavigationPosition, getWindow, getWorkspaceType, getWindowDraggability, getWindowViewType, getManifestError } from '../state/selectors';
 
 /**

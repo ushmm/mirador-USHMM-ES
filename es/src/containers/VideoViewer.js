@@ -2,9 +2,9 @@ import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core';
-import { withPlugins } from '../extend/withPlugins';
-import { VideoViewer } from '../components/VideoViewer';
-import { getConfig, getVisibleCanvasCaptions, getVisibleCanvasVideoResources } from '../state/selectors';
+import { withPlugins } from '../extend/withPlugins.js';
+import { VideoViewer } from '../components/VideoViewer.js';
+import { getConfig, getVisibleCanvasCaptions, getVisibleCanvasVideoResources } from '../state/selectors.js';
 
 /** */
 var mapStateToProps = function mapStateToProps(state, _ref) {

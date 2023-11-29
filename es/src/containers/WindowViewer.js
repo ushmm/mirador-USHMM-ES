@@ -1,6 +1,6 @@
 import { compose } from 'redux';
-import { withPlugins } from '../extend/withPlugins';
-import { WindowViewer } from '../components/WindowViewer';
+import { withPlugins } from '../extend/withPlugins.js';
+import { WindowViewer } from '../components/WindowViewer.js';
 var enhance = compose(withPlugins('WindowViewer')
 // further HOC go here
 );

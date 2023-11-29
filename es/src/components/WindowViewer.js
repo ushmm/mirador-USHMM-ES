@@ -11,7 +11,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 import { Component, lazy, Suspense } from 'react';
-import WindowCanvasNavigationControls from '../containers/WindowCanvasNavigationControls';
+import WindowCanvasNavigationControls from '../containers/WindowCanvasNavigationControls.js';
 import { jsx as _jsx } from "react/jsx-runtime";
 var OSDViewer = /*#__PURE__*/lazy(function () {
   return import('../containers/OpenSeadragonViewer');

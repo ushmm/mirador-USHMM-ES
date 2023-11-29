@@ -14,7 +14,7 @@ import { Component } from 'react';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeftSharp';
 import ChevronRightIcon from '@material-ui/icons/ChevronRightSharp';
 import Typography from '@material-ui/core/Typography';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
 
 /**
  * SearchPanelNavigation ~

@@ -2,8 +2,8 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withStyles } from '@material-ui/core/styles';
 import { withTranslation } from 'react-i18next';
-import { withPlugins } from '../extend/withPlugins';
-import { WorkspaceExport } from '../components/WorkspaceExport';
+import { withPlugins } from '../extend/withPlugins.js';
+import { WorkspaceExport } from '../components/WorkspaceExport.js';
 import { getExportableState } from '../state/selectors';
 
 /**

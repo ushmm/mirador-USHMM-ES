@@ -2,10 +2,10 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
-import { getWindowConfig, isFocused } from '../state/selectors';
-import { WindowTopBar } from '../components/WindowTopBar';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
+import { getWindowConfig, isFocused } from '../state/selectors.js';
+import { WindowTopBar } from '../components/WindowTopBar.js';
 
 /** mapStateToProps */
 var mapStateToProps = function mapStateToProps(state, _ref) {

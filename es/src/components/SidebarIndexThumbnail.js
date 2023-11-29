@@ -13,7 +13,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 import { Component } from 'react';
 import Typography from '@material-ui/core/Typography';
 import classNames from 'classnames';
-import IIIFThumbnail from '../containers/IIIFThumbnail';
+import IIIFThumbnail from '../containers/IIIFThumbnail.js';
 
 /** */
 import { jsx as _jsx } from "react/jsx-runtime";

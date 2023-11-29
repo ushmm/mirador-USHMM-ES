@@ -16,7 +16,7 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import { Card, CardContent, MenuList, MenuItem, Typography } from '@material-ui/core';
 import WorkspaceTypeElasticIcon from './icons/WorkspaceTypeElasticIcon.js';
 import WorkspaceTypeMosaicIcon from './icons/WorkspaceTypeMosaicIcon.js';
-import ScrollIndicatedDialogContent from '../containers/ScrollIndicatedDialogContent';
+import ScrollIndicatedDialogContent from '../containers/ScrollIndicatedDialogContent.js';
 
 /**
  */

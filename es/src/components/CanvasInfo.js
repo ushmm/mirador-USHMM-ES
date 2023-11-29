@@ -15,8 +15,8 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 import { Component } from 'react';
 import Typography from '@material-ui/core/Typography';
-import CollapsibleSection from '../containers/CollapsibleSection';
-import SanitizedHtml from '../containers/SanitizedHtml';
+import CollapsibleSection from '../containers/CollapsibleSection.js';
+import SanitizedHtml from '../containers/SanitizedHtml.js';
 import { LabelValueMetadata } from './LabelValueMetadata.js';
 import { PluginHook } from './PluginHook.js';
 

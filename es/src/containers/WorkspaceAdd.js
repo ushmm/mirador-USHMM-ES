@@ -5,10 +5,10 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
-import { WorkspaceAdd } from '../components/WorkspaceAdd';
-import { getCatalog } from '../state/selectors';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
+import { WorkspaceAdd } from '../components/WorkspaceAdd.js';
+import { getCatalog } from '../state/selectors.js';
 
 /**
  * mapStateToProps - to hook up connect

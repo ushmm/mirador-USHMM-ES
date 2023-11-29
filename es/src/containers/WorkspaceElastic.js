@@ -1,9 +1,9 @@
 import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
-import WorkspaceElastic from '../components/WorkspaceElastic';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
+import WorkspaceElastic from '../components/WorkspaceElastic.js';
 import { getElasticLayout, getWorkspace } from '../state/selectors';
 
 /**

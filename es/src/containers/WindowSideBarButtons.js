@@ -2,11 +2,11 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withStyles } from '@material-ui/core';
 import { withTranslation } from 'react-i18next';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
-import MiradorCanvas from '../lib/MiradorCanvas';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
+import MiradorCanvas from '../lib/MiradorCanvas.js';
 import { getCanvases, getVisibleCanvases, getCompanionWindowsForPosition, getAnnotationResourcesByMotivation, getManifestSearchService, getSearchQuery, getWindow, getWindowConfig } from '../state/selectors';
-import { WindowSideBarButtons } from '../components/WindowSideBarButtons';
+import { WindowSideBarButtons } from '../components/WindowSideBarButtons.js';
 
 /**
  * mapDispatchToProps - used to hook up connect to action creators

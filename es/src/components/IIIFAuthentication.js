@@ -16,7 +16,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 import { Component } from 'react';
 import { AccessTokenSender } from './AccessTokenSender.js';
 import { NewWindow } from './NewWindow.js';
-import WindowAuthenticationBar from '../containers/WindowAuthenticationBar';
+import WindowAuthenticationBar from '../containers/WindowAuthenticationBar.js';
 
 /**
  * Opens a new window for click

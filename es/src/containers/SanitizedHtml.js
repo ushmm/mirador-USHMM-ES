@@ -1,5 +1,5 @@
 import { withStyles } from '@material-ui/core/styles';
-import { SanitizedHtml } from '../components/SanitizedHtml';
+import { SanitizedHtml } from '../components/SanitizedHtml.js';
 
 /**
  * Styles for withStyles HOC

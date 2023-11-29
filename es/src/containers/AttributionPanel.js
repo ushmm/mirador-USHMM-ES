@@ -2,9 +2,9 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
+import { withPlugins } from '../extend/withPlugins.js';
 import { getManifestLogo, getRequiredStatement, getRights } from '../state/selectors';
-import { AttributionPanel } from '../components/AttributionPanel';
+import { AttributionPanel } from '../components/AttributionPanel.js';
 
 /**
  * mapStateToProps - to hook up connect

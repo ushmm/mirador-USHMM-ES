@@ -14,10 +14,10 @@ import { Component } from 'react';
 import classNames from 'classnames';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import Window from '../containers/Window';
-import WorkspaceMosaic from '../containers/WorkspaceMosaic';
-import WorkspaceElastic from '../containers/WorkspaceElastic';
-import ns from '../config/css-ns';
+import Window from '../containers/Window.js';
+import WorkspaceMosaic from '../containers/WorkspaceMosaic.js';
+import WorkspaceElastic from '../containers/WorkspaceElastic.js';
+import ns from '../config/css-ns.js';
 import { IIIFDropTarget } from './IIIFDropTarget.js';
 
 /**

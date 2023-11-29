@@ -2,10 +2,10 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import * as actions from '../state/actions';
-import { withPlugins } from '../extend/withPlugins';
-import { SearchPanel } from '../components/SearchPanel';
-import { getManifestSearchService, getSearchQuery, getWindow } from '../state/selectors';
+import * as actions from '../state/actions.js';
+import { withPlugins } from '../extend/withPlugins.js';
+import { SearchPanel } from '../components/SearchPanel.js';
+import { getManifestSearchService, getSearchQuery, getWindow } from '../state/selectors.js';
 
 /** */
 var mapStateToProps = function mapStateToProps(state, _ref) {

@@ -15,12 +15,12 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 import { Component } from 'react';
 import classNames from 'classnames';
-import ErrorDialog from '../containers/ErrorDialog';
-import WorkspaceControlPanel from '../containers/WorkspaceControlPanel';
-import Workspace from '../containers/Workspace';
-import WorkspaceAdd from '../containers/WorkspaceAdd';
-import BackgroundPluginArea from '../containers/BackgroundPluginArea';
-import ns from '../config/css-ns';
+import ErrorDialog from '../containers/ErrorDialog.js';
+import WorkspaceControlPanel from '../containers/WorkspaceControlPanel.js';
+import Workspace from '../containers/Workspace.js';
+import WorkspaceAdd from '../containers/WorkspaceAdd.js';
+import BackgroundPluginArea from '../containers/BackgroundPluginArea.js';
+import ns from '../config/css-ns.js';
 
 /**
  * This is the top level Mirador component.

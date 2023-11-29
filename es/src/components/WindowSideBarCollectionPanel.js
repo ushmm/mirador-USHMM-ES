@@ -32,8 +32,8 @@ import MenuItem from '@material-ui/core/MenuItem';
 import Typography from '@material-ui/core/Typography';
 import Skeleton from '@material-ui/lab/Skeleton';
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpwardSharp';
-import CompanionWindow from '../containers/CompanionWindow';
-import IIIFThumbnail from '../containers/IIIFThumbnail';
+import CompanionWindow from '../containers/CompanionWindow.js';
+import IIIFThumbnail from '../containers/IIIFThumbnail.js';
 
 /** */
 import { jsx as _jsx } from "react/jsx-runtime";

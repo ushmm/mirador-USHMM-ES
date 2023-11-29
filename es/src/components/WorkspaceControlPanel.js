@@ -14,10 +14,10 @@ import { Component } from 'react';
 import classNames from 'classnames';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import WorkspaceAddButton from '../containers/WorkspaceAddButton';
-import WorkspaceControlPanelButtons from '../containers/WorkspaceControlPanelButtons';
-import Branding from '../containers/Branding';
-import ns from '../config/css-ns';
+import WorkspaceAddButton from '../containers/WorkspaceAddButton.js';
+import WorkspaceControlPanelButtons from '../containers/WorkspaceControlPanelButtons.js';
+import Branding from '../containers/Branding.js';
+import ns from '../config/css-ns.js';
 
 /**
  * Provides the panel responsible for controlling the entire workspace

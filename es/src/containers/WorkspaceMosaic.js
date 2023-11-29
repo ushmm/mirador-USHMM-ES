@@ -6,11 +6,11 @@ function _toPrimitive(input, hint) { if (typeof input !== "object" || input === 
 import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import { getWorkspace } from '../state/selectors';
-import * as actions from '../state/actions';
-import { WorkspaceMosaic } from '../components/WorkspaceMosaic';
-import globalReactMosaicStyles from '../styles/react-mosaic-component';
+import { withPlugins } from '../extend/withPlugins.js';
+import { getWorkspace } from '../state/selectors.js';
+import * as actions from '../state/actions.js';
+import { WorkspaceMosaic } from '../components/WorkspaceMosaic.js';
+import globalReactMosaicStyles from '../styles/react-mosaic-component.js';
 
 /**
  * mapStateToProps - to hook up connect

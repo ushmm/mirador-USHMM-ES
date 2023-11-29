@@ -16,7 +16,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 import { Component } from 'react';
 import MoreVertIcon from '@material-ui/icons/MoreVertSharp';
 import Menu from '@material-ui/core/Menu';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
 import { PluginHook } from './PluginHook.js';
 
 /**
