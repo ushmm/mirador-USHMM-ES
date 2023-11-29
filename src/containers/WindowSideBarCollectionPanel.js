@@ -10,7 +10,7 @@ import {
   getManifestoInstance,
   getDefaultSidebarVariant,
   getWindow,
-} from '../state/selectors';
+} from '../state/selectors.js';
 import { WindowSideBarCollectionPanel } from '../components/WindowSideBarCollectionPanel.js';
 
 /**

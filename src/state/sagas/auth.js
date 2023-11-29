@@ -10,7 +10,7 @@ import {
   resolveAuthenticationRequest,
   requestAccessToken,
   resetAuthenticationState,
-} from '../actions';
+} from '../actions.js';
 import {
   selectInfoResponses,
   getVisibleCanvases,
@@ -18,7 +18,7 @@ import {
   getConfig,
   getAuth,
   getAccessTokens,
-} from '../selectors';
+} from '../selectors.js';
 import { fetchInfoResponse } from './iiif.js';
 
 /** */

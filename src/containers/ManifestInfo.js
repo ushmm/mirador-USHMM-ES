@@ -7,7 +7,7 @@ import {
   getManifestSummary,
   getManifestTitle,
   getManifestMetadata,
-} from '../state/selectors';
+} from '../state/selectors.js';
 import { ManifestInfo } from '../components/ManifestInfo.js';
 
 /**

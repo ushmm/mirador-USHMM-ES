@@ -14,7 +14,7 @@ import {
   getSearchQuery,
   getWindow,
   getWindowConfig,
-} from '../state/selectors';
+} from '../state/selectors.js';
 import { WindowSideBarButtons } from '../components/WindowSideBarButtons.js';
 
 /**

@@ -7,7 +7,7 @@ import {
   getCanvasLabel,
   getLayers,
   getSortedLayers,
-} from '../state/selectors';
+} from '../state/selectors.js';
 import { CanvasLayers } from '../components/CanvasLayers.js';
 
 /** For connect */

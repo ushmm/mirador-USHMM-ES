@@ -15,7 +15,7 @@ import {
   getCompanionWindowsForContent,
   selectInfoResponses,
   getCurrentCanvasWorld,
-} from '../state/selectors';
+} from '../state/selectors.js';
 
 /**
  * mapStateToProps - used to hook up connect to action creators

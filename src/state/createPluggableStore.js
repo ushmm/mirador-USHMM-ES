@@ -6,7 +6,7 @@ import {
   getConfigFromPlugins,
   getReducersFromPlugins,
   getSagasFromPlugins,
-} from '../extend/pluginPreprocessing';
+} from '../extend/pluginPreprocessing.js';
 
 /**
  * Configure Store

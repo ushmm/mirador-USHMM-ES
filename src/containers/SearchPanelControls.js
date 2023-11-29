@@ -10,7 +10,7 @@ import {
   getManifestSearchService,
   getSearchIsFetching,
   getSearchQuery,
-} from '../state/selectors';
+} from '../state/selectors.js';
 
 /**
  * mapStateToProps - used to hook up connect to state

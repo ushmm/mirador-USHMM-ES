@@ -9,13 +9,13 @@ import {
   receiveInfoResponseFailure, receiveDegradedInfoResponse,
   receiveSearch, receiveSearchFailure,
   receiveAnnotation, receiveAnnotationFailure,
-} from '../actions';
+} from '../actions.js';
 import {
   getManifests,
   getRequestsConfig,
   getAccessTokens,
   selectInfoResponse,
-} from '../selectors';
+} from '../selectors.js';
 
 /** */
 function fetchWrapper(url, options, { success, degraded, failure }) {

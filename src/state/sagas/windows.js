@@ -14,7 +14,7 @@ import {
   receiveManifest,
   fetchInfoResponse,
   showCollectionDialog,
-} from '../actions';
+} from '../actions.js';
 import {
   getSearchForWindow, getSearchAnnotationsForCompanionWindow,
   getCanvasGrouping, getWindow, getManifestoInstance,
@@ -28,7 +28,7 @@ import {
   getCanvases,
   selectInfoResponses,
   getWindowConfig,
-} from '../selectors';
+} from '../selectors.js';
 import { fetchManifests } from './iiif.js';
 
 /** */

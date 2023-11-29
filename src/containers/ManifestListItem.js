@@ -8,7 +8,7 @@ import {
   getManifestTitle, getManifestThumbnail, getCanvases,
   getManifestLogo, getManifestProviderName, getWindowManifests,
   getManifestoInstance, getSequenceBehaviors,
-} from '../state/selectors';
+} from '../state/selectors.js';
 import * as actions from '../state/actions.js';
 import { ManifestListItem } from '../components/ManifestListItem.js';
 

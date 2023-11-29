@@ -10,7 +10,7 @@ import {
   getNextCanvasGrouping, getPreviousCanvasGrouping,
   getCanvasGroupings, getCanvasIndex, getWindowViewType,
   getSequenceViewingDirection, getConfig,
-} from '../state/selectors';
+} from '../state/selectors.js';
 
 /**
  * mapStateToProps - used to hook up state to props

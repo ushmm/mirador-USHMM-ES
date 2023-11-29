@@ -10,7 +10,7 @@ import {
   getWindow,
   getViewer,
   getConfig,
-} from '../state/selectors';
+} from '../state/selectors.js';
 
 /** mapStateToProps */
 const mapStateToProps = (state, { companionWindowId, windowId }) => ({

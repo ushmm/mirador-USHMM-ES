@@ -1,7 +1,7 @@
 import { createSelector } from 'reselect';
 import {
   getManifestTitle,
-} from './manifests';
+} from './manifests.js';
 import { getConfig } from './config.js';
 import { getWindows, getWindow, getWindowIds } from './getters.js';
 import { getWorkspaceType } from './workspace.js';

@@ -6,7 +6,7 @@ import * as actions from '../state/actions.js';
 import { withPlugins } from '../extend/withPlugins.js';
 import {
   getWindow,
-} from '../state/selectors';
+} from '../state/selectors.js';
 import { SelectCollection } from '../components/SelectCollection.js';
 
 /** */

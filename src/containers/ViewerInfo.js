@@ -6,7 +6,7 @@ import { withPlugins } from '../extend/withPlugins.js';
 import { ViewerInfo } from '../components/ViewerInfo.js';
 import {
   getCanvasLabel, getCanvases, getCanvasIndex, getCurrentCanvas,
-} from '../state/selectors';
+} from '../state/selectors.js';
 
 /**
  * mapStateToProps - to hook up connect

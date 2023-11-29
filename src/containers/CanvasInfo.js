@@ -7,7 +7,7 @@ import {
   getCanvas,
   getCanvasLabel,
   getCanvasDescription,
-} from '../state/selectors';
+} from '../state/selectors.js';
 import { CanvasInfo } from '../components/CanvasInfo.js';
 
 /**

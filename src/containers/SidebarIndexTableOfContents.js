@@ -10,7 +10,7 @@ import {
   getVisibleNodeIds,
   getExpandedNodeIds,
   getNodeIdToScrollTo,
-} from '../state/selectors';
+} from '../state/selectors.js';
 import * as actions from '../state/actions.js';
 
 /**

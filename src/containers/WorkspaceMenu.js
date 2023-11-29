@@ -6,7 +6,7 @@ import * as actions from '../state/actions.js';
 import {
   getShowZoomControlsConfig, getThemeIds,
   getWorkspace,
-} from '../state/selectors';
+} from '../state/selectors.js';
 import { withWorkspaceContext } from '../contexts/WorkspaceContext.js';
 import { WorkspaceMenu } from '../components/WorkspaceMenu.js';
 

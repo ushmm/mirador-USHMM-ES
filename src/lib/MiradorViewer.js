@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import HotApp from '../components/App.js';
 import {
   filterValidPlugins,
-} from '../extend/pluginPreprocessing';
+} from '../extend/pluginPreprocessing.js';
 import createPluggableStore from '../state/createPluggableStore.js';
 
 /**

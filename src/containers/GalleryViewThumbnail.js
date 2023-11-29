@@ -10,7 +10,7 @@ import {
   getConfig,
   getPresentAnnotationsOnSelectedCanvases,
   getCompanionWindowsForContent,
-} from '../state/selectors';
+} from '../state/selectors.js';
 
 /**
  * Styles to be passed to the withStyles HOC

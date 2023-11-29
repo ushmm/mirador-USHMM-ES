@@ -8,7 +8,7 @@ import {
   getCompanionWindow,
   getCanvases,
   getVisibleCanvasIds,
-} from '../state/selectors';
+} from '../state/selectors.js';
 import { SidebarIndexList } from '../components/SidebarIndexList.js';
 
 /**

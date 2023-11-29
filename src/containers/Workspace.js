@@ -7,7 +7,7 @@ import { Workspace } from '../components/Workspace.js';
 import {
   getMaximizedWindowsIds, getWindowIds, getWorkspaceType,
   getConfig, getWorkspace,
-} from '../state/selectors';
+} from '../state/selectors.js';
 import * as actions from '../state/actions.js';
 
 /**

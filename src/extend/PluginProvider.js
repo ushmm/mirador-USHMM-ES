@@ -5,7 +5,7 @@ import {
   connectPluginsToStore,
   createTargetToPluginMapping,
   addPluginsToCompanionWindowsRegistry,
-} from './pluginMapping';
+} from './pluginMapping.js';
 
 /**  */
 export default function PluginProvider(props) {

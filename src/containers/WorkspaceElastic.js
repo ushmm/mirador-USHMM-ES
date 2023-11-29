@@ -7,7 +7,7 @@ import WorkspaceElastic from '../components/WorkspaceElastic.js';
 import {
   getElasticLayout,
   getWorkspace,
-} from '../state/selectors';
+} from '../state/selectors.js';
 
 /**
  * mapStateToProps - to hook up connect

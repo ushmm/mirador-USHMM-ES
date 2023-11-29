@@ -2,7 +2,7 @@ import { createSelector } from 'reselect';
 import { TreeNode } from 'manifesto.js';
 import {
   getManifestoInstance,
-} from './manifests';
+} from './manifests.js';
 import { getWindow } from './getters.js';
 
 export const getSequences = createSelector(
