@@ -8,7 +8,7 @@ import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core';
 import { withPlugins } from '../extend/withPlugins.js';
-import { getManifestStatus, getManifestTitle, getWindowConfig } from '../state/selectors.js';
+import { getManifestStatus, getManifestTitle, getWindowConfig } from '../state/selectors/index.js';
 import { WindowTopBarTitle } from '../components/WindowTopBarTitle.js';
 
 /** mapStateToProps */

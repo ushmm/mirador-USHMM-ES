@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import * as actions from '../state/actions.js';
 import { withPlugins } from '../extend/withPlugins.js';
-import { getAnnotationResourcesByMotivation, getWindow } from '../state/selectors.js';
+import { getAnnotationResourcesByMotivation, getWindow } from '../state/selectors/index.js';
 import { AnnotationSettings } from '../components/AnnotationSettings.js';
 
 /**

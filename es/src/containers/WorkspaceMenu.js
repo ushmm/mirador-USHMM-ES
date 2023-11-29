@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withPlugins } from '../extend/withPlugins.js';
 import * as actions from '../state/actions.js';
-import { getShowZoomControlsConfig, getThemeIds, getWorkspace } from '../state/selectors.js';
+import { getShowZoomControlsConfig, getThemeIds, getWorkspace } from '../state/selectors/index.js';
 import { withWorkspaceContext } from '../contexts/WorkspaceContext.js';
 import { WorkspaceMenu } from '../components/WorkspaceMenu.js';
 

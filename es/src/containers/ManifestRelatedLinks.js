@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
 import { withPlugins } from '../extend/withPlugins.js';
-import { getManifestHomepage, getManifestRelated, getManifestRenderings, getManifestSeeAlso, getManifestUrl } from '../state/selectors.js';
+import { getManifestHomepage, getManifestRelated, getManifestRenderings, getManifestSeeAlso, getManifestUrl } from '../state/selectors/index.js';
 import { ManifestRelatedLinks } from '../components/ManifestRelatedLinks.js';
 
 /**

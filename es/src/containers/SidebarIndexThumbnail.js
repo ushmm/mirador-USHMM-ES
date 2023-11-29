@@ -9,7 +9,7 @@ import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
 import { withPlugins } from '../extend/withPlugins.js';
 import { SidebarIndexThumbnail } from '../components/SidebarIndexThumbnail.js';
-import { getConfig } from '../state/selectors.js';
+import { getConfig } from '../state/selectors/index.js';
 
 /**
  * mapStateToProps - used to hook up state to props

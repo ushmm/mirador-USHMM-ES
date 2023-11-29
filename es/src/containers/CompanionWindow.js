@@ -11,7 +11,7 @@ import { withSize } from 'react-sizeme';
 import { withPlugins } from '../extend/withPlugins.js';
 import { withRef } from '../extend/withRef.js';
 import * as actions from '../state/actions.js';
-import { getCompanionWindow, getThemeDirection, getWindowConfig } from '../state/selectors.js';
+import { getCompanionWindow, getThemeDirection, getWindowConfig } from '../state/selectors/index.js';
 import { CompanionWindow } from '../components/CompanionWindow.js';
 
 /**

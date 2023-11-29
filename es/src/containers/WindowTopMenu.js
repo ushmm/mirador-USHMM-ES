@@ -4,7 +4,7 @@ import { withTranslation } from 'react-i18next';
 import { withPlugins } from '../extend/withPlugins.js';
 import * as actions from '../state/actions.js';
 import { WindowTopMenu } from '../components/WindowTopMenu.js';
-import { getConfig } from '../state/selectors.js';
+import { getConfig } from '../state/selectors/index.js';
 import { withWorkspaceContext } from '../contexts/WorkspaceContext.js';
 
 /**

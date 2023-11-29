@@ -9,7 +9,7 @@ import flatten from 'lodash/flatten';
 import { withStyles } from '@material-ui/core/styles';
 import * as actions from '../state/actions.js';
 import { GalleryViewThumbnail } from '../components/GalleryViewThumbnail.js';
-import { getSearchAnnotationsForWindow, getCurrentCanvas, getConfig, getPresentAnnotationsOnSelectedCanvases, getCompanionWindowsForContent } from '../state/selectors.js';
+import { getSearchAnnotationsForWindow, getCurrentCanvas, getConfig, getPresentAnnotationsOnSelectedCanvases, getCompanionWindowsForContent } from '../state/selectors/index.js';
 
 /**
  * Styles to be passed to the withStyles HOC

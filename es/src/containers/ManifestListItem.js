@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core';
 import { withPlugins } from '../extend/withPlugins.js';
-import { getManifest, getManifestTitle, getManifestThumbnail, getCanvases, getManifestLogo, getManifestProviderName, getWindowManifests, getManifestoInstance, getSequenceBehaviors } from '../state/selectors.js';
+import { getManifest, getManifestTitle, getManifestThumbnail, getCanvases, getManifestLogo, getManifestProviderName, getWindowManifests, getManifestoInstance, getSequenceBehaviors } from '../state/selectors/index.js';
 import * as actions from '../state/actions.js';
 import { ManifestListItem } from '../components/ManifestListItem.js';
 

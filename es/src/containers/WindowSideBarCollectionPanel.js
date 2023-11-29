@@ -4,7 +4,7 @@ import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
 import { withPlugins } from '../extend/withPlugins.js';
 import * as actions from '../state/actions.js';
-import { getCompanionWindow, getManifest, getManifestoInstance, getDefaultSidebarVariant, getWindow } from '../state/selectors.js';
+import { getCompanionWindow, getManifest, getManifestoInstance, getDefaultSidebarVariant, getWindow } from '../state/selectors/index.js';
 import { WindowSideBarCollectionPanel } from '../components/WindowSideBarCollectionPanel.js';
 
 /**

@@ -4,7 +4,7 @@ import { withTranslation } from 'react-i18next';
 import { Utils } from 'manifesto.js';
 import { withPlugins } from '../extend/withPlugins.js';
 import * as actions from '../state/actions.js';
-import { getAuth, getAuthProfiles, selectCurrentAuthServices, getAccessTokens } from '../state/selectors.js';
+import { getAuth, getAuthProfiles, selectCurrentAuthServices, getAccessTokens } from '../state/selectors/index.js';
 import { IIIFAuthentication } from '../components/IIIFAuthentication.js';
 
 /**

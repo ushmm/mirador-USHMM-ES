@@ -2,7 +2,7 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withPlugins } from '../extend/withPlugins.js';
-import { getManifestTitle, getWindow } from '../state/selectors.js';
+import { getManifestTitle, getWindow } from '../state/selectors/index.js';
 import * as actions from '../state/actions.js';
 import { CollectionInfo } from '../components/CollectionInfo.js';
 

@@ -5,7 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { alpha } from '@material-ui/core/styles/colorManipulator';
 import { withPlugins } from '../extend/withPlugins.js';
 import { SidebarIndexTableOfContents } from '../components/SidebarIndexTableOfContents.js';
-import { getSequenceTreeStructure, getVisibleNodeIds, getExpandedNodeIds, getNodeIdToScrollTo } from '../state/selectors.js';
+import { getSequenceTreeStructure, getVisibleNodeIds, getExpandedNodeIds, getNodeIdToScrollTo } from '../state/selectors/index.js';
 import * as actions from '../state/actions.js';
 
 /**

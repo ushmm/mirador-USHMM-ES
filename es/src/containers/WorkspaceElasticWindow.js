@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { withStyles } from '@material-ui/core';
 import * as actions from '../state/actions.js';
 import WorkspaceElasticWindow from '../components/WorkspaceElasticWindow.js';
-import { selectCompanionWindowDimensions, getWorkspace, isFocused, getElasticLayout } from '../state/selectors.js';
+import { selectCompanionWindowDimensions, getWorkspace, isFocused, getElasticLayout } from '../state/selectors/index.js';
 
 /**
  * mapStateToProps - to hook up connect

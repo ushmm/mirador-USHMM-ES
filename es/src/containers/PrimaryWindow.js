@@ -2,7 +2,7 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withStyles } from '@material-ui/core/styles';
 import { withPlugins } from '../extend/withPlugins.js';
-import { getManifestoInstance, getVisibleCanvasAudioResources, getVisibleCanvasVideoResources, getWindow } from '../state/selectors.js';
+import { getManifestoInstance, getVisibleCanvasAudioResources, getVisibleCanvasVideoResources, getWindow } from '../state/selectors/index.js';
 import { PrimaryWindow } from '../components/PrimaryWindow.js';
 
 /** */

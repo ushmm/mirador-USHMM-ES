@@ -2,7 +2,7 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withPlugins } from '../extend/withPlugins.js';
-import { getManifestDescription, getManifestSummary, getManifestTitle, getManifestMetadata } from '../state/selectors.js';
+import { getManifestDescription, getManifestSummary, getManifestTitle, getManifestMetadata } from '../state/selectors/index.js';
 import { ManifestInfo } from '../components/ManifestInfo.js';
 
 /**

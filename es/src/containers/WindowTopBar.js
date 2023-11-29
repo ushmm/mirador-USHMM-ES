@@ -4,7 +4,7 @@ import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core';
 import { withPlugins } from '../extend/withPlugins.js';
 import * as actions from '../state/actions.js';
-import { getWindowConfig, isFocused } from '../state/selectors.js';
+import { getWindowConfig, isFocused } from '../state/selectors/index.js';
 import { WindowTopBar } from '../components/WindowTopBar.js';
 
 /** mapStateToProps */

@@ -4,7 +4,7 @@ import { withStyles } from '@material-ui/core';
 import { withTranslation } from 'react-i18next';
 import { withPlugins } from '../extend/withPlugins.js';
 import * as actions from '../state/actions.js';
-import { getManifest, getManifestoInstance, getSequenceBehaviors, getWindow } from '../state/selectors.js';
+import { getManifest, getManifestoInstance, getSequenceBehaviors, getWindow } from '../state/selectors/index.js';
 import { CollectionDialog } from '../components/CollectionDialog.js';
 import { withWorkspaceContext } from '../contexts/WorkspaceContext.js';
 

@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { withStyles } from '@material-ui/core/styles';
 import { withPlugins } from '../extend/withPlugins.js';
 import { GalleryView } from '../components/GalleryView.js';
-import { getCanvases, getSequenceViewingDirection } from '../state/selectors.js';
+import { getCanvases, getSequenceViewingDirection } from '../state/selectors/index.js';
 
 /**
  * mapStateToProps - to hook up connect

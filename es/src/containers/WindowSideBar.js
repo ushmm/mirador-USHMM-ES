@@ -4,7 +4,7 @@ import { withStyles } from '@material-ui/core';
 import { withTranslation } from 'react-i18next';
 import { withPlugins } from '../extend/withPlugins.js';
 import { WindowSideBar } from '../components/WindowSideBar.js';
-import { getThemeDirection, getWindow } from '../state/selectors.js';
+import { getThemeDirection, getWindow } from '../state/selectors/index.js';
 
 /**
  * mapStateToProps - to hook up connect

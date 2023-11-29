@@ -6,7 +6,7 @@ import flatten from 'lodash/flatten';
 import { withPlugins } from '../extend/withPlugins.js';
 import { OpenSeadragonViewer } from '../components/OpenSeadragonViewer.js';
 import * as actions from '../state/actions.js';
-import { getVisibleCanvasNonTiledResources, getCurrentCanvas, getCanvasLabel, getViewer, getConfig, getCompanionWindowsForContent, selectInfoResponses, getCurrentCanvasWorld } from '../state/selectors.js';
+import { getVisibleCanvasNonTiledResources, getCurrentCanvas, getCanvasLabel, getViewer, getConfig, getCompanionWindowsForContent, selectInfoResponses, getCurrentCanvasWorld } from '../state/selectors/index.js';
 
 /**
  * mapStateToProps - used to hook up connect to action creators

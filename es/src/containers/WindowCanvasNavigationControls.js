@@ -4,7 +4,7 @@ import { withSize } from 'react-sizeme';
 import { withStyles } from '@material-ui/core';
 import { alpha } from '@material-ui/core/styles/colorManipulator';
 import { withPlugins } from '../extend/withPlugins.js';
-import { getWorkspace } from '../state/selectors.js';
+import { getWorkspace } from '../state/selectors/index.js';
 import { WindowCanvasNavigationControls } from '../components/WindowCanvasNavigationControls.js';
 
 /** */

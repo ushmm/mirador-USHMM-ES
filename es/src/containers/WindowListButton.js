@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
 import { withPlugins } from '../extend/withPlugins.js';
-import { getWindowIds, getWorkspace } from '../state/selectors.js';
+import { getWindowIds, getWorkspace } from '../state/selectors/index.js';
 import { WindowListButton } from '../components/WindowListButton.js';
 
 /** */

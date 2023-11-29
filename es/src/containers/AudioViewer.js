@@ -4,7 +4,7 @@ import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core';
 import { withPlugins } from '../extend/withPlugins.js';
 import { AudioViewer } from '../components/AudioViewer.js';
-import { getConfig, getVisibleCanvasAudioResources, getVisibleCanvasCaptions } from '../state/selectors.js';
+import { getConfig, getVisibleCanvasAudioResources, getVisibleCanvasCaptions } from '../state/selectors/index.js';
 
 /** */
 var mapStateToProps = function mapStateToProps(state, _ref) {
