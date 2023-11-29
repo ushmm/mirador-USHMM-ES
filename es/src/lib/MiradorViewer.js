@@ -9,7 +9,7 @@ function _toPrimitive(input, hint) { if (typeof input !== "object" || input === 
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import HotApp from '../components/App.js';
-import { filterValidPlugins } from '../extend/pluginPreprocessing';
+import { filterValidPlugins } from '../extend/pluginPreprocessing.js';
 import createPluggableStore from '../state/createPluggableStore.js';
 
 /**

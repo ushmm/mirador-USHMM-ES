@@ -10,7 +10,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { withPlugins } from '../extend/withPlugins.js';
 import { SearchResults } from '../components/SearchResults.js';
 import * as actions from '../state/actions.js';
-import { getNextSearchId, getSearchQuery, getSearchIsFetching, getSearchNumTotal, getSortedSearchHitsForCompanionWindow, getSortedSearchAnnotationsForCompanionWindow } from '../state/selectors';
+import { getNextSearchId, getSearchQuery, getSearchIsFetching, getSearchNumTotal, getSortedSearchHitsForCompanionWindow, getSortedSearchAnnotationsForCompanionWindow } from '../state/selectors.js';
 
 /**
  * mapStateToProps - used to hook up connect to state

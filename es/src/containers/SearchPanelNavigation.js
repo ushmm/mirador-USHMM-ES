@@ -5,7 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { withPlugins } from '../extend/withPlugins.js';
 import { SearchPanelNavigation } from '../components/SearchPanelNavigation.js';
 import * as actions from '../state/actions.js';
-import { getSelectedContentSearchAnnotationIds, getSearchNumTotal, getSortedSearchHitsForCompanionWindow, getThemeDirection } from '../state/selectors';
+import { getSelectedContentSearchAnnotationIds, getSearchNumTotal, getSortedSearchHitsForCompanionWindow, getThemeDirection } from '../state/selectors.js';
 
 /**
  * mapStateToProps - used to hook up connect to state

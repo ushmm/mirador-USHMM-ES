@@ -5,7 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { withPlugins } from '../extend/withPlugins.js';
 import * as actions from '../state/actions.js';
 import { ThumbnailNavigation } from '../components/ThumbnailNavigation.js';
-import { getCompanionWindow, getWindow, getNextCanvasGrouping, getPreviousCanvasGrouping, getCanvasGroupings, getCanvasIndex, getWindowViewType, getSequenceViewingDirection, getConfig } from '../state/selectors';
+import { getCompanionWindow, getWindow, getNextCanvasGrouping, getPreviousCanvasGrouping, getCanvasGroupings, getCanvasIndex, getWindowViewType, getSequenceViewingDirection, getConfig } from '../state/selectors.js';
 
 /**
  * mapStateToProps - used to hook up state to props

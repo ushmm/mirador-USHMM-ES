@@ -4,7 +4,7 @@ import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
 import { withPlugins } from '../extend/withPlugins.js';
 import { ErrorContent } from '../components/ErrorContent.js';
-import { getCompanionWindow, getManifest, getWindow, getViewer, getConfig } from '../state/selectors';
+import { getCompanionWindow, getManifest, getWindow, getViewer, getConfig } from '../state/selectors.js';
 
 /** mapStateToProps */
 var mapStateToProps = function mapStateToProps(state, _ref) {

@@ -4,7 +4,7 @@ import { withTranslation } from 'react-i18next';
 import { withPlugins } from '../extend/withPlugins.js';
 import { AnnotationsOverlay } from '../components/AnnotationsOverlay.js';
 import * as actions from '../state/actions.js';
-import { getWindow, getSearchAnnotationsForWindow, getCompanionWindowsForContent, getTheme, getConfig, getPresentAnnotationsOnSelectedCanvases, getSelectedAnnotationId, getCurrentCanvasWorld } from '../state/selectors';
+import { getWindow, getSearchAnnotationsForWindow, getCompanionWindowsForContent, getTheme, getConfig, getPresentAnnotationsOnSelectedCanvases, getSelectedAnnotationId, getCurrentCanvasWorld } from '../state/selectors.js';
 
 /**
  * mapStateToProps - used to hook up connect to action creators

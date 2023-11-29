@@ -5,7 +5,7 @@ import { withTranslation } from 'react-i18next';
 import { withPlugins } from '../extend/withPlugins.js';
 import * as actions from '../state/actions.js';
 import { Window } from '../components/Window.js';
-import { getManifestStatus, getManifestTitle, getThumbnailNavigationPosition, getWindow, getWorkspaceType, getWindowDraggability, getWindowViewType, getManifestError } from '../state/selectors';
+import { getManifestStatus, getManifestTitle, getThumbnailNavigationPosition, getWindow, getWorkspaceType, getWindowDraggability, getWindowViewType, getManifestError } from '../state/selectors.js';
 
 /**
  * mapStateToProps - used to hook up connect to action creators

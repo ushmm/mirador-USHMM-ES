@@ -11,8 +11,8 @@ import { all, call, put, select, takeEvery } from 'redux-saga/effects';
 import { Utils } from 'manifesto.js';
 import normalizeUrl from 'normalize-url';
 import ActionTypes from '../actions/action-types.js';
-import { receiveManifest, receiveManifestFailure, receiveInfoResponse, receiveInfoResponseFailure, receiveDegradedInfoResponse, receiveSearch, receiveSearchFailure, receiveAnnotation, receiveAnnotationFailure } from '../actions';
-import { getManifests, getRequestsConfig, getAccessTokens, selectInfoResponse } from '../selectors';
+import { receiveManifest, receiveManifestFailure, receiveInfoResponse, receiveInfoResponseFailure, receiveDegradedInfoResponse, receiveSearch, receiveSearchFailure, receiveAnnotation, receiveAnnotationFailure } from '../actions.js';
+import { getManifests, getRequestsConfig, getAccessTokens, selectInfoResponse } from '../selectors.js';
 
 /** */
 function fetchWrapper(url, options, _ref) {

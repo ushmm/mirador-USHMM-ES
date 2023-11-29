@@ -1,6 +1,6 @@
 import { createSelector } from 'reselect';
 import { TreeNode } from 'manifesto.js';
-import { getManifestoInstance } from './manifests';
+import { getManifestoInstance } from './manifests.js';
 import { getWindow } from './getters.js';
 export var getSequences = createSelector([getManifestoInstance], function (manifest) {
   if (!manifest || !manifest.getTopRanges) return null;

@@ -5,7 +5,7 @@ import { withTranslation } from 'react-i18next';
 import { withPlugins } from '../extend/withPlugins.js';
 import * as actions from '../state/actions.js';
 import MiradorCanvas from '../lib/MiradorCanvas.js';
-import { getCanvases, getVisibleCanvases, getCompanionWindowsForPosition, getAnnotationResourcesByMotivation, getManifestSearchService, getSearchQuery, getWindow, getWindowConfig } from '../state/selectors';
+import { getCanvases, getVisibleCanvases, getCompanionWindowsForPosition, getAnnotationResourcesByMotivation, getManifestSearchService, getSearchQuery, getWindow, getWindowConfig } from '../state/selectors.js';
 import { WindowSideBarButtons } from '../components/WindowSideBarButtons.js';
 
 /**

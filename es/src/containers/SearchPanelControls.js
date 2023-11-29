@@ -5,7 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { withPlugins } from '../extend/withPlugins.js';
 import { SearchPanelControls } from '../components/SearchPanelControls.js';
 import * as actions from '../state/actions.js';
-import { getManifestAutocompleteService, getManifestSearchService, getSearchIsFetching, getSearchQuery } from '../state/selectors';
+import { getManifestAutocompleteService, getManifestSearchService, getSearchIsFetching, getSearchQuery } from '../state/selectors.js';
 
 /**
  * mapStateToProps - used to hook up connect to state

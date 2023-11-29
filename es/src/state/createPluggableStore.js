@@ -1,7 +1,7 @@
 import deepmerge from 'deepmerge';
 import createStore from './createStore.js';
 import { importConfig } from './actions/config.js';
-import { filterValidPlugins, getConfigFromPlugins, getReducersFromPlugins, getSagasFromPlugins } from '../extend/pluginPreprocessing';
+import { filterValidPlugins, getConfigFromPlugins, getReducersFromPlugins, getSagasFromPlugins } from '../extend/pluginPreprocessing.js';
 
 /**
  * Configure Store

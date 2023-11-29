@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
 import { withPlugins } from '../extend/withPlugins.js';
-import { getConfig } from '../state/selectors';
+import { getConfig } from '../state/selectors.js';
 import { IIIFThumbnail } from '../components/IIIFThumbnail.js';
 
 /**

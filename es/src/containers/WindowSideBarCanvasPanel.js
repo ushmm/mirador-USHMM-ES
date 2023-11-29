@@ -5,7 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { withPlugins } from '../extend/withPlugins.js';
 import * as actions from '../state/actions.js';
 import { WindowSideBarCanvasPanel } from '../components/WindowSideBarCanvasPanel.js';
-import { getCompanionWindow, getDefaultSidebarVariant, getSequenceTreeStructure, getWindow, getManifestoInstance, getSequence, getSequences } from '../state/selectors';
+import { getCompanionWindow, getDefaultSidebarVariant, getSequenceTreeStructure, getWindow, getManifestoInstance, getSequence, getSequences } from '../state/selectors.js';
 
 /**
  * mapStateToProps - to hook up connect

@@ -4,7 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { withPlugins } from '../extend/withPlugins.js';
 import * as actions from '../state/actions.js';
 import WorkspaceElastic from '../components/WorkspaceElastic.js';
-import { getElasticLayout, getWorkspace } from '../state/selectors';
+import { getElasticLayout, getWorkspace } from '../state/selectors.js';
 
 /**
  * mapStateToProps - to hook up connect

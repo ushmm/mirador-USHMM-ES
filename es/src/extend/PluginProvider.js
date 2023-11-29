@@ -6,7 +6,7 @@ function _iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefine
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 import { useEffect, useState } from 'react';
 import PluginContext from './PluginContext.js';
-import { connectPluginsToStore, createTargetToPluginMapping, addPluginsToCompanionWindowsRegistry } from './pluginMapping';
+import { connectPluginsToStore, createTargetToPluginMapping, addPluginsToCompanionWindowsRegistry } from './pluginMapping.js';
 
 /**  */
 import { jsx as _jsx } from "react/jsx-runtime";

@@ -16,7 +16,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { withPlugins } from '../extend/withPlugins.js';
 import { SearchHit } from '../components/SearchHit.js';
 import * as actions from '../state/actions.js';
-import { getCanvasLabel, getVisibleCanvasIds, getResourceAnnotationForSearchHit, getResourceAnnotationLabel, getSelectedContentSearchAnnotationIds, getSelectedAnnotationId } from '../state/selectors';
+import { getCanvasLabel, getVisibleCanvasIds, getResourceAnnotationForSearchHit, getResourceAnnotationLabel, getSelectedContentSearchAnnotationIds, getSelectedAnnotationId } from '../state/selectors.js';
 
 /**
  * mapStateToProps - used to hook up connect to state

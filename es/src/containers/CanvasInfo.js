@@ -2,7 +2,7 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withPlugins } from '../extend/withPlugins.js';
-import { getDestructuredMetadata, getCanvas, getCanvasLabel, getCanvasDescription } from '../state/selectors';
+import { getDestructuredMetadata, getCanvas, getCanvasLabel, getCanvasDescription } from '../state/selectors.js';
 import { CanvasInfo } from '../components/CanvasInfo.js';
 
 /**
