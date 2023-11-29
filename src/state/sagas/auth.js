@@ -3,8 +3,8 @@ import {
 } from 'redux-saga/effects';
 import { Utils } from 'manifesto.js';
 import flatten from 'lodash/flatten';
-import ActionTypes from '../actions/action-types';
-import MiradorCanvas from '../../lib/MiradorCanvas';
+import ActionTypes from '../actions/action-types.js';
+import MiradorCanvas from '../../lib/MiradorCanvas.js';
 import {
   addAuthenticationRequest,
   resolveAuthenticationRequest,

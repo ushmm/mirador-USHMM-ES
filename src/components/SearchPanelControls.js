@@ -7,8 +7,8 @@ import Autocomplete from '@material-ui/lab/Autocomplete';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import TextField from '@material-ui/core/TextField';
 import SearchIcon from '@material-ui/icons/SearchSharp';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
-import SearchPanelNavigation from '../containers/SearchPanelNavigation';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
+import SearchPanelNavigation from '../containers/SearchPanelNavigation.js';
 
 /** Sometimes an autocomplete match can be a simple string, other times an object
     with a `match` property, this function abstracts that away */

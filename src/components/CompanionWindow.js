@@ -7,8 +7,8 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Toolbar from '@material-ui/core/Toolbar';
 import { Rnd } from 'react-rnd';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
-import ns from '../config/css-ns';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
+import ns from '../config/css-ns.js';
 
 /**
  * CompanionWindow

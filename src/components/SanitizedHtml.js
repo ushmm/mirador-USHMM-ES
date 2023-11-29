@@ -1,8 +1,8 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
 import DOMPurify from 'dompurify';
-import ns from '../config/css-ns';
-import htmlRules from '../lib/htmlRules';
+import ns from '../config/css-ns.js';
+import htmlRules from '../lib/htmlRules.js';
 
 /**
 */

@@ -11,7 +11,7 @@ import {
 import PropTypes from 'prop-types';
 import WorkspaceTypeElasticIcon from './icons/WorkspaceTypeElasticIcon.js';
 import WorkspaceTypeMosaicIcon from './icons/WorkspaceTypeMosaicIcon.js';
-import ScrollIndicatedDialogContent from '../containers/ScrollIndicatedDialogContent';
+import ScrollIndicatedDialogContent from '../containers/ScrollIndicatedDialogContent.js';
 
 /**
  */

@@ -1,7 +1,7 @@
 import { compose } from 'redux';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import { WorkspaceControlPanelButtons } from '../components/WorkspaceControlPanelButtons';
+import { withPlugins } from '../extend/withPlugins.js';
+import { WorkspaceControlPanelButtons } from '../components/WorkspaceControlPanelButtons.js';
 
 /**
  *

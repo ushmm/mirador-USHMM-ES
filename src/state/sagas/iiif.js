@@ -3,7 +3,7 @@ import {
 } from 'redux-saga/effects';
 import { Utils } from 'manifesto.js';
 import normalizeUrl from 'normalize-url';
-import ActionTypes from '../actions/action-types';
+import ActionTypes from '../actions/action-types.js';
 import {
   receiveManifest, receiveManifestFailure, receiveInfoResponse,
   receiveInfoResponseFailure, receiveDegradedInfoResponse,

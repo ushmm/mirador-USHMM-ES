@@ -2,9 +2,9 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import { SearchResults } from '../components/SearchResults';
-import * as actions from '../state/actions';
+import { withPlugins } from '../extend/withPlugins.js';
+import { SearchResults } from '../components/SearchResults.js';
+import * as actions from '../state/actions.js';
 import {
   getNextSearchId,
   getSearchQuery,

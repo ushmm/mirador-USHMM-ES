@@ -2,7 +2,7 @@ import { Component } from 'react';
 import PropTypes from 'prop-types';
 import { AccessTokenSender } from './AccessTokenSender.js';
 import { NewWindow } from './NewWindow.js';
-import WindowAuthenticationBar from '../containers/WindowAuthenticationBar';
+import WindowAuthenticationBar from '../containers/WindowAuthenticationBar.js';
 
 /**
  * Opens a new window for click

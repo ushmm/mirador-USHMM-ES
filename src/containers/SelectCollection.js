@@ -2,12 +2,12 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import * as actions from '../state/actions';
-import { withPlugins } from '../extend/withPlugins';
+import * as actions from '../state/actions.js';
+import { withPlugins } from '../extend/withPlugins.js';
 import {
   getWindow,
 } from '../state/selectors';
-import { SelectCollection } from '../components/SelectCollection';
+import { SelectCollection } from '../components/SelectCollection.js';
 
 /** */
 const mapStateToProps = (state, { windowId }) => {

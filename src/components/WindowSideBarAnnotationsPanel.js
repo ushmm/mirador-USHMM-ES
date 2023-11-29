@@ -1,10 +1,10 @@
 import { createRef, Component } from 'react';
 import PropTypes from 'prop-types';
 import Typography from '@material-ui/core/Typography';
-import AnnotationSettings from '../containers/AnnotationSettings';
-import CanvasAnnotations from '../containers/CanvasAnnotations';
-import CompanionWindow from '../containers/CompanionWindow';
-import ns from '../config/css-ns';
+import AnnotationSettings from '../containers/AnnotationSettings.js';
+import CanvasAnnotations from '../containers/CanvasAnnotations.js';
+import CompanionWindow from '../containers/CompanionWindow.js';
+import ns from '../config/css-ns.js';
 
 /**
  * WindowSideBarAnnotationsPanel ~

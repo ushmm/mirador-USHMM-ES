@@ -3,15 +3,15 @@ import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
 import { alpha } from '@material-ui/core/styles/colorManipulator';
-import { withPlugins } from '../extend/withPlugins';
-import { SidebarIndexTableOfContents } from '../components/SidebarIndexTableOfContents';
+import { withPlugins } from '../extend/withPlugins.js';
+import { SidebarIndexTableOfContents } from '../components/SidebarIndexTableOfContents.js';
 import {
   getSequenceTreeStructure,
   getVisibleNodeIds,
   getExpandedNodeIds,
   getNodeIdToScrollTo,
 } from '../state/selectors';
-import * as actions from '../state/actions';
+import * as actions from '../state/actions.js';
 
 /**
  * mapStateToProps - to hook up connect

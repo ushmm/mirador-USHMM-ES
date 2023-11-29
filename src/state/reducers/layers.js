@@ -1,6 +1,6 @@
 import omit from 'lodash/omit';
 import deepmerge from 'deepmerge';
-import ActionTypes from '../actions/action-types';
+import ActionTypes from '../actions/action-types.js';
 
 /**
  * configReducer - does a deep merge of the config

@@ -2,8 +2,8 @@ import { Component } from 'react';
 import SettingsIcon from '@material-ui/icons/SettingsSharp';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import WorkspaceMenu from '../containers/WorkspaceMenu';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
+import WorkspaceMenu from '../containers/WorkspaceMenu.js';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
 
 /**
  */

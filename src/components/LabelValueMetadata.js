@@ -1,8 +1,8 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
 import Typography from '@material-ui/core/Typography';
-import SanitizedHtml from '../containers/SanitizedHtml';
-import ns from '../config/css-ns';
+import SanitizedHtml from '../containers/SanitizedHtml.js';
+import ns from '../config/css-ns.js';
 
 /**
  * Renders label/value pair metadata in a dl

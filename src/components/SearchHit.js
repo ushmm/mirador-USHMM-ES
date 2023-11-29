@@ -6,8 +6,8 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Typography from '@material-ui/core/Typography';
 import Chip from '@material-ui/core/Chip';
-import SanitizedHtml from '../containers/SanitizedHtml';
-import TruncatedHit from '../lib/TruncatedHit';
+import SanitizedHtml from '../containers/SanitizedHtml.js';
+import TruncatedHit from '../lib/TruncatedHit.js';
 import { ScrollTo } from './ScrollTo.js';
 
 /** */

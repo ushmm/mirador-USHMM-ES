@@ -2,13 +2,13 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import * as actions from '../state/actions';
+import * as actions from '../state/actions.js';
 import {
   getCanvasLabel,
   getLayers,
   getSortedLayers,
 } from '../state/selectors';
-import { CanvasLayers } from '../components/CanvasLayers';
+import { CanvasLayers } from '../components/CanvasLayers.js';
 
 /** For connect */
 const mapStateToProps = (state, { canvasId, windowId }) => ({

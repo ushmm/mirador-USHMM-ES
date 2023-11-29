@@ -1,8 +1,8 @@
 import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import IIIFThumbnail from '../containers/IIIFThumbnail';
-import ns from '../config/css-ns';
+import IIIFThumbnail from '../containers/IIIFThumbnail.js';
+import ns from '../config/css-ns.js';
 
 /** */
 export class ThumbnailCanvasGrouping extends PureComponent {

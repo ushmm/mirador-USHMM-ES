@@ -2,15 +2,15 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core';
-import { withPlugins } from '../extend/withPlugins';
+import { withPlugins } from '../extend/withPlugins.js';
 import {
   getManifest,
   getManifestTitle, getManifestThumbnail, getCanvases,
   getManifestLogo, getManifestProviderName, getWindowManifests,
   getManifestoInstance, getSequenceBehaviors,
 } from '../state/selectors';
-import * as actions from '../state/actions';
-import { ManifestListItem } from '../components/ManifestListItem';
+import * as actions from '../state/actions.js';
+import { ManifestListItem } from '../components/ManifestListItem.js';
 
 /** */
 const mapStateToProps = (state, { manifestId, provider }) => {

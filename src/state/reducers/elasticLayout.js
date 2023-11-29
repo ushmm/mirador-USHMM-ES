@@ -1,6 +1,6 @@
 import update from 'lodash/fp/update';
 import omit from 'lodash/omit';
-import ActionTypes from '../actions/action-types';
+import ActionTypes from '../actions/action-types.js';
 
 /**
  * elasticLayoutReducer

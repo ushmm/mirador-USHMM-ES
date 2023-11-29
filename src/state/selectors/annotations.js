@@ -1,7 +1,7 @@
 import { createSelector } from 'reselect';
 import filter from 'lodash/filter';
 import flatten from 'lodash/flatten';
-import AnnotationFactory from '../../lib/AnnotationFactory';
+import AnnotationFactory from '../../lib/AnnotationFactory.js';
 import { miradorSlice } from './utils.js';
 import { getCanvas, getVisibleCanvasIds } from './canvases.js';
 import { getConfig } from './config.js';

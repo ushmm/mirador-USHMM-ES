@@ -3,11 +3,11 @@ import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core';
 import { withSize } from 'react-sizeme';
-import { withPlugins } from '../extend/withPlugins';
-import { withRef } from '../extend/withRef';
-import * as actions from '../state/actions';
-import { getCompanionWindow, getThemeDirection, getWindowConfig } from '../state/selectors';
-import { CompanionWindow } from '../components/CompanionWindow';
+import { withPlugins } from '../extend/withPlugins.js';
+import { withRef } from '../extend/withRef.js';
+import * as actions from '../state/actions.js';
+import { getCompanionWindow, getThemeDirection, getWindowConfig } from '../state/selectors.js';
+import { CompanionWindow } from '../components/CompanionWindow.js';
 
 /**
  * mapStateToProps - to hook up connect

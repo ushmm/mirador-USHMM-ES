@@ -1,13 +1,13 @@
 import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
-import { withPlugins } from '../extend/withPlugins';
+import { withPlugins } from '../extend/withPlugins.js';
 import {
   getManifestTitle,
   getWindow,
 } from '../state/selectors';
-import * as actions from '../state/actions';
-import { CollectionInfo } from '../components/CollectionInfo';
+import * as actions from '../state/actions.js';
+import { CollectionInfo } from '../components/CollectionInfo.js';
 
 /**
  * mapStateToProps - to hook up connect

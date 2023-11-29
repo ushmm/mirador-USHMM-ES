@@ -1,10 +1,10 @@
 import { Component, lazy, Suspense } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import WindowSideBar from '../containers/WindowSideBar';
-import CompanionArea from '../containers/CompanionArea';
-import CollectionDialog from '../containers/CollectionDialog';
-import ns from '../config/css-ns';
+import WindowSideBar from '../containers/WindowSideBar.js';
+import CompanionArea from '../containers/CompanionArea.js';
+import CollectionDialog from '../containers/CollectionDialog.js';
+import ns from '../config/css-ns.js';
 
 const AudioViewer = lazy(() => import('../containers/AudioViewer'));
 const GalleryView = lazy(() => import('../containers/GalleryView'));

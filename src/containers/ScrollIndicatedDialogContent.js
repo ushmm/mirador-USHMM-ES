@@ -1,5 +1,5 @@
 import { withStyles } from '@material-ui/core/styles';
-import { ScrollIndicatedDialogContent } from '../components/ScrollIndicatedDialogContent';
+import { ScrollIndicatedDialogContent } from '../components/ScrollIndicatedDialogContent.js';
 
 /**
  * Styles for the withStyles HOC

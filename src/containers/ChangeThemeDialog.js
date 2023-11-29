@@ -2,10 +2,10 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withStyles } from '@material-ui/core';
 import { withTranslation } from 'react-i18next';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
-import { getThemeIds, getConfig } from '../state/selectors';
-import { ChangeThemeDialog } from '../components/ChangeThemeDialog';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
+import { getThemeIds, getConfig } from '../state/selectors.js';
+import { ChangeThemeDialog } from '../components/ChangeThemeDialog.js';
 
 /**
  * mapDispatchToProps - used to hook up connect to action creators

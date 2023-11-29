@@ -9,7 +9,7 @@ import { combineReducers, createStore, applyMiddleware } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import createRootReducer from './reducers/rootReducer.js';
 import getRootSaga from './sagas.js';
-import settings from '../config/settings';
+import settings from '../config/settings.js';
 
 /**
  * Configure Store

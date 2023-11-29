@@ -2,8 +2,8 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import { LayersPanel } from '../components/LayersPanel';
+import { withPlugins } from '../extend/withPlugins.js';
+import { LayersPanel } from '../components/LayersPanel.js';
 import {
   getVisibleCanvasIds,
 } from '../state/selectors';

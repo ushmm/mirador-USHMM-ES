@@ -1,12 +1,12 @@
-import ThumbnailNavigation from '../containers/ThumbnailNavigation';
-import WindowSideBarAnnotationsPanel from '../containers/WindowSideBarAnnotationsPanel';
-import WindowSideBarInfoPanel from '../containers/WindowSideBarInfoPanel';
-import WindowSideBarCanvasPanel from '../containers/WindowSideBarCanvasPanel';
-import AttributionPanel from '../containers/AttributionPanel';
-import SearchPanel from '../containers/SearchPanel';
-import LayersPanel from '../containers/LayersPanel';
-import CustomPanel from '../containers/CustomPanel';
-import WindowSideBarCollectionPanel from '../containers/WindowSideBarCollectionPanel';
+import ThumbnailNavigation from '../containers/ThumbnailNavigation.js';
+import WindowSideBarAnnotationsPanel from '../containers/WindowSideBarAnnotationsPanel.js';
+import WindowSideBarInfoPanel from '../containers/WindowSideBarInfoPanel.js';
+import WindowSideBarCanvasPanel from '../containers/WindowSideBarCanvasPanel.js';
+import AttributionPanel from '../containers/AttributionPanel.js';
+import SearchPanel from '../containers/SearchPanel.js';
+import LayersPanel from '../containers/LayersPanel.js';
+import CustomPanel from '../containers/CustomPanel.js';
+import WindowSideBarCollectionPanel from '../containers/WindowSideBarCollectionPanel.js';
 
 const map = {
   annotations: WindowSideBarAnnotationsPanel,

@@ -1,7 +1,7 @@
 import { createSelector } from 'reselect';
 import { Utils } from 'manifesto.js';
 import flatten from 'lodash/flatten';
-import MiradorCanvas from '../../lib/MiradorCanvas';
+import MiradorCanvas from '../../lib/MiradorCanvas.js';
 import { miradorSlice } from './utils.js';
 import { getConfig } from './config.js';
 import { getVisibleCanvases, selectInfoResponses } from './canvases.js';

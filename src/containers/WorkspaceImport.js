@@ -2,9 +2,9 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core';
-import { withPlugins } from '../extend/withPlugins';
-import { WorkspaceImport } from '../components/WorkspaceImport';
-import * as actions from '../state/actions';
+import { withPlugins } from '../extend/withPlugins.js';
+import { WorkspaceImport } from '../components/WorkspaceImport.js';
+import * as actions from '../state/actions.js';
 
 /**
  * mapDispatchToProps - used to hook up connect to action creators

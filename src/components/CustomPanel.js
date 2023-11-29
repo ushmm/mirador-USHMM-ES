@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
-import CompanionWindow from '../containers/CompanionWindow';
+import CompanionWindow from '../containers/CompanionWindow.js';
 
 /**
  * a custom panel that can be used for anything

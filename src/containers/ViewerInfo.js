@@ -2,8 +2,8 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import { ViewerInfo } from '../components/ViewerInfo';
+import { withPlugins } from '../extend/withPlugins.js';
+import { ViewerInfo } from '../components/ViewerInfo.js';
 import {
   getCanvasLabel, getCanvases, getCanvasIndex, getCurrentCanvas,
 } from '../state/selectors';

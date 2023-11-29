@@ -2,8 +2,8 @@ import { Component } from 'react';
 import BookmarksIcon from '@material-ui/icons/BookmarksSharp';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import WindowList from '../containers/WindowList';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
+import WindowList from '../containers/WindowList.js';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
 
 /**
  * WindowListButton ~

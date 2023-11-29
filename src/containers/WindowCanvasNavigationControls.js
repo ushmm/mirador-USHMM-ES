@@ -3,9 +3,9 @@ import { compose } from 'redux';
 import { withSize } from 'react-sizeme';
 import { withStyles } from '@material-ui/core';
 import { alpha } from '@material-ui/core/styles/colorManipulator';
-import { withPlugins } from '../extend/withPlugins';
-import { getWorkspace } from '../state/selectors';
-import { WindowCanvasNavigationControls } from '../components/WindowCanvasNavigationControls';
+import { withPlugins } from '../extend/withPlugins.js';
+import { getWorkspace } from '../state/selectors.js';
+import { WindowCanvasNavigationControls } from '../components/WindowCanvasNavigationControls.js';
 
 /** */
 const mapStateToProps = (state, { windowId }) => ({

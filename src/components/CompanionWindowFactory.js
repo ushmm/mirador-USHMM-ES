@@ -1,8 +1,8 @@
 import { createElement, Component } from 'react';
 import PropTypes from 'prop-types';
-import CompanionWindowRegistry from '../lib/CompanionWindowRegistry';
-import CompanionWindow from '../containers/CompanionWindow';
-import ErrorContent from '../containers/ErrorContent';
+import CompanionWindowRegistry from '../lib/CompanionWindowRegistry.js';
+import CompanionWindow from '../containers/CompanionWindow.js';
+import ErrorContent from '../containers/ErrorContent.js';
 
 /**
  * Render a companion window using the appropriate component for the content

@@ -1,6 +1,6 @@
 import deepmerge from 'deepmerge';
-import settings from '../../config/settings';
-import ActionTypes from '../actions/action-types';
+import settings from '../../config/settings.js';
+import ActionTypes from '../actions/action-types.js';
 
 const initialState = { ...settings };
 

@@ -1,12 +1,12 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
-import CompanionWindow from '../containers/CompanionWindow';
-import CanvasInfo from '../containers/CanvasInfo';
-import LocalePicker from '../containers/LocalePicker';
-import ManifestInfo from '../containers/ManifestInfo';
-import CollectionInfo from '../containers/CollectionInfo';
-import ManifestRelatedLinks from '../containers/ManifestRelatedLinks';
-import ns from '../config/css-ns';
+import CompanionWindow from '../containers/CompanionWindow.js';
+import CanvasInfo from '../containers/CanvasInfo.js';
+import LocalePicker from '../containers/LocalePicker.js';
+import ManifestInfo from '../containers/ManifestInfo.js';
+import CollectionInfo from '../containers/CollectionInfo.js';
+import ManifestRelatedLinks from '../containers/ManifestRelatedLinks.js';
+import ns from '../config/css-ns.js';
 
 /**
  * WindowSideBarInfoPanel

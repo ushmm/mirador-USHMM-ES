@@ -2,7 +2,7 @@ import { Component } from 'react';
 import PropTypes from 'prop-types';
 import MoreVertIcon from '@material-ui/icons/MoreVertSharp';
 import Menu from '@material-ui/core/Menu';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
 import { PluginHook } from './PluginHook.js';
 
 /**

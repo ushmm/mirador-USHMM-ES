@@ -11,10 +11,10 @@ import List from '@material-ui/core/List';
 import Paper from '@material-ui/core/Paper';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import ns from '../config/css-ns';
-import ManifestForm from '../containers/ManifestForm';
-import ManifestListItem from '../containers/ManifestListItem';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
+import ns from '../config/css-ns.js';
+import ManifestForm from '../containers/ManifestForm.js';
+import ManifestListItem from '../containers/ManifestListItem.js';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
 import { IIIFDropTarget } from './IIIFDropTarget.js';
 import { PluginHook } from './PluginHook.js';
 

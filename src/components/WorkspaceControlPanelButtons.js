@@ -1,9 +1,9 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
-import FullScreenButton from '../containers/FullScreenButton';
-import WorkspaceMenuButton from '../containers/WorkspaceMenuButton';
-import WorkspaceOptionsButton from '../containers/WorkspaceOptionsButton';
-import WindowListButton from '../containers/WindowListButton';
+import FullScreenButton from '../containers/FullScreenButton.js';
+import WorkspaceMenuButton from '../containers/WorkspaceMenuButton.js';
+import WorkspaceOptionsButton from '../containers/WorkspaceOptionsButton.js';
+import WindowListButton from '../containers/WindowListButton.js';
 import { PluginHook } from './PluginHook.js';
 
 /**

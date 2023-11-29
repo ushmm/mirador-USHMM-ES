@@ -1,8 +1,8 @@
 import { compose } from 'redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core';
-import { withPlugins } from '../extend/withPlugins';
-import { WindowTopMenuButton } from '../components/WindowTopMenuButton';
+import { withPlugins } from '../extend/withPlugins.js';
+import { WindowTopMenuButton } from '../components/WindowTopMenuButton.js';
 
 /**
  *

@@ -1,11 +1,11 @@
 import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
+import { withPlugins } from '../extend/withPlugins.js';
 import {
   getManifestoInstance, getVisibleCanvasAudioResources, getVisibleCanvasVideoResources, getWindow,
 } from '../state/selectors';
-import { PrimaryWindow } from '../components/PrimaryWindow';
+import { PrimaryWindow } from '../components/PrimaryWindow.js';
 
 /** */
 const mapStateToProps = (state, { windowId }) => {

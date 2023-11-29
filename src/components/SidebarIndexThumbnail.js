@@ -2,7 +2,7 @@ import { Component } from 'react';
 import PropTypes from 'prop-types';
 import Typography from '@material-ui/core/Typography';
 import classNames from 'classnames';
-import IIIFThumbnail from '../containers/IIIFThumbnail';
+import IIIFThumbnail from '../containers/IIIFThumbnail.js';
 
 /** */
 export class SidebarIndexThumbnail extends Component {

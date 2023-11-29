@@ -6,8 +6,8 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Skeleton from '@material-ui/lab/Skeleton';
 import { Img } from 'react-image';
-import ManifestListItemError from '../containers/ManifestListItemError';
-import ns from '../config/css-ns';
+import ManifestListItemError from '../containers/ManifestListItemError.js';
+import ns from '../config/css-ns.js';
 
 /**
  * Represents an item in a list of currently-loaded or loading manifests

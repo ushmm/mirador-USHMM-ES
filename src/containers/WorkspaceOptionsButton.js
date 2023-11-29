@@ -1,8 +1,8 @@
 import { compose } from 'redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import { WorkspaceOptionsButton } from '../components/WorkspaceOptionsButton';
+import { withPlugins } from '../extend/withPlugins.js';
+import { WorkspaceOptionsButton } from '../components/WorkspaceOptionsButton.js';
 
 /**
  *

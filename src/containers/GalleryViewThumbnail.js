@@ -2,8 +2,8 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import flatten from 'lodash/flatten';
 import { withStyles } from '@material-ui/core/styles';
-import * as actions from '../state/actions';
-import { GalleryViewThumbnail } from '../components/GalleryViewThumbnail';
+import * as actions from '../state/actions.js';
+import { GalleryViewThumbnail } from '../components/GalleryViewThumbnail.js';
 import {
   getSearchAnnotationsForWindow,
   getCurrentCanvas,

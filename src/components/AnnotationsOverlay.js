@@ -6,9 +6,9 @@ import debounce from 'lodash/debounce';
 import flatten from 'lodash/flatten';
 import sortBy from 'lodash/sortBy';
 import xor from 'lodash/xor';
-import OpenSeadragonCanvasOverlay from '../lib/OpenSeadragonCanvasOverlay';
-import CanvasWorld from '../lib/CanvasWorld';
-import CanvasAnnotationDisplay from '../lib/CanvasAnnotationDisplay';
+import OpenSeadragonCanvasOverlay from '../lib/OpenSeadragonCanvasOverlay.js';
+import CanvasWorld from '../lib/CanvasWorld.js';
+import CanvasAnnotationDisplay from '../lib/CanvasAnnotationDisplay.js';
 
 /**
  * Represents a OpenSeadragonViewer in the mirador workspace. Responsible for mounting

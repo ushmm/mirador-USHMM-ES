@@ -1,9 +1,9 @@
 import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import { GalleryView } from '../components/GalleryView';
-import { getCanvases, getSequenceViewingDirection } from '../state/selectors';
+import { withPlugins } from '../extend/withPlugins.js';
+import { GalleryView } from '../components/GalleryView.js';
+import { getCanvases, getSequenceViewingDirection } from '../state/selectors.js';
 
 /**
  * mapStateToProps - to hook up connect

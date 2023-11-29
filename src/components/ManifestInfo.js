@@ -1,8 +1,8 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
 import Typography from '@material-ui/core/Typography';
-import CollapsibleSection from '../containers/CollapsibleSection';
-import SanitizedHtml from '../containers/SanitizedHtml';
+import CollapsibleSection from '../containers/CollapsibleSection.js';
+import SanitizedHtml from '../containers/SanitizedHtml.js';
 import { LabelValueMetadata } from './LabelValueMetadata.js';
 import { PluginHook } from './PluginHook.js';
 

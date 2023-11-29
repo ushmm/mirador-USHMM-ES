@@ -2,12 +2,12 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
+import { withPlugins } from '../extend/withPlugins.js';
 import {
   getVisibleCanvasIds,
   getAnnotationResourcesByMotivation,
 } from '../state/selectors';
-import { WindowSideBarAnnotationsPanel } from '../components/WindowSideBarAnnotationsPanel';
+import { WindowSideBarAnnotationsPanel } from '../components/WindowSideBarAnnotationsPanel.js';
 
 /**
  * mapStateToProps - to hook up connect

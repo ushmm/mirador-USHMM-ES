@@ -1,5 +1,5 @@
 import omit from 'lodash/omit';
-import ActionTypes from '../actions/action-types';
+import ActionTypes from '../actions/action-types.js';
 
 /** */
 export function accessTokensReducer(state = {}, action) {

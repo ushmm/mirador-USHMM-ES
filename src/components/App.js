@@ -2,9 +2,9 @@ import {
   createRef, Component, lazy, Suspense,
 } from 'react';
 import PropTypes from 'prop-types';
-import PluginProvider from '../extend/PluginProvider';
-import AppProviders from '../containers/AppProviders';
-import WorkspaceContext from '../contexts/WorkspaceContext';
+import PluginProvider from '../extend/PluginProvider.js';
+import AppProviders from '../containers/AppProviders.js';
+import WorkspaceContext from '../contexts/WorkspaceContext.js';
 
 const WorkspaceArea = lazy(() => import('../containers/WorkspaceArea'));
 

@@ -1,9 +1,9 @@
 import { compose } from 'redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core';
-import { withPlugins } from '../extend/withPlugins';
-import { WindowTopBarPluginMenu } from '../components/WindowTopBarPluginMenu';
-import { withWorkspaceContext } from '../contexts/WorkspaceContext';
+import { withPlugins } from '../extend/withPlugins.js';
+import { WindowTopBarPluginMenu } from '../components/WindowTopBarPluginMenu.js';
+import { withWorkspaceContext } from '../contexts/WorkspaceContext.js';
 
 /**
  *

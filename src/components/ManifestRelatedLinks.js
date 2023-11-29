@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 import classNames from 'classnames';
-import CollapsibleSection from '../containers/CollapsibleSection';
-import ns from '../config/css-ns';
+import CollapsibleSection from '../containers/CollapsibleSection.js';
+import ns from '../config/css-ns.js';
 import { PluginHook } from './PluginHook.js';
 
 /**

@@ -1,12 +1,12 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import ErrorDialog from '../containers/ErrorDialog';
-import WorkspaceControlPanel from '../containers/WorkspaceControlPanel';
-import Workspace from '../containers/Workspace';
-import WorkspaceAdd from '../containers/WorkspaceAdd';
-import BackgroundPluginArea from '../containers/BackgroundPluginArea';
-import ns from '../config/css-ns';
+import ErrorDialog from '../containers/ErrorDialog.js';
+import WorkspaceControlPanel from '../containers/WorkspaceControlPanel.js';
+import Workspace from '../containers/Workspace.js';
+import WorkspaceAdd from '../containers/WorkspaceAdd.js';
+import BackgroundPluginArea from '../containers/BackgroundPluginArea.js';
+import ns from '../config/css-ns.js';
 
 /**
  * This is the top level Mirador component.

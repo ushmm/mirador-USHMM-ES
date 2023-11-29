@@ -1,13 +1,13 @@
 import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
-import * as actions from '../state/actions';
-import { withPlugins } from '../extend/withPlugins';
+import * as actions from '../state/actions.js';
+import { withPlugins } from '../extend/withPlugins.js';
 import {
   getAnnotationResourcesByMotivation,
   getWindow,
 } from '../state/selectors';
-import { AnnotationSettings } from '../components/AnnotationSettings';
+import { AnnotationSettings } from '../components/AnnotationSettings.js';
 
 /**
  * Mapping redux state to component props using connect

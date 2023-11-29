@@ -1,8 +1,8 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Rnd } from 'react-rnd';
-import Window from '../containers/Window';
-import ns from '../config/css-ns';
+import Window from '../containers/Window.js';
+import ns from '../config/css-ns.js';
 
 /**
  * Represents a work area that contains any number of windows

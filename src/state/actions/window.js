@@ -1,6 +1,6 @@
 import { v4 as uuid } from 'uuid';
 import ActionTypes from './action-types.js';
-import { miradorSlice } from '../selectors/utils';
+import { miradorSlice } from '../selectors/utils.js';
 
 /**
  * focusWindow - action creator

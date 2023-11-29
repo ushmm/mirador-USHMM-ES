@@ -1,9 +1,9 @@
 import {
   all, call, put, select, takeEvery,
 } from 'redux-saga/effects';
-import ActionTypes from '../actions/action-types';
-import MiradorManifest from '../../lib/MiradorManifest';
-import MiradorCanvas from '../../lib/MiradorCanvas';
+import ActionTypes from '../actions/action-types.js';
+import MiradorManifest from '../../lib/MiradorManifest.js';
+import MiradorCanvas from '../../lib/MiradorCanvas.js';
 import {
   setContentSearchCurrentAnnotation,
   selectAnnotation,

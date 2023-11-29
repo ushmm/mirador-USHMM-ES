@@ -1,8 +1,8 @@
 import { compose } from 'redux';
 import { connect } from 'react-redux';
-import { withPlugins } from '../extend/withPlugins';
-import { getConfig, getTheme } from '../state/selectors';
-import { AppProviders } from '../components/AppProviders';
+import { withPlugins } from '../extend/withPlugins.js';
+import { getConfig, getTheme } from '../state/selectors.js';
+import { AppProviders } from '../components/AppProviders.js';
 
 /**
  * mapStateToProps - to hook up connect

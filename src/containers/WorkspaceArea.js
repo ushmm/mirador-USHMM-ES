@@ -2,9 +2,9 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles, lighten, darken } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import { WorkspaceArea } from '../components/WorkspaceArea';
-import { getConfig, getWindowIds, getWorkspace } from '../state/selectors';
+import { withPlugins } from '../extend/withPlugins.js';
+import { WorkspaceArea } from '../components/WorkspaceArea.js';
+import { getConfig, getWindowIds, getWorkspace } from '../state/selectors.js';
 
 /**
  * mapStateToProps - to hook up connect

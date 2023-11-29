@@ -1,10 +1,10 @@
 import {
   all, put, select, takeEvery,
 } from 'redux-saga/effects';
-import { requestCanvasAnnotations, receiveAnnotation, requestAnnotation } from '../actions';
-import { getAnnotations, getCanvas } from '../selectors';
-import ActionTypes from '../actions/action-types';
-import MiradorCanvas from '../../lib/MiradorCanvas';
+import { requestCanvasAnnotations, receiveAnnotation, requestAnnotation } from '../actions.js';
+import { getAnnotations, getCanvas } from '../selectors.js';
+import ActionTypes from '../actions/action-types.js';
+import MiradorCanvas from '../../lib/MiradorCanvas.js';
 
 /** Fetch annotations for a given canvas */
 export function* fetchCanvasAnnotations({ canvasId, windowId }) {

@@ -6,8 +6,8 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import Typography from '@material-ui/core/Typography';
-import WorkspaceExport from '../containers/WorkspaceExport';
-import WorkspaceImport from '../containers/WorkspaceImport';
+import WorkspaceExport from '../containers/WorkspaceExport.js';
+import WorkspaceImport from '../containers/WorkspaceImport.js';
 import { PluginHook } from './PluginHook.js';
 
 /**

@@ -5,16 +5,16 @@ import CloseIcon from '@material-ui/icons/CloseSharp';
 import Toolbar from '@material-ui/core/Toolbar';
 import AppBar from '@material-ui/core/AppBar';
 import classNames from 'classnames';
-import WindowTopMenuButton from '../containers/WindowTopMenuButton';
-import WindowTopBarPluginArea from '../containers/WindowTopBarPluginArea';
-import WindowTopBarPluginMenu from '../containers/WindowTopBarPluginMenu';
-import WindowTopBarTitle from '../containers/WindowTopBarTitle';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
-import FullScreenButton from '../containers/FullScreenButton';
+import WindowTopMenuButton from '../containers/WindowTopMenuButton.js';
+import WindowTopBarPluginArea from '../containers/WindowTopBarPluginArea.js';
+import WindowTopBarPluginMenu from '../containers/WindowTopBarPluginMenu.js';
+import WindowTopBarTitle from '../containers/WindowTopBarTitle.js';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
+import FullScreenButton from '../containers/FullScreenButton.js';
 import WindowMaxIcon from './icons/WindowMaxIcon.js';
 import WindowMinIcon from './icons/WindowMinIcon.js';
 import WindowDownloadIcon from './icons/WindowDownloadIcon.js';
-import ns from '../config/css-ns';
+import ns from '../config/css-ns.js';
 
 /**
  * WindowTopBar

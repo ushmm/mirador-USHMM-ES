@@ -1,8 +1,8 @@
 import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withStyles } from '@material-ui/core';
-import * as actions from '../state/actions';
-import WorkspaceElasticWindow from '../components/WorkspaceElasticWindow';
+import * as actions from '../state/actions.js';
+import WorkspaceElasticWindow from '../components/WorkspaceElasticWindow.js';
 import {
   selectCompanionWindowDimensions, getWorkspace, isFocused,
   getElasticLayout,

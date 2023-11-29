@@ -2,10 +2,10 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
-import { MinimalWindow } from '../components/MinimalWindow';
-import { getWindowConfig } from '../state/selectors';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
+import { MinimalWindow } from '../components/MinimalWindow.js';
+import { getWindowConfig } from '../state/selectors.js';
 
 /** mapStateToProps */
 const mapStateToProps = (state, { windowId }) => ({

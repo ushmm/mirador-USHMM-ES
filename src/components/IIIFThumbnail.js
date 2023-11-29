@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import Typography from '@material-ui/core/Typography';
 import { useInView } from 'react-intersection-observer';
 import classNames from 'classnames';
-import getThumbnail from '../lib/ThumbnailFactory';
+import getThumbnail from '../lib/ThumbnailFactory.js';
 
 /**
  * A lazy-loaded image that uses IntersectionObserver to determine when to

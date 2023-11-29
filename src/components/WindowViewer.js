@@ -1,6 +1,6 @@
 import { Component, lazy, Suspense } from 'react';
 import PropTypes from 'prop-types';
-import WindowCanvasNavigationControls from '../containers/WindowCanvasNavigationControls';
+import WindowCanvasNavigationControls from '../containers/WindowCanvasNavigationControls.js';
 
 const OSDViewer = lazy(() => import('../containers/OpenSeadragonViewer'));
 

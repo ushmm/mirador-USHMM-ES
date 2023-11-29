@@ -2,9 +2,9 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import { getWindowIds, getWorkspace } from '../state/selectors';
-import { WindowListButton } from '../components/WindowListButton';
+import { withPlugins } from '../extend/withPlugins.js';
+import { getWindowIds, getWorkspace } from '../state/selectors.js';
+import { WindowListButton } from '../components/WindowListButton.js';
 
 /** */
 const mapStateToProps = (state) => ({

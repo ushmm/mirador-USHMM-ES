@@ -2,8 +2,8 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import { ErrorContent } from '../components/ErrorContent';
+import { withPlugins } from '../extend/withPlugins.js';
+import { ErrorContent } from '../components/ErrorContent.js';
 import {
   getCompanionWindow,
   getManifest,

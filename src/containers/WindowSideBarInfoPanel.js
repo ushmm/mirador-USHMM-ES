@@ -2,8 +2,8 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
 import {
   getCompanionWindow,
   getManifestLocale,
@@ -12,7 +12,7 @@ import {
   getWindowConfig,
   getWindow,
 } from '../state/selectors';
-import { WindowSideBarInfoPanel } from '../components/WindowSideBarInfoPanel';
+import { WindowSideBarInfoPanel } from '../components/WindowSideBarInfoPanel.js';
 
 /**
  * mapStateToProps - to hook up connect

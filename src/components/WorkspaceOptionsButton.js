@@ -2,8 +2,8 @@ import { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import MoreHorizontalIcon from '@material-ui/icons/MoreHorizSharp';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
-import WorkspaceOptionsMenu from '../containers/WorkspaceOptionsMenu';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
+import WorkspaceOptionsMenu from '../containers/WorkspaceOptionsMenu.js';
 
 /**
  * WorkspaceOptionsButton ~

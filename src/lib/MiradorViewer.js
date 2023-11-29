@@ -1,10 +1,10 @@
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import HotApp from '../components/App';
+import HotApp from '../components/App.js';
 import {
   filterValidPlugins,
 } from '../extend/pluginPreprocessing';
-import createPluggableStore from '../state/createPluggableStore';
+import createPluggableStore from '../state/createPluggableStore.js';
 
 /**
  * Default Mirador instantiation

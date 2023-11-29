@@ -3,9 +3,9 @@ import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
 import flatten from 'lodash/flatten';
-import { withPlugins } from '../extend/withPlugins';
-import { OpenSeadragonViewer } from '../components/OpenSeadragonViewer';
-import * as actions from '../state/actions';
+import { withPlugins } from '../extend/withPlugins.js';
+import { OpenSeadragonViewer } from '../components/OpenSeadragonViewer.js';
+import * as actions from '../state/actions.js';
 import {
   getVisibleCanvasNonTiledResources,
   getCurrentCanvas,

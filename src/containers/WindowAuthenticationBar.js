@@ -2,8 +2,8 @@ import { compose } from 'redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
 import { alpha } from '@material-ui/core/styles/colorManipulator';
-import { withPlugins } from '../extend/withPlugins';
-import { WindowAuthenticationBar } from '../components/WindowAuthenticationBar';
+import { withPlugins } from '../extend/withPlugins.js';
+import { WindowAuthenticationBar } from '../components/WindowAuthenticationBar.js';
 
 /**
  * @param theme

@@ -1,6 +1,6 @@
 import update from 'lodash/update';
 import { connect } from 'react-redux';
-import CompanionWindowRegistry from '../lib/CompanionWindowRegistry';
+import CompanionWindowRegistry from '../lib/CompanionWindowRegistry.js';
 
 /**
  * Returns a mapping from targets to plugins and modes

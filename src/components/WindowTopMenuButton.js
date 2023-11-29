@@ -1,8 +1,8 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import WindowTopMenu from '../containers/WindowTopMenu';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
+import WindowTopMenu from '../containers/WindowTopMenu.js';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
 import WindowOptionsIcon from './icons/WindowOptionsIcon.js';
 
 /**

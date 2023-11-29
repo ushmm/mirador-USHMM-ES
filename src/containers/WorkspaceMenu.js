@@ -1,14 +1,14 @@
 import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
 import {
   getShowZoomControlsConfig, getThemeIds,
   getWorkspace,
 } from '../state/selectors';
-import { withWorkspaceContext } from '../contexts/WorkspaceContext';
-import { WorkspaceMenu } from '../components/WorkspaceMenu';
+import { withWorkspaceContext } from '../contexts/WorkspaceContext.js';
+import { WorkspaceMenu } from '../components/WorkspaceMenu.js';
 
 /**
  * mapDispatchToProps - used to hook up connect to action creators

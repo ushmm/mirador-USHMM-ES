@@ -6,7 +6,7 @@ import MenuList from '@material-ui/core/MenuList';
 import MenuItem from '@material-ui/core/MenuItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Typography from '@material-ui/core/Typography';
-import SanitizedHtml from '../containers/SanitizedHtml';
+import SanitizedHtml from '../containers/SanitizedHtml.js';
 import { ScrollTo } from './ScrollTo.js';
 
 /**

@@ -2,9 +2,9 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import { SearchHit } from '../components/SearchHit';
-import * as actions from '../state/actions';
+import { withPlugins } from '../extend/withPlugins.js';
+import { SearchHit } from '../components/SearchHit.js';
+import * as actions from '../state/actions.js';
 import {
   getCanvasLabel,
   getVisibleCanvasIds,

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import ns from '../config/css-ns';
+import ns from '../config/css-ns.js';
 import { PluginHook } from './PluginHook.js';
 
 /** invisible area where background plugins can add to */

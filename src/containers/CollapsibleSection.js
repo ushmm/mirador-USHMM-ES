@@ -1,7 +1,7 @@
 import { compose } from 'redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { CollapsibleSection } from '../components/CollapsibleSection';
+import { CollapsibleSection } from '../components/CollapsibleSection.js';
 
 const styles = {
   button: {

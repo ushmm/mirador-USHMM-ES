@@ -2,7 +2,7 @@ import { Component } from 'react';
 import PropTypes from 'prop-types';
 import VisibilityIcon from '@material-ui/icons/VisibilitySharp';
 import VisibilityOffIcon from '@material-ui/icons/VisibilityOffSharp';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
 
 /**
  * AnnotationSettings is a component to handle various annotation

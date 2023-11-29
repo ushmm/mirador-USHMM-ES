@@ -1,8 +1,8 @@
 import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { withTranslation } from 'react-i18next';
-import { withPlugins } from '../extend/withPlugins';
-import { FullScreenButton } from '../components/FullScreenButton';
+import { withPlugins } from '../extend/withPlugins.js';
+import { FullScreenButton } from '../components/FullScreenButton.js';
 
 /**
  * mapStateToProps - to hook up connect

@@ -1,7 +1,7 @@
 import omit from 'lodash/omit';
 import set from 'lodash/fp/set';
 import update from 'lodash/fp/update';
-import ActionTypes from '../actions/action-types';
+import ActionTypes from '../actions/action-types.js';
 
 /** */
 export function companionWindowsReducer(state = {}, action) {

@@ -12,9 +12,9 @@ import ArrowForwardIcon from '@material-ui/icons/ArrowForwardSharp';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
-import CompanionWindow from '../containers/CompanionWindow';
-import SidebarIndexList from '../containers/SidebarIndexList';
-import SidebarIndexTableOfContents from '../containers/SidebarIndexTableOfContents';
+import CompanionWindow from '../containers/CompanionWindow.js';
+import SidebarIndexList from '../containers/SidebarIndexList.js';
+import SidebarIndexTableOfContents from '../containers/SidebarIndexTableOfContents.js';
 
 /**
  * a panel showing the canvases for a given manifest

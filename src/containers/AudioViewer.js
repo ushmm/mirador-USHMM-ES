@@ -2,9 +2,9 @@ import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core';
-import { withPlugins } from '../extend/withPlugins';
-import { AudioViewer } from '../components/AudioViewer';
-import { getConfig, getVisibleCanvasAudioResources, getVisibleCanvasCaptions } from '../state/selectors';
+import { withPlugins } from '../extend/withPlugins.js';
+import { AudioViewer } from '../components/AudioViewer.js';
+import { getConfig, getVisibleCanvasAudioResources, getVisibleCanvasCaptions } from '../state/selectors.js';
 
 /** */
 const mapStateToProps = (state, { windowId }) => (

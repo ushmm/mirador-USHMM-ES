@@ -7,9 +7,9 @@ import {
 import difference from 'lodash/difference';
 import isEqual from 'lodash/isEqual';
 import classNames from 'classnames';
-import MosaicRenderPreview from '../containers/MosaicRenderPreview';
-import Window from '../containers/Window';
-import MosaicLayout from '../lib/MosaicLayout';
+import MosaicRenderPreview from '../containers/MosaicRenderPreview.js';
+import Window from '../containers/Window.js';
+import MosaicLayout from '../lib/MosaicLayout.js';
 
 /**
  * Represents a work area that contains any number of windows

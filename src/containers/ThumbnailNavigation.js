@@ -2,9 +2,9 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
-import { ThumbnailNavigation } from '../components/ThumbnailNavigation';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
+import { ThumbnailNavigation } from '../components/ThumbnailNavigation.js';
 import {
   getCompanionWindow, getWindow,
   getNextCanvasGrouping, getPreviousCanvasGrouping,

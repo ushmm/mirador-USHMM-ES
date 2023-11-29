@@ -5,7 +5,7 @@ import List from '@material-ui/core/List';
 import Typography from '@material-ui/core/Typography';
 import BackIcon from '@material-ui/icons/ArrowBackSharp';
 import { announce } from '@react-aria/live-announcer';
-import SearchHit from '../containers/SearchHit';
+import SearchHit from '../containers/SearchHit.js';
 import { ScrollTo } from './ScrollTo.js';
 
 /** */

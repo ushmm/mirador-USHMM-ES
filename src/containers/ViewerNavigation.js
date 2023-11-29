@@ -2,14 +2,14 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
 import {
   getSequenceViewingDirection,
   getNextCanvasGrouping,
   getPreviousCanvasGrouping,
 } from '../state/selectors';
-import { ViewerNavigation } from '../components/ViewerNavigation';
+import { ViewerNavigation } from '../components/ViewerNavigation.js';
 
 /** */
 const mapStateToProps = (state, { windowId }) => ({

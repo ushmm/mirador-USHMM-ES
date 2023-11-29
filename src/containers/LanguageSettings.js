@@ -1,9 +1,9 @@
 import { compose } from 'redux';
 import { connect } from 'react-redux';
-import { withPlugins } from '../extend/withPlugins';
-import * as actions from '../state/actions';
-import { getLanguagesFromConfigWithCurrent } from '../state/selectors';
-import { LanguageSettings } from '../components/LanguageSettings';
+import { withPlugins } from '../extend/withPlugins.js';
+import * as actions from '../state/actions.js';
+import { getLanguagesFromConfigWithCurrent } from '../state/selectors.js';
+import { LanguageSettings } from '../components/LanguageSettings.js';
 
 /**
  * Map state to props for connect

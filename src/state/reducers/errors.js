@@ -1,5 +1,5 @@
 import without from 'lodash/without';
-import ActionTypes from '../actions/action-types';
+import ActionTypes from '../actions/action-types.js';
 
 const defaultState = { items: [] };
 

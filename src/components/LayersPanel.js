@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
-import CompanionWindow from '../containers/CompanionWindow';
-import CanvasLayers from '../containers/CanvasLayers';
+import CompanionWindow from '../containers/CompanionWindow.js';
+import CanvasLayers from '../containers/CanvasLayers.js';
 
 /**
  * a panel showing the canvases for a given manifest

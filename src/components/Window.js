@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 import cn from 'classnames';
 import Paper from '@material-ui/core/Paper';
 import { MosaicWindowContext } from 'react-mosaic-component/lib/contextTypes';
-import ns from '../config/css-ns';
-import WindowTopBar from '../containers/WindowTopBar';
-import PrimaryWindow from '../containers/PrimaryWindow';
-import CompanionArea from '../containers/CompanionArea';
-import MinimalWindow from '../containers/MinimalWindow';
-import ErrorContent from '../containers/ErrorContent';
-import IIIFAuthentication from '../containers/IIIFAuthentication';
+import ns from '../config/css-ns.js';
+import WindowTopBar from '../containers/WindowTopBar.js';
+import PrimaryWindow from '../containers/PrimaryWindow.js';
+import CompanionArea from '../containers/CompanionArea.js';
+import MinimalWindow from '../containers/MinimalWindow.js';
+import ErrorContent from '../containers/ErrorContent.js';
+import IIIFAuthentication from '../containers/IIIFAuthentication.js';
 import { PluginHook } from './PluginHook.js';
 
 /**

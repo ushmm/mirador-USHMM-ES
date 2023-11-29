@@ -4,8 +4,8 @@ import {
 import { v4 as uuid } from 'uuid';
 import { fetchManifests } from './iiif.js';
 import { fetchWindowManifest } from './windows.js';
-import { addWindow } from '../actions';
-import ActionTypes from '../actions/action-types';
+import { addWindow } from '../actions.js';
+import ActionTypes from '../actions/action-types.js';
 
 /** */
 export function* importState(action) {

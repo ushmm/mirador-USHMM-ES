@@ -1,14 +1,14 @@
 import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
-import { withPlugins } from '../extend/withPlugins';
+import { withPlugins } from '../extend/withPlugins.js';
 import {
   getDestructuredMetadata,
   getCanvas,
   getCanvasLabel,
   getCanvasDescription,
 } from '../state/selectors';
-import { CanvasInfo } from '../components/CanvasInfo';
+import { CanvasInfo } from '../components/CanvasInfo.js';
 
 /**
  * mapStateToProps - to hook up connect

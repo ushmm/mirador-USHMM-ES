@@ -1,4 +1,4 @@
-import { withPlugins } from '../extend/withPlugins';
-import { Branding } from '../components/Branding';
+import { withPlugins } from '../extend/withPlugins.js';
+import { Branding } from '../components/Branding.js';
 
 export default withPlugins('Branding')(Branding);

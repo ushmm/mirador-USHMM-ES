@@ -2,11 +2,11 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withStyles } from '@material-ui/core/styles';
-import { withPlugins } from '../extend/withPlugins';
+import { withPlugins } from '../extend/withPlugins.js';
 import {
   getConfig,
 } from '../state/selectors';
-import { IIIFThumbnail } from '../components/IIIFThumbnail';
+import { IIIFThumbnail } from '../components/IIIFThumbnail.js';
 
 /**
  * mapStateToProps - to hook up connect

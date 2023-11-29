@@ -1,5 +1,5 @@
 import { createSelector } from 'reselect';
-import CanvasWorld from '../../lib/CanvasWorld';
+import CanvasWorld from '../../lib/CanvasWorld.js';
 
 import { getVisibleCanvases } from './canvases.js';
 import { getLayersForVisibleCanvases } from './layers.js';

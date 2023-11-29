@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import Slide from '@material-ui/core/Slide';
 import ArrowLeftIcon from '@material-ui/icons/ArrowLeftSharp';
 import ArrowRightIcon from '@material-ui/icons/ArrowRightSharp';
-import CompanionWindowFactory from '../containers/CompanionWindowFactory';
-import MiradorMenuButton from '../containers/MiradorMenuButton';
-import ns from '../config/css-ns';
+import CompanionWindowFactory from '../containers/CompanionWindowFactory.js';
+import MiradorMenuButton from '../containers/MiradorMenuButton.js';
+import ns from '../config/css-ns.js';
 
 /** */
 export class CompanionArea extends Component {

@@ -2,8 +2,8 @@ import { Component } from 'react';
 import Menu from '@material-ui/core//Menu';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import PropTypes from 'prop-types';
-import WindowThumbnailSettings from '../containers/WindowThumbnailSettings';
-import WindowViewSettings from '../containers/WindowViewSettings';
+import WindowThumbnailSettings from '../containers/WindowThumbnailSettings.js';
+import WindowViewSettings from '../containers/WindowViewSettings.js';
 import { PluginHook } from './PluginHook.js';
 
 /** Renders plugins */
