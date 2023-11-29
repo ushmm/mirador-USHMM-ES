@@ -19,9 +19,9 @@ import Link from '@material-ui/core/Link';
 import Skeleton from '@material-ui/lab/Skeleton';
 import { Img } from 'react-image';
 import CompanionWindow from '../containers/CompanionWindow';
-import { LabelValueMetadata } from './LabelValueMetadata';
+import { LabelValueMetadata } from './LabelValueMetadata.js';
 import ns from '../config/css-ns';
-import { PluginHook } from './PluginHook';
+import { PluginHook } from './PluginHook.js';
 
 /**
  * WindowSideBarInfoPanel

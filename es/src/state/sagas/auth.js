@@ -7,7 +7,7 @@ import ActionTypes from '../actions/action-types';
 import MiradorCanvas from '../../lib/MiradorCanvas';
 import { addAuthenticationRequest, resolveAuthenticationRequest, requestAccessToken, resetAuthenticationState } from '../actions';
 import { selectInfoResponses, getVisibleCanvases, getWindows, getConfig, getAuth, getAccessTokens } from '../selectors';
-import { fetchInfoResponse } from './iiif';
+import { fetchInfoResponse } from './iiif.js';
 
 /** */
 export function refetchInfoResponsesOnLogout(_ref) {

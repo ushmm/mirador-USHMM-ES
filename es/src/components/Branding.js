@@ -19,7 +19,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 import { Component } from 'react';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import MiradorIcon from './icons/MiradorIcon';
+import MiradorIcon from './icons/MiradorIcon.js';
 
 /**
  * Display a branding icon

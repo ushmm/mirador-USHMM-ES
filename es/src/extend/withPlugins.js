@@ -6,7 +6,7 @@ function _toPrimitive(input, hint) { if (typeof input !== "object" || input === 
 import { forwardRef, useContext } from 'react';
 import curry from 'lodash/curry';
 import isEmpty from 'lodash/isEmpty';
-import PluginContext from './PluginContext';
+import PluginContext from './PluginContext.js';
 
 /** withPlugins should be the innermost HOC */
 import { jsx as _jsx } from "react/jsx-runtime";

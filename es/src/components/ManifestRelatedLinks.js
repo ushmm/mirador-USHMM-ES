@@ -19,7 +19,7 @@ import Link from '@material-ui/core/Link';
 import classNames from 'classnames';
 import CollapsibleSection from '../containers/CollapsibleSection';
 import ns from '../config/css-ns';
-import { PluginHook } from './PluginHook';
+import { PluginHook } from './PluginHook.js';
 
 /**
  * ManifestRelatedLinks

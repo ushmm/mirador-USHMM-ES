@@ -2,10 +2,10 @@ import { createSelector } from 'reselect';
 import { PropertyValue } from 'manifesto.js';
 import flatten from 'lodash/flatten';
 import AnnotationList from '../../lib/AnnotationList';
-import { getCanvas, getCanvases } from './canvases';
-import { getWindow } from './getters';
-import { getManifestLocale } from './manifests';
-import { miradorSlice } from './utils';
+import { getCanvas, getCanvases } from './canvases.js';
+import { getWindow } from './getters.js';
+import { getManifestLocale } from './manifests.js';
+import { miradorSlice } from './utils.js';
 
 /** Get searches from state */
 var getSearches = function getSearches(state) {

@@ -10,8 +10,8 @@ import thunkMiddleware from 'redux-thunk';
 import createSagaMiddleware from 'redux-saga';
 import { combineReducers, createStore, applyMiddleware } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
-import createRootReducer from './reducers/rootReducer';
-import getRootSaga from './sagas';
+import createRootReducer from './reducers/rootReducer.js';
+import getRootSaga from './sagas.js';
 import settings from '../config/settings';
 
 /**

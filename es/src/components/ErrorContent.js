@@ -20,7 +20,7 @@ import AccordionDetails from '@material-ui/core/AccordionDetails';
 import Typography from '@material-ui/core/Typography';
 import Alert from '@material-ui/lab/Alert';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import { PluginHook } from './PluginHook';
+import { PluginHook } from './PluginHook.js';
 
 /** */
 import { jsx as _jsx } from "react/jsx-runtime";

@@ -5,10 +5,10 @@ function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return typ
 function _toPrimitive(input, hint) { if (typeof input !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (typeof res !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
 import { createSelector } from 'reselect';
 import { getManifestTitle } from './manifests';
-import { getConfig } from './config';
-import { getWindows, getWindow, getWindowIds } from './getters';
-import { getWorkspaceType } from './workspace';
-import { getSequenceViewingHint, getSequenceBehaviors } from './sequences';
+import { getConfig } from './config.js';
+import { getWindows, getWindow, getWindowIds } from './getters.js';
+import { getWorkspaceType } from './workspace.js';
+import { getSequenceViewingHint, getSequenceBehaviors } from './sequences.js';
 
 /** */
 export var getWindowConfig = createSelector([getConfig, getWindow], function (_ref) {

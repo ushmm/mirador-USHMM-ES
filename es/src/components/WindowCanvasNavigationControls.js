@@ -21,7 +21,7 @@ import ZoomControls from '../containers/ZoomControls';
 import ViewerInfo from '../containers/ViewerInfo';
 import ViewerNavigation from '../containers/ViewerNavigation';
 import ns from '../config/css-ns';
-import { PluginHook } from './PluginHook';
+import { PluginHook } from './PluginHook.js';
 
 /**
  * Represents the viewer controls in the mirador workspace.

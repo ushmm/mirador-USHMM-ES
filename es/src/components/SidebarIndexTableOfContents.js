@@ -22,7 +22,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import TreeItem from '@material-ui/lab/TreeItem';
 import clsx from 'clsx';
-import { ScrollTo } from './ScrollTo';
+import { ScrollTo } from './ScrollTo.js';
 
 /** */
 import { jsx as _jsx } from "react/jsx-runtime";

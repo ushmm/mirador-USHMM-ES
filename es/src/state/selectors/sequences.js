@@ -1,7 +1,7 @@
 import { createSelector } from 'reselect';
 import { TreeNode } from 'manifesto.js';
 import { getManifestoInstance } from './manifests';
-import { getWindow } from './getters';
+import { getWindow } from './getters.js';
 export var getSequences = createSelector([getManifestoInstance], function (manifest) {
   if (!manifest || !manifest.getTopRanges) return null;
   var topRangesOrRoot = manifest.getTopRanges();

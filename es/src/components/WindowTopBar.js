@@ -22,9 +22,9 @@ import WindowTopBarPluginMenu from '../containers/WindowTopBarPluginMenu';
 import WindowTopBarTitle from '../containers/WindowTopBarTitle';
 import MiradorMenuButton from '../containers/MiradorMenuButton';
 import FullScreenButton from '../containers/FullScreenButton';
-import WindowMaxIcon from './icons/WindowMaxIcon';
-import WindowMinIcon from './icons/WindowMinIcon';
-import WindowDownloadIcon from './icons/WindowDownloadIcon';
+import WindowMaxIcon from './icons/WindowMaxIcon.js';
+import WindowMinIcon from './icons/WindowMinIcon.js';
+import WindowDownloadIcon from './icons/WindowDownloadIcon.js';
 import ns from '../config/css-ns';
 
 /**

@@ -17,7 +17,7 @@ import { Component } from 'react';
 import MoreVertIcon from '@material-ui/icons/MoreVertSharp';
 import Menu from '@material-ui/core/Menu';
 import MiradorMenuButton from '../containers/MiradorMenuButton';
-import { PluginHook } from './PluginHook';
+import { PluginHook } from './PluginHook.js';
 
 /**
  *

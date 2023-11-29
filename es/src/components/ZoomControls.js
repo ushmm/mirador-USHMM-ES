@@ -13,7 +13,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 import { Component } from 'react';
 import AddCircleIcon from '@material-ui/icons/AddCircleOutlineSharp';
 import RemoveCircleIcon from '@material-ui/icons/RemoveCircleOutlineSharp';
-import RestoreZoomIcon from './icons/RestoreZoomIcon';
+import RestoreZoomIcon from './icons/RestoreZoomIcon.js';
 import MiradorMenuButton from '../containers/MiradorMenuButton';
 
 /**

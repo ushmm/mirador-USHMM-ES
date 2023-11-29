@@ -2,10 +2,10 @@ import { createSelector } from 'reselect';
 import flatten from 'lodash/flatten';
 import CanvasGroupings from '../../lib/CanvasGroupings';
 import MiradorCanvas from '../../lib/MiradorCanvas';
-import { miradorSlice } from './utils';
-import { getWindow } from './getters';
-import { getSequence } from './sequences';
-import { getWindowViewType } from './windows';
+import { miradorSlice } from './utils.js';
+import { getWindow } from './getters.js';
+import { getSequence } from './sequences.js';
+import { getWindowViewType } from './windows.js';
 
 /** */
 export var selectInfoResponses = function selectInfoResponses(state) {

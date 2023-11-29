@@ -18,7 +18,7 @@ import MiradorManifest from '../../lib/MiradorManifest';
 import MiradorCanvas from '../../lib/MiradorCanvas';
 import { setContentSearchCurrentAnnotation, selectAnnotation, setWorkspaceViewportPosition, updateWindow, setCanvas, fetchSearch, receiveManifest, fetchInfoResponse, showCollectionDialog } from '../actions';
 import { getSearchForWindow, getSearchAnnotationsForCompanionWindow, getCanvasGrouping, getWindow, getManifestoInstance, getCompanionWindowIdsForPosition, getManifestSearchService, getCanvasForAnnotation, getSelectedContentSearchAnnotationIds, getSortedSearchAnnotationsForCompanionWindow, getVisibleCanvasIds, getWorkspace, getElasticLayout, getCanvases, selectInfoResponses, getWindowConfig } from '../selectors';
-import { fetchManifests } from './iiif';
+import { fetchManifests } from './iiif.js';
 
 /** */
 export function fetchWindowManifest(action) {

@@ -5,10 +5,10 @@ import { createSelector } from 'reselect';
 import filter from 'lodash/filter';
 import flatten from 'lodash/flatten';
 import AnnotationFactory from '../../lib/AnnotationFactory';
-import { miradorSlice } from './utils';
-import { getCanvas, getVisibleCanvasIds } from './canvases';
-import { getConfig } from './config';
-import { getWindow } from './getters';
+import { miradorSlice } from './utils.js';
+import { getCanvas, getVisibleCanvasIds } from './canvases.js';
+import { getConfig } from './config.js';
+import { getWindow } from './getters.js';
 
 /** */
 export var getAnnotations = function getAnnotations(state) {

@@ -4,9 +4,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return typeof key === "symbol" ? key : String(key); }
 function _toPrimitive(input, hint) { if (typeof input !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (typeof res !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
 import { Utils } from 'manifesto.js';
-import MiradorManifest from './MiradorManifest';
-import MiradorCanvas from './MiradorCanvas';
-import asArray from './asArray';
+import MiradorManifest from './MiradorManifest.js';
+import MiradorCanvas from './MiradorCanvas.js';
+import asArray from './asArray.js';
 
 /** */
 function isLevel0ImageProfile(service) {

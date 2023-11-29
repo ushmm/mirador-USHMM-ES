@@ -6,8 +6,8 @@ function _iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefine
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 import { createSelector } from 'reselect';
 import deepmerge from 'deepmerge';
-import { miradorSlice } from './utils';
-import { getWorkspace } from './getters';
+import { miradorSlice } from './utils.js';
+import { getWorkspace } from './getters.js';
 
 /** */
 export function getConfig(state) {

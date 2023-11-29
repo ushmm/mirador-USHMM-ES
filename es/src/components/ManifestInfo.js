@@ -17,8 +17,8 @@ import { Component } from 'react';
 import Typography from '@material-ui/core/Typography';
 import CollapsibleSection from '../containers/CollapsibleSection';
 import SanitizedHtml from '../containers/SanitizedHtml';
-import { LabelValueMetadata } from './LabelValueMetadata';
-import { PluginHook } from './PluginHook';
+import { LabelValueMetadata } from './LabelValueMetadata.js';
+import { PluginHook } from './PluginHook.js';
 
 /**
  * ManifestInfo

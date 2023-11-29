@@ -10,9 +10,9 @@ import { createSelector } from 'reselect';
 import { Utils } from 'manifesto.js';
 import flatten from 'lodash/flatten';
 import MiradorCanvas from '../../lib/MiradorCanvas';
-import { miradorSlice } from './utils';
-import { getConfig } from './config';
-import { getVisibleCanvases, selectInfoResponses } from './canvases';
+import { miradorSlice } from './utils.js';
+import { getConfig } from './config.js';
+import { getVisibleCanvases, selectInfoResponses } from './canvases.js';
 export var getAuthProfiles = createSelector([getConfig], function (_ref) {
   var _ref$auth = _ref.auth,
     _ref$auth2 = _ref$auth === void 0 ? {} : _ref$auth,

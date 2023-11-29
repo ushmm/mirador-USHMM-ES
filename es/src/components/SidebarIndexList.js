@@ -13,7 +13,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 import { Component } from 'react';
 import MenuList from '@material-ui/core/MenuList';
 import MenuItem from '@material-ui/core/MenuItem';
-import { ScrollTo } from './ScrollTo';
+import { ScrollTo } from './ScrollTo.js';
 import MiradorCanvas from '../lib/MiradorCanvas';
 import SidebarIndexItem from '../containers/SidebarIndexItem';
 import SidebarIndexThumbnail from '../containers/SidebarIndexThumbnail';

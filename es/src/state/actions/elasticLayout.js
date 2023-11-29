@@ -1,4 +1,4 @@
-import ActionTypes from './action-types';
+import ActionTypes from './action-types.js';
 
 /** */
 export function updateElasticWindowLayout(windowId, payload) {

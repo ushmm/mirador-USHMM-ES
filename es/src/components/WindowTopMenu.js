@@ -18,7 +18,7 @@ import Menu from '@material-ui/core//Menu';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import WindowThumbnailSettings from '../containers/WindowThumbnailSettings';
 import WindowViewSettings from '../containers/WindowViewSettings';
-import { PluginHook } from './PluginHook';
+import { PluginHook } from './PluginHook.js';
 
 /** Renders plugins */
 import { jsx as _jsx } from "react/jsx-runtime";

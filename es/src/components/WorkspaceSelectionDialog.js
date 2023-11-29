@@ -14,8 +14,8 @@ import { Component } from 'react';
 import Dialog from '@material-ui/core/Dialog';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import { Card, CardContent, MenuList, MenuItem, Typography } from '@material-ui/core';
-import WorkspaceTypeElasticIcon from './icons/WorkspaceTypeElasticIcon';
-import WorkspaceTypeMosaicIcon from './icons/WorkspaceTypeMosaicIcon';
+import WorkspaceTypeElasticIcon from './icons/WorkspaceTypeElasticIcon.js';
+import WorkspaceTypeMosaicIcon from './icons/WorkspaceTypeMosaicIcon.js';
 import ScrollIndicatedDialogContent from '../containers/ScrollIndicatedDialogContent';
 
 /**

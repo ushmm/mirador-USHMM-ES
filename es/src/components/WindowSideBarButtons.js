@@ -26,7 +26,7 @@ import AnnotationIcon from '@material-ui/icons/CommentSharp';
 import AttributionIcon from '@material-ui/icons/CopyrightSharp';
 import LayersIcon from '@material-ui/icons/LayersSharp';
 import SearchIcon from '@material-ui/icons/SearchSharp';
-import CanvasIndexIcon from './icons/CanvasIndexIcon';
+import CanvasIndexIcon from './icons/CanvasIndexIcon.js';
 
 /** */
 import { jsx as _jsx } from "react/jsx-runtime";
