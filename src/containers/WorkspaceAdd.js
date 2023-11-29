@@ -5,7 +5,7 @@ import { withStyles } from '@material-ui/core';
 import { withPlugins } from '../extend/withPlugins.js';
 import * as actions from '../state/actions.js';
 import { WorkspaceAdd } from '../components/WorkspaceAdd.js';
-import { getCatalog } from '../state/selectors.js';
+import { getCatalog } from '../state/selectors/index.js';
 
 /**
  * mapStateToProps - to hook up connect

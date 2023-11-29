@@ -4,7 +4,7 @@ import { withStyles } from '@material-ui/core';
 import { withTranslation } from 'react-i18next';
 import { withPlugins } from '../extend/withPlugins.js';
 import * as actions from '../state/actions.js';
-import { getThemeIds, getConfig } from '../state/selectors.js';
+import { getThemeIds, getConfig } from '../state/selectors/index.js';
 import { ChangeThemeDialog } from '../components/ChangeThemeDialog.js';
 
 /**

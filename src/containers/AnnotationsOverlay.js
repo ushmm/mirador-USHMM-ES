@@ -13,7 +13,7 @@ import {
   getPresentAnnotationsOnSelectedCanvases,
   getSelectedAnnotationId,
   getCurrentCanvasWorld,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 
 /**
  * mapStateToProps - used to hook up connect to action creators

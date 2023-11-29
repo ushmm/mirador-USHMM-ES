@@ -8,7 +8,7 @@ import {
   getSequenceViewingDirection,
   getNextCanvasGrouping,
   getPreviousCanvasGrouping,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 import { ViewerNavigation } from '../components/ViewerNavigation.js';
 
 /** */

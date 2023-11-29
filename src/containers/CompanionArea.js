@@ -5,7 +5,7 @@ import { withTranslation } from 'react-i18next';
 import { withPlugins } from '../extend/withPlugins.js';
 import {
   getCompanionWindowIdsForPosition, getCompanionAreaVisibility, getThemeDirection, getWindow,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 import * as actions from '../state/actions.js';
 import { CompanionArea } from '../components/CompanionArea.js';
 

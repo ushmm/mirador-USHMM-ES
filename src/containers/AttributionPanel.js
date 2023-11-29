@@ -7,7 +7,7 @@ import {
   getManifestLogo,
   getRequiredStatement,
   getRights,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 import { AttributionPanel } from '../components/AttributionPanel.js';
 
 /**

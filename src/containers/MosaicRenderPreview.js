@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { withStyles } from '@material-ui/core/styles';
 import { withTranslation } from 'react-i18next';
 import { withPlugins } from '../extend/withPlugins.js';
-import { getManifestTitle } from '../state/selectors.js';
+import { getManifestTitle } from '../state/selectors/index.js';
 import { MosaicRenderPreview } from '../components/MosaicRenderPreview.js';
 
 /** */

@@ -2,7 +2,7 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { withPlugins } from '../extend/withPlugins.js';
-import { getCompanionWindow } from '../state/selectors.js';
+import { getCompanionWindow } from '../state/selectors/index.js';
 import { CompanionWindowFactory } from '../components/CompanionWindowFactory.js';
 
 /**

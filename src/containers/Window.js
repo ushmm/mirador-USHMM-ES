@@ -8,7 +8,7 @@ import { Window } from '../components/Window.js';
 import {
   getManifestStatus, getManifestTitle, getThumbnailNavigationPosition, getWindow,
   getWorkspaceType, getWindowDraggability, getWindowViewType, getManifestError,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 
 /**
  * mapStateToProps - used to hook up connect to action creators

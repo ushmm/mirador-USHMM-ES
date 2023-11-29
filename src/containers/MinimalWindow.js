@@ -5,7 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { withPlugins } from '../extend/withPlugins.js';
 import * as actions from '../state/actions.js';
 import { MinimalWindow } from '../components/MinimalWindow.js';
-import { getWindowConfig } from '../state/selectors.js';
+import { getWindowConfig } from '../state/selectors/index.js';
 
 /** mapStateToProps */
 const mapStateToProps = (state, { windowId }) => ({

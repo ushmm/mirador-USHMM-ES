@@ -2,7 +2,7 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { withPlugins } from '../extend/withPlugins.js';
 import * as actions from '../state/actions.js';
-import { getLanguagesFromConfigWithCurrent } from '../state/selectors.js';
+import { getLanguagesFromConfigWithCurrent } from '../state/selectors/index.js';
 import { LanguageSettings } from '../components/LanguageSettings.js';
 
 /**

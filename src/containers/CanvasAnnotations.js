@@ -9,7 +9,7 @@ import {
   getCanvasLabel,
   getSelectedAnnotationId,
   getConfig,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 import { CanvasAnnotations } from '../components/CanvasAnnotations.js';
 
 /**

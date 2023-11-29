@@ -4,7 +4,7 @@ import { withTranslation } from 'react-i18next';
 import { withStyles, lighten, darken } from '@material-ui/core/styles';
 import { withPlugins } from '../extend/withPlugins.js';
 import { WorkspaceArea } from '../components/WorkspaceArea.js';
-import { getConfig, getWindowIds, getWorkspace } from '../state/selectors.js';
+import { getConfig, getWindowIds, getWorkspace } from '../state/selectors/index.js';
 
 /**
  * mapStateToProps - to hook up connect

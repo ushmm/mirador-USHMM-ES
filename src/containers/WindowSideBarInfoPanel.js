@@ -11,7 +11,7 @@ import {
   getVisibleCanvasIds,
   getWindowConfig,
   getWindow,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 import { WindowSideBarInfoPanel } from '../components/WindowSideBarInfoPanel.js';
 
 /**

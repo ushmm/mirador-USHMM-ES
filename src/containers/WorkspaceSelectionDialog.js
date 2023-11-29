@@ -5,7 +5,7 @@ import { withStyles } from '@material-ui/core';
 import { withPlugins } from '../extend/withPlugins.js';
 import { WorkspaceSelectionDialog } from '../components/WorkspaceSelectionDialog.js';
 import * as actions from '../state/actions.js';
-import { getWorkspaceType } from '../state/selectors.js';
+import { getWorkspaceType } from '../state/selectors/index.js';
 
 /**
  * mapDispatchToProps - used to hook up connect to action creators

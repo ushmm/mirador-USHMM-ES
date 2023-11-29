@@ -5,7 +5,7 @@ import { withPlugins } from '../extend/withPlugins.js';
 import {
   getManifestTitle,
   getWindow,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 import * as actions from '../state/actions.js';
 import { CollectionInfo } from '../components/CollectionInfo.js';
 

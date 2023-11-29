@@ -13,7 +13,7 @@ import {
   getManifestoInstance,
   getSequence,
   getSequences,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 
 /**
  * mapStateToProps - to hook up connect

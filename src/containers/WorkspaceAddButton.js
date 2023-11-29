@@ -5,7 +5,7 @@ import { withStyles } from '@material-ui/core';
 import withWidth from '@material-ui/core/withWidth';
 import { withPlugins } from '../extend/withPlugins.js';
 import * as actions from '../state/actions.js';
-import { getWindowIds, getWorkspace } from '../state/selectors.js';
+import { getWindowIds, getWorkspace } from '../state/selectors/index.js';
 import { WorkspaceAddButton } from '../components/WorkspaceAddButton.js';
 
 /**

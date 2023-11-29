@@ -6,7 +6,7 @@ import WorkspaceElasticWindow from '../components/WorkspaceElasticWindow.js';
 import {
   selectCompanionWindowDimensions, getWorkspace, isFocused,
   getElasticLayout,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 
 /**
  * mapStateToProps - to hook up connect

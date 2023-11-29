@@ -9,7 +9,7 @@ import {
   getManifestRenderings,
   getManifestSeeAlso,
   getManifestUrl,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 import { ManifestRelatedLinks } from '../components/ManifestRelatedLinks.js';
 
 /**

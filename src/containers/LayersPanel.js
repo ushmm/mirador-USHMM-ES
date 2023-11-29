@@ -6,7 +6,7 @@ import { withPlugins } from '../extend/withPlugins.js';
 import { LayersPanel } from '../components/LayersPanel.js';
 import {
   getVisibleCanvasIds,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 
 /**
  * mapStateToProps - to hook up connect

@@ -6,7 +6,7 @@ import { withPlugins } from '../extend/withPlugins.js';
 import {
   getVisibleCanvasIds,
   getAnnotationResourcesByMotivation,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 import { WindowSideBarAnnotationsPanel } from '../components/WindowSideBarAnnotationsPanel.js';
 
 /**

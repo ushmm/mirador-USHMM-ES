@@ -6,7 +6,7 @@ import { withPlugins } from '../extend/withPlugins.js';
 import { WorkspaceExport } from '../components/WorkspaceExport.js';
 import {
   getExportableState,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 
 /**
  * mapStateToProps - to hook up connect

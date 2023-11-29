@@ -5,7 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { withPlugins } from '../extend/withPlugins.js';
 import {
   getConfig,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 import { IIIFThumbnail } from '../components/IIIFThumbnail.js';
 
 /**

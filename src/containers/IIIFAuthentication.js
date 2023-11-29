@@ -9,7 +9,7 @@ import {
   getAuthProfiles,
   selectCurrentAuthServices,
   getAccessTokens,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 import { IIIFAuthentication } from '../components/IIIFAuthentication.js';
 
 /**

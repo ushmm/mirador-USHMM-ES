@@ -12,7 +12,7 @@ import {
   getSearchNumTotal,
   getSortedSearchHitsForCompanionWindow,
   getSortedSearchAnnotationsForCompanionWindow,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 
 /**
  * mapStateToProps - used to hook up connect to state

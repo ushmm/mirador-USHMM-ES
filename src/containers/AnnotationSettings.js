@@ -6,7 +6,7 @@ import { withPlugins } from '../extend/withPlugins.js';
 import {
   getAnnotationResourcesByMotivation,
   getWindow,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 import { AnnotationSettings } from '../components/AnnotationSettings.js';
 
 /**

@@ -4,7 +4,7 @@ import { withTranslation } from 'react-i18next';
 import { withPlugins } from '../extend/withPlugins.js';
 import { ErrorDialog } from '../components/ErrorDialog.js';
 import * as actions from '../state/actions.js';
-import { getLatestError } from '../state/selectors.js';
+import { getLatestError } from '../state/selectors/index.js';
 
 /**
  * mapStateToProps - to hook up connect

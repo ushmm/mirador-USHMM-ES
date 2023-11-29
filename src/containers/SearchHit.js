@@ -12,7 +12,7 @@ import {
   getResourceAnnotationLabel,
   getSelectedContentSearchAnnotationIds,
   getSelectedAnnotationId,
-} from '../state/selectors.js';
+} from '../state/selectors/index.js';
 
 /**
  * mapStateToProps - used to hook up connect to state

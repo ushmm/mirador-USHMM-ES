@@ -5,7 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import * as actions from '../state/actions.js';
 import { withPlugins } from '../extend/withPlugins.js';
 import { SearchPanel } from '../components/SearchPanel.js';
-import { getManifestSearchService, getSearchQuery, getWindow } from '../state/selectors.js';
+import { getManifestSearchService, getSearchQuery, getWindow } from '../state/selectors/index.js';
 
 /** */
 const mapStateToProps = (state, { id, windowId }) => ({

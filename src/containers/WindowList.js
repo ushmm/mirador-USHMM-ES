@@ -3,7 +3,7 @@ import { compose } from 'redux';
 import { withTranslation } from 'react-i18next';
 import { withPlugins } from '../extend/withPlugins.js';
 import * as actions from '../state/actions.js';
-import { getFocusedWindowId, getWindowIds, getWindowTitles } from '../state/selectors.js';
+import { getFocusedWindowId, getWindowIds, getWindowTitles } from '../state/selectors/index.js';
 import { WindowList } from '../components/WindowList.js';
 import { withWorkspaceContext } from '../contexts/WorkspaceContext.js';
 
