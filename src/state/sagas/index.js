@@ -2,11 +2,11 @@ import {
   all, call, spawn,
 } from 'redux-saga/effects';
 
-import appSaga from './app';
-import iiifSaga from './iiif';
-import windowSaga from './windows';
-import annotationsSaga from './annotations';
-import authSaga from './auth';
+import appSaga from './app.js';
+import iiifSaga from './iiif.js';
+import windowSaga from './windows.js';
+import annotationsSaga from './annotations.js';
+import authSaga from './auth.js';
 
 /** */
 function* launchSaga(saga) {

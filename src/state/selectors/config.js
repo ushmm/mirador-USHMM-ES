@@ -1,7 +1,7 @@
 import { createSelector } from 'reselect';
 import deepmerge from 'deepmerge';
-import { miradorSlice } from './utils';
-import { getWorkspace } from './getters';
+import { miradorSlice } from './utils.js';
+import { getWorkspace } from './getters.js';
 
 /** */
 export function getConfig(state) {

@@ -2,7 +2,7 @@ import { Component } from 'react';
 import PropTypes from 'prop-types';
 import MenuList from '@material-ui/core/MenuList';
 import MenuItem from '@material-ui/core/MenuItem';
-import { ScrollTo } from './ScrollTo';
+import { ScrollTo } from './ScrollTo.js';
 import MiradorCanvas from '../lib/MiradorCanvas';
 import SidebarIndexItem from '../containers/SidebarIndexItem';
 import SidebarIndexThumbnail from '../containers/SidebarIndexThumbnail';

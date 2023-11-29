@@ -1,5 +1,5 @@
 import { v4 as uuid } from 'uuid';
-import ActionTypes from './action-types';
+import ActionTypes from './action-types.js';
 import { getCompanionWindowIdsForPosition, getManuallyExpandedNodeIds, getVisibleNodeIds } from '../selectors';
 
 const defaultProps = {

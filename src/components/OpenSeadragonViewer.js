@@ -9,7 +9,7 @@ import classNames from 'classnames';
 import ns from '../config/css-ns';
 import AnnotationsOverlay from '../containers/AnnotationsOverlay';
 import CanvasWorld from '../lib/CanvasWorld';
-import { PluginHook } from './PluginHook';
+import { PluginHook } from './PluginHook.js';
 import { OSDReferences } from '../plugins/OSDReferences';
 
 /**

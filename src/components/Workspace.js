@@ -7,7 +7,7 @@ import Window from '../containers/Window';
 import WorkspaceMosaic from '../containers/WorkspaceMosaic';
 import WorkspaceElastic from '../containers/WorkspaceElastic';
 import ns from '../config/css-ns';
-import { IIIFDropTarget } from './IIIFDropTarget';
+import { IIIFDropTarget } from './IIIFDropTarget.js';
 
 /**
  * Represents a work area that contains any number of windows

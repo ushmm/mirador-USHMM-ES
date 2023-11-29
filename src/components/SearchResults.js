@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import BackIcon from '@material-ui/icons/ArrowBackSharp';
 import { announce } from '@react-aria/live-announcer';
 import SearchHit from '../containers/SearchHit';
-import { ScrollTo } from './ScrollTo';
+import { ScrollTo } from './ScrollTo.js';
 
 /** */
 export class SearchResults extends Component {

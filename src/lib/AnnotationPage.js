@@ -1,5 +1,5 @@
 import flatten from 'lodash/flatten';
-import AnnotationItem from './AnnotationItem';
+import AnnotationItem from './AnnotationItem.js';
 /**
  * Annotation representation for IIIF Presentation v3
  * https://iiif.io/api/presentation/3.0/#55-annotation-page

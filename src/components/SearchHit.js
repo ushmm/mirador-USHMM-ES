@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import Chip from '@material-ui/core/Chip';
 import SanitizedHtml from '../containers/SanitizedHtml';
 import TruncatedHit from '../lib/TruncatedHit';
-import { ScrollTo } from './ScrollTo';
+import { ScrollTo } from './ScrollTo.js';
 
 /** */
 export class SearchHit extends Component {

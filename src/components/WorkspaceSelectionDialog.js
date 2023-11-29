@@ -9,8 +9,8 @@ import {
   Typography,
 } from '@material-ui/core';
 import PropTypes from 'prop-types';
-import WorkspaceTypeElasticIcon from './icons/WorkspaceTypeElasticIcon';
-import WorkspaceTypeMosaicIcon from './icons/WorkspaceTypeMosaicIcon';
+import WorkspaceTypeElasticIcon from './icons/WorkspaceTypeElasticIcon.js';
+import WorkspaceTypeMosaicIcon from './icons/WorkspaceTypeMosaicIcon.js';
 import ScrollIndicatedDialogContent from '../containers/ScrollIndicatedDialogContent';
 
 /**

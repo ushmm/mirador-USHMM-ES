@@ -29,7 +29,7 @@ import {
   selectInfoResponses,
   getWindowConfig,
 } from '../selectors';
-import { fetchManifests } from './iiif';
+import { fetchManifests } from './iiif.js';
 
 /** */
 export function* fetchWindowManifest(action) {

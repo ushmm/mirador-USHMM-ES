@@ -1,7 +1,7 @@
 import { Utils } from 'manifesto.js';
-import MiradorManifest from './MiradorManifest';
-import MiradorCanvas from './MiradorCanvas';
-import asArray from './asArray';
+import MiradorManifest from './MiradorManifest.js';
+import MiradorCanvas from './MiradorCanvas.js';
+import asArray from './asArray.js';
 
 /** */
 function isLevel0ImageProfile(service) {

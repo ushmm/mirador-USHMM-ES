@@ -1,5 +1,5 @@
 import flatten from 'lodash/flatten';
-import AnnotationResource from './AnnotationResource';
+import AnnotationResource from './AnnotationResource.js';
 /** */
 export default class AnnotationList {
   /** */

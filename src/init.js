@@ -1,4 +1,4 @@
-import MiradorViewer from './lib/MiradorViewer';
+import MiradorViewer from './lib/MiradorViewer.js';
 
 /**
  * Default Mirador instantiation

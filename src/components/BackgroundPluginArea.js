@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import ns from '../config/css-ns';
-import { PluginHook } from './PluginHook';
+import { PluginHook } from './PluginHook.js';
 
 /** invisible area where background plugins can add to */
 export const BackgroundPluginArea = props => (

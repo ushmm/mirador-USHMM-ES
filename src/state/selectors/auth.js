@@ -2,9 +2,9 @@ import { createSelector } from 'reselect';
 import { Utils } from 'manifesto.js';
 import flatten from 'lodash/flatten';
 import MiradorCanvas from '../../lib/MiradorCanvas';
-import { miradorSlice } from './utils';
-import { getConfig } from './config';
-import { getVisibleCanvases, selectInfoResponses } from './canvases';
+import { miradorSlice } from './utils.js';
+import { getConfig } from './config.js';
+import { getVisibleCanvases, selectInfoResponses } from './canvases.js';
 
 export const getAuthProfiles = createSelector(
   [

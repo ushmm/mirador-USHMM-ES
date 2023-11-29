@@ -1,5 +1,5 @@
 import { createSelector } from 'reselect';
-import { miradorSlice } from './utils';
+import { miradorSlice } from './utils.js';
 
 /**
  * Return the manifest titles for all open windows

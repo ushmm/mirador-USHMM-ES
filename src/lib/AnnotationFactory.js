@@ -1,5 +1,5 @@
-import AnnotationList from './AnnotationList';
-import AnnotationPage from './AnnotationPage';
+import AnnotationList from './AnnotationList.js';
+import AnnotationPage from './AnnotationPage.js';
 
 /**
  * Used to determine the type of Annotation supported by a version of the IIIF

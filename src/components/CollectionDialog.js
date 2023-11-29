@@ -14,7 +14,7 @@ import {
 import ArrowBackIcon from '@material-ui/icons/ArrowBackSharp';
 import Skeleton from '@material-ui/lab/Skeleton';
 import asArray from '../lib/asArray';
-import { LabelValueMetadata } from './LabelValueMetadata';
+import { LabelValueMetadata } from './LabelValueMetadata.js';
 import CollapsibleSection from '../containers/CollapsibleSection';
 import ScrollIndicatedDialogContent from '../containers/ScrollIndicatedDialogContent';
 import ManifestInfo from '../containers/ManifestInfo';

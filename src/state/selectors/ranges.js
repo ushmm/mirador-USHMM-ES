@@ -2,9 +2,9 @@ import { createSelector } from 'reselect';
 import union from 'lodash/union';
 import without from 'lodash/without';
 import { Utils } from 'manifesto.js';
-import { getVisibleCanvasIds } from './canvases';
-import { getCompanionWindow } from './companionWindows';
-import { getSequenceTreeStructure } from './sequences';
+import { getVisibleCanvasIds } from './canvases.js';
+import { getCompanionWindow } from './companionWindows.js';
+import { getSequenceTreeStructure } from './sequences.js';
 
 /** */
 function rangeContainsCanvasId(range, canvasId) {

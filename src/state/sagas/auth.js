@@ -19,7 +19,7 @@ import {
   getAuth,
   getAccessTokens,
 } from '../selectors';
-import { fetchInfoResponse } from './iiif';
+import { fetchInfoResponse } from './iiif.js';
 
 /** */
 export function* refetchInfoResponsesOnLogout({ tokenServiceId }) {

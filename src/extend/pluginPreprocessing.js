@@ -1,5 +1,5 @@
 import deepmerge from 'deepmerge';
-import { validatePlugin } from './pluginValidation';
+import { validatePlugin } from './pluginValidation.js';
 
 /** */
 export function filterValidPlugins(plugins) {

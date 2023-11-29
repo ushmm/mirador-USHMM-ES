@@ -4,7 +4,7 @@ import ListSubheader from '@material-ui/core/ListSubheader';
 import PropTypes from 'prop-types';
 import WindowThumbnailSettings from '../containers/WindowThumbnailSettings';
 import WindowViewSettings from '../containers/WindowViewSettings';
-import { PluginHook } from './PluginHook';
+import { PluginHook } from './PluginHook.js';
 
 /** Renders plugins */
 function PluginHookWithHeader(props) {

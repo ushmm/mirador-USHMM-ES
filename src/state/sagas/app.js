@@ -2,8 +2,8 @@ import {
   all, call, put, takeEvery,
 } from 'redux-saga/effects';
 import { v4 as uuid } from 'uuid';
-import { fetchManifests } from './iiif';
-import { fetchWindowManifest } from './windows';
+import { fetchManifests } from './iiif.js';
+import { fetchWindowManifest } from './windows.js';
 import { addWindow } from '../actions';
 import ActionTypes from '../actions/action-types';
 

@@ -7,7 +7,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Typography from '@material-ui/core/Typography';
 import SanitizedHtml from '../containers/SanitizedHtml';
-import { ScrollTo } from './ScrollTo';
+import { ScrollTo } from './ScrollTo.js';
 
 /**
  * CanvasAnnotations ~

@@ -1,7 +1,7 @@
 import { createSelector } from 'reselect';
 import MiradorCanvas from '../../lib/MiradorCanvas';
-import { getCanvas, getVisibleCanvasIds } from './canvases';
-import { miradorSlice } from './utils';
+import { getCanvas, getVisibleCanvasIds } from './canvases.js';
+import { miradorSlice } from './utils.js';
 
 /**
  * Get the image layers from a canvas

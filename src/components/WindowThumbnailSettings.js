@@ -4,8 +4,8 @@ import ListSubheader from '@material-ui/core/ListSubheader';
 import MenuItem from '@material-ui/core/MenuItem';
 import ThumbnailsOffIcon from '@material-ui/icons/CropDinSharp';
 import PropTypes from 'prop-types';
-import ThumbnailNavigationBottomIcon from './icons/ThumbnailNavigationBottomIcon';
-import ThumbnailNavigationRightIcon from './icons/ThumbnailNavigationRightIcon';
+import ThumbnailNavigationBottomIcon from './icons/ThumbnailNavigationBottomIcon.js';
+import ThumbnailNavigationRightIcon from './icons/ThumbnailNavigationRightIcon.js';
 /**
  *
  */

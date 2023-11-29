@@ -2,10 +2,10 @@ import { createSelector } from 'reselect';
 import {
   getManifestTitle,
 } from './manifests';
-import { getConfig } from './config';
-import { getWindows, getWindow, getWindowIds } from './getters';
-import { getWorkspaceType } from './workspace';
-import { getSequenceViewingHint, getSequenceBehaviors } from './sequences';
+import { getConfig } from './config.js';
+import { getWindows, getWindow, getWindowIds } from './getters.js';
+import { getWorkspaceType } from './workspace.js';
+import { getSequenceViewingHint, getSequenceBehaviors } from './sequences.js';
 
 /** */
 export const getWindowConfig = createSelector(

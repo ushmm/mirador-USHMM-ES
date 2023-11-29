@@ -8,7 +8,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import Typography from '@material-ui/core/Typography';
 import WorkspaceExport from '../containers/WorkspaceExport';
 import WorkspaceImport from '../containers/WorkspaceImport';
-import { PluginHook } from './PluginHook';
+import { PluginHook } from './PluginHook.js';
 
 /**
  * WorkspaceOptionsMenu ~ the menu for workspace options such as import/export

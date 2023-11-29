@@ -1,7 +1,7 @@
 import { createSelector } from 'reselect';
 import groupBy from 'lodash/groupBy';
-import { miradorSlice } from './utils';
-import { getWindow, getWindows } from './getters';
+import { miradorSlice } from './utils.js';
+import { getWindow, getWindows } from './getters.js';
 
 /** */
 export function getCompanionWindows(state) {

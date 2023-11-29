@@ -5,8 +5,8 @@ import ListSubheader from '@material-ui/core/ListSubheader';
 import SingleIcon from '@material-ui/icons/CropOriginalSharp';
 import ScrollViewIcon from '@material-ui/icons/ViewColumn';
 import PropTypes from 'prop-types';
-import BookViewIcon from './icons/BookViewIcon';
-import GalleryViewIcon from './icons/GalleryViewIcon';
+import BookViewIcon from './icons/BookViewIcon.js';
+import GalleryViewIcon from './icons/GalleryViewIcon.js';
 
 /**
  *

@@ -3,9 +3,9 @@ import createCachedSelector from 're-reselect';
 import { PropertyValue, Utils, Resource } from 'manifesto.js';
 import getThumbnail from '../../lib/ThumbnailFactory';
 import asArray from '../../lib/asArray';
-import { getCompanionWindow } from './companionWindows';
-import { getManifest } from './getters';
-import { getConfig } from './config';
+import { getCompanionWindow } from './companionWindows.js';
+import { getManifest } from './getters.js';
+import { getConfig } from './config.js';
 
 /** */
 function createManifestoInstance(json, locale) {

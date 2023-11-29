@@ -1,6 +1,6 @@
 import deepmerge from 'deepmerge';
-import createStore from './createStore';
-import { importConfig } from './actions/config';
+import createStore from './createStore.js';
+import { importConfig } from './actions/config.js';
 import {
   filterValidPlugins,
   getConfigFromPlugins,

@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
-import { IIIFIFrameCommunication } from './IIIFIFrameCommunication';
+import { IIIFIFrameCommunication } from './IIIFIFrameCommunication.js';
 
 /**
  * Opens a new window for click

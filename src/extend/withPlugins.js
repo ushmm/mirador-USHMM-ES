@@ -1,7 +1,7 @@
 import { forwardRef, useContext } from 'react';
 import curry from 'lodash/curry';
 import isEmpty from 'lodash/isEmpty';
-import PluginContext from './PluginContext';
+import PluginContext from './PluginContext.js';
 
 /** withPlugins should be the innermost HOC */
 function _withPlugins(targetName, TargetComponent) { // eslint-disable-line no-underscore-dangle

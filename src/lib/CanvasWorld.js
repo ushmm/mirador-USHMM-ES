@@ -1,5 +1,5 @@
 import normalizeUrl from 'normalize-url';
-import MiradorCanvas from './MiradorCanvas';
+import MiradorCanvas from './MiradorCanvas.js';
 
 /**
  * CanvasWorld

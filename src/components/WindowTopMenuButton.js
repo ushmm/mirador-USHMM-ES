@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import WindowTopMenu from '../containers/WindowTopMenu';
 import MiradorMenuButton from '../containers/MiradorMenuButton';
-import WindowOptionsIcon from './icons/WindowOptionsIcon';
+import WindowOptionsIcon from './icons/WindowOptionsIcon.js';
 
 /**
  */

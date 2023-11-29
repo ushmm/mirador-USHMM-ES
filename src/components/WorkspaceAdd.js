@@ -15,8 +15,8 @@ import ns from '../config/css-ns';
 import ManifestForm from '../containers/ManifestForm';
 import ManifestListItem from '../containers/ManifestListItem';
 import MiradorMenuButton from '../containers/MiradorMenuButton';
-import { IIIFDropTarget } from './IIIFDropTarget';
-import { PluginHook } from './PluginHook';
+import { IIIFDropTarget } from './IIIFDropTarget.js';
+import { PluginHook } from './PluginHook.js';
 
 /**
  * An area for managing manifests and adding them to workspace

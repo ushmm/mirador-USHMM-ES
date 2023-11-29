@@ -2,7 +2,7 @@ import { Component } from 'react';
 import PropTypes from 'prop-types';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import MiradorIcon from './icons/MiradorIcon';
+import MiradorIcon from './icons/MiradorIcon.js';
 
 /**
  * Display a branding icon

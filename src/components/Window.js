@@ -10,7 +10,7 @@ import CompanionArea from '../containers/CompanionArea';
 import MinimalWindow from '../containers/MinimalWindow';
 import ErrorContent from '../containers/ErrorContent';
 import IIIFAuthentication from '../containers/IIIFAuthentication';
-import { PluginHook } from './PluginHook';
+import { PluginHook } from './PluginHook.js';
 
 /**
  * Represents a Window in the mirador workspace

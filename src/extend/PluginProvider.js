@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-import PluginContext from './PluginContext';
+import PluginContext from './PluginContext.js';
 import {
   connectPluginsToStore,
   createTargetToPluginMapping,
