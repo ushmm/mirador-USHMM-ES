@@ -17,7 +17,7 @@ import ActionTypes from '../actions/action-types.js';
 import MiradorManifest from '../../lib/MiradorManifest.js';
 import MiradorCanvas from '../../lib/MiradorCanvas.js';
 import { setContentSearchCurrentAnnotation, selectAnnotation, setWorkspaceViewportPosition, updateWindow, setCanvas, fetchSearch, receiveManifest, fetchInfoResponse, showCollectionDialog } from '../actions.js';
-import { getSearchForWindow, getSearchAnnotationsForCompanionWindow, getCanvasGrouping, getWindow, getManifestoInstance, getCompanionWindowIdsForPosition, getManifestSearchService, getCanvasForAnnotation, getSelectedContentSearchAnnotationIds, getSortedSearchAnnotationsForCompanionWindow, getVisibleCanvasIds, getWorkspace, getElasticLayout, getCanvases, selectInfoResponses, getWindowConfig } from '../selectors.js';
+import { getSearchForWindow, getSearchAnnotationsForCompanionWindow, getCanvasGrouping, getWindow, getManifestoInstance, getCompanionWindowIdsForPosition, getManifestSearchService, getCanvasForAnnotation, getSelectedContentSearchAnnotationIds, getSortedSearchAnnotationsForCompanionWindow, getVisibleCanvasIds, getWorkspace, getElasticLayout, getCanvases, selectInfoResponses, getWindowConfig } from '../selectors/index.js';
 import { fetchManifests } from './iiif.js';
 
 /** */

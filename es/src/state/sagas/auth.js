@@ -6,7 +6,7 @@ import flatten from 'lodash/flatten';
 import ActionTypes from '../actions/action-types.js';
 import MiradorCanvas from '../../lib/MiradorCanvas.js';
 import { addAuthenticationRequest, resolveAuthenticationRequest, requestAccessToken, resetAuthenticationState } from '../actions.js';
-import { selectInfoResponses, getVisibleCanvases, getWindows, getConfig, getAuth, getAccessTokens } from '../selectors.js';
+import { selectInfoResponses, getVisibleCanvases, getWindows, getConfig, getAuth, getAccessTokens } from '../selectors/index.js';
 import { fetchInfoResponse } from './iiif.js';
 
 /** */
