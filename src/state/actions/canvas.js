@@ -3,7 +3,7 @@ import {
   getNextCanvasGrouping,
   getPreviousCanvasGrouping,
   getCanvasGrouping,
-} from '../selectors.js';
+} from '../selectors/index.js';
 
 /**
  * setCanvas - action creator

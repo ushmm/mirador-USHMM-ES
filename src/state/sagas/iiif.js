@@ -15,7 +15,7 @@ import {
   getRequestsConfig,
   getAccessTokens,
   selectInfoResponse,
-} from '../selectors.js';
+} from '../selectors/index.js';
 
 /** */
 function fetchWrapper(url, options, { success, degraded, failure }) {

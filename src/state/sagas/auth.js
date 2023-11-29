@@ -18,7 +18,7 @@ import {
   getConfig,
   getAuth,
   getAccessTokens,
-} from '../selectors.js';
+} from '../selectors/index.js';
 import { fetchInfoResponse } from './iiif.js';
 
 /** */

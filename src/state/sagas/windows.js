@@ -28,7 +28,7 @@ import {
   getCanvases,
   selectInfoResponses,
   getWindowConfig,
-} from '../selectors.js';
+} from '../selectors/index.js';
 import { fetchManifests } from './iiif.js';
 
 /** */
