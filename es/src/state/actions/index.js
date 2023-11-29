@@ -2,17 +2,17 @@
  * Action Creators for Mirador
  * @namespace ActionCreators
  */
-export * from './companionWindow';
-export * from './config';
-export * from './errors';
-export * from './window';
-export * from './manifest';
-export * from './infoResponse';
-export * from './canvas';
-export * from './workspace';
-export * from './annotation';
-export * from './auth';
-export * from './elasticLayout';
-export * from './search';
-export * from './layers';
-export * from './catalog';
+export * from './companionWindow.js';
+export * from './config.js';
+export * from './errors.js';
+export * from './window.js';
+export * from './manifest.js';
+export * from './infoResponse.js';
+export * from './canvas.js';
+export * from './workspace.js';
+export * from './annotation.js';
+export * from './auth.js';
+export * from './elasticLayout.js';
+export * from './search.js';
+export * from './layers.js';
+export * from './catalog.js';
